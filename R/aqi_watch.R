@@ -13,12 +13,10 @@ options(rstudio.markdownToHTML =
           })
 
 #setwd("../")
-#setwd("aqi-watch")
-#source("R/aqi2conc.R")
-#source("R/conc2aqi.R")
+setwd("aqi-watch")
 source("R/aqi_convert.R")
 
-email_trigger <- 90
+email_trigger <- 91
 pm10_trigger  <- 130
 
 # Email alert subscribers
@@ -87,7 +85,9 @@ for (i in 0:2) {
   
   # Write to error log if AirNow data missing
   if (!is.data.frame(aqi) || (nrow(aqi) < 1)) {
+    
     errs <- read.csv("log/error_log.csv", stringsAsFactors = F)
+    
     errs$File <- as.character(errs$File)
     
     err_time <- as.character(format(Sys.time(), tz = "America/Chicago"))
@@ -95,7 +95,7 @@ for (i in 0:2) {
     errs <- bind_rows(errs, data.frame(File    = date_time, 
                                        Time    = err_time, 
                                        Status  = "Failed", 
-                                       Message = paste0(aqi, collapse = ""),stringsAsFactors = F))
+                                       Message = paste0(aqi, collapse = ""), stringsAsFactors = F))
     
     write.csv(errs, "log/error_log.csv", row.names=F)
     
@@ -130,7 +130,6 @@ for (i in 0:2) {
 if (nrow(aqi_all) < 1) return()
 
 #--------------------------------------------------------#
-
 
 aqi <- aqi_all[ , 1:9]
 
@@ -186,17 +185,18 @@ thunder_o3   <-  tryCatch({get_aqicn(country="canada", state="ontario", city="th
 
 # Combine all
 if (!is.na(thunder_pm25) & !is.na(thunder_o3)) {
-          
-aqi <- bind_rows(aqi, 
-                 #winnipeg_ellen_pm25, 
-                 #winnipeg_scotia_pm25, 
-                 thunder_pm25, 
-                 thunder_o3)
+  
+  aqi <- bind_rows(aqi, 
+                   #winnipeg_ellen_pm25, 
+                   #winnipeg_scotia_pm25, 
+                   thunder_pm25, 
+                   thunder_o3)
 }
 
 # Add current time
-aqi$Time_CST   <- as.character(format(Sys.time() + 10, tz="America/Chicago"))
-names(aqi)[11] <- as.character(format(Sys.time() + 10, tz="America/Chicago"))
+aqi$Time_CST   <- as.character(format(Sys.time() + 10, tz = "America/Chicago"))
+
+names(aqi)[11] <- as.character(format(Sys.time() + 10, tz = "America/Chicago"))
 
 # Drop negative AQIs below 30
 aqi <- filter(aqi, AQI_Value > -29)[ , -5]
@@ -245,23 +245,23 @@ today_date <- as.Date(Sys.time(), tz = "America/Chicago")
 if (local_hr > 7) {
   
   yesterday_date <- today_date - 1
-
+  
   max_date <- max(as.Date(daily_history$Date, format = "%m/%d/%y"))
-
+  
   if (max_date < yesterday_date) {
     
     file_date <- format(yesterday_date, "%Y%m%d")
     file_year <- format(yesterday_date, "%Y")
     
     airnow_link <- paste0("https://s3-us-west-1.amazonaws.com//files.airnowtech.org/airnow/",
-                           file_year,"/",
-                           file_date,
+                          file_year,"/",
+                          file_date,
                           "/daily_data.dat")
-
+    
     aqi_daily <- try(read_delim(airnow_link, "|", 
-                      col_names = F, 
-                      col_types = c('cccccdic')), 
-                      silent = T)
+                                col_names = F, 
+                                col_types = c('cccccdic')), 
+                     silent = T)
     
     if ( !is.data.frame(aqi_daily) || nrow(aqi_daily) < 1 ) {
       errs <- read.csv("log/error_log.csv", stringsAsFactors = F)
@@ -278,38 +278,41 @@ if (local_hr > 7) {
     } else {
       
       names(aqi_daily) <- c("Date", "AqsID", "Site Name", "Parameter", "Units", "Concentration","Averaging Period", "Agency")
-
+      
       aqi_daily$Parameter <- toupper(aqi_daily$Parameter)
+      
       data <- filter(aqi, 
                      AqsID %in% c(mn_sites$AqsID, border_sites, extra_sites), 
                      Parameter %in% c("OZONE", "PM25"))
       
       aqi_daily <- filter(aqi_daily, AqsID %in% c(mn_sites$AqsID, border_sites, extra_sites), Parameter %in% c("OZONE-8HR", "PM2.5-24HR"))
-
+      
       aqi_daily <- mutate(aqi_daily, Parameter = str_replace_all(Parameter, c("PM2.5.*" = "PM25", "OZONE.*" = "OZONE")))
       
       aqi_daily <- mutate(aqi_daily, AQI_Value = conc2aqi(Concentration,Parameter))
       
       daily_history <- rbind(daily_history, aqi_daily)
-
+      
     }
     
     # Remove any data older than one week.
     weekold_date <- today_date - 7
     
     daily_history <- daily_history[as.Date(daily_history$Date, format = "%m/%d/%y") >= weekold_date,]
-    saveRDS(data.frame(daily_history, stringsAsFactors = F, check.names = F), "data/daily_history.RData" )
+    
+    saveRDS(data.frame(daily_history, stringsAsFactors = F, check.names = F), "data/daily_history.Rdata" )
     
   }
 }
+
 
 ########################################################################
 #  AQI model performance -- Obtain AQI model performance data.  Updated
 #  once per day.
 ########################################################################
-
 aqi_models <- read.csv("https://raw.githubusercontent.com/dKvale/aircast/master/data/model_performance.csv",
-                        stringsAsFactors = FALSE)
+                       stringsAsFactors = FALSE)
+
 aqi_models$forecast_date <- as.Date(aqi_models$forecast_date)
 
 # Put category forecasts in new column and change numeric forecasts to integers.
@@ -320,13 +323,14 @@ aqi_cat_colors <- c("green",
                     "purple")
 
 aqi_models <- mutate(aqi_models, fcst_pm25_aqi_cats = ifelse(as.character(fcst_pm25_aqi) %in% aqi_cat_colors, as.character(fcst_pm25_aqi), NA), 
-                                 fcst_ozone_aqi_cats = ifelse(as.character(fcst_ozone_aqi) %in% aqi_cat_colors, as.character(fcst_ozone_aqi), NA),
-                                 fcst_pm25_aqi_cats_val = cat2aqimax(fcst_pm25_aqi_cats),
-                                 fcst_ozone_aqi_cats_val = cat2aqimax(fcst_ozone_aqi_cats),
-                                 fcst_pm25_aqi_cats_text = ifelse(!is.na(fcst_pm25_aqi_cats), paste0("Day ",forecast_day," fcst\n",fcst_pm25_aqi_cats), NA),
-                                 fcst_ozone_aqi_cats_text = ifelse(!is.na(fcst_ozone_aqi_cats), paste0("Day ",forecast_day," fcst\n",fcst_ozone_aqi_cats), NA))
+                     fcst_ozone_aqi_cats = ifelse(as.character(fcst_ozone_aqi) %in% aqi_cat_colors, as.character(fcst_ozone_aqi), NA),
+                     fcst_pm25_aqi_cats_val = cat2aqimax(fcst_pm25_aqi_cats),
+                     fcst_ozone_aqi_cats_val = cat2aqimax(fcst_ozone_aqi_cats),
+                     fcst_pm25_aqi_cats_text = ifelse(!is.na(fcst_pm25_aqi_cats), paste0("Day ",forecast_day," fcst\n",fcst_pm25_aqi_cats), NA),
+                     fcst_ozone_aqi_cats_text = ifelse(!is.na(fcst_ozone_aqi_cats), paste0("Day ",forecast_day," fcst\n",fcst_ozone_aqi_cats), NA))
 
 aqi_models$fcst_pm25_aqi <- as.integer(aqi_models$fcst_pm25_aqi)
+
 aqi_models$fcst_ozone_aqi <- as.integer(aqi_models$fcst_ozone_aqi)
 
 aqi_models <- mutate(aqi_models, site_catid = gsub('-','',site_catid))
@@ -338,6 +342,7 @@ aqi_models <- left_join(aqi_models, mn_sites_uniq, by = c("site_catid"="AqsID"))
 #--------------------------------------------------------#
 # Update web map and tables                              #
 #--------------------------------------------------------#
+alert_time <- (as.numeric(format(Sys.time(), "%H")) < 22) && (as.numeric(format(Sys.time(), "%H")) > 4)
 
 # If high sites table has changed update github repo
 if(TRUE) {
@@ -359,7 +364,19 @@ if(TRUE) {
   #rmarkdown::render("R/high_sites2.Rmd", output_file="../index.html")  
   setwd("web")
   
-  rmarkdown::render_site()
+  rmarkdown::render_site("index.Rmd")
+  rmarkdown::render_site("todays_obs.Rmd")
+  rmarkdown::render_site("daily_history.Rmd")
+  rmarkdown::render_site("week_review.Rmd")
+  
+  if (alert_time) {
+    rmarkdown::render_site("model_perf.Rmd")
+  }
+  
+  if (FALSE) {
+    rmarkdown::render_site("airnow_map.Rmd")
+    rmarkdown::render_site("smogwatch.Rmd")
+  }
   
   setwd("../")
   
@@ -372,8 +389,6 @@ if(TRUE) {
   #system(paste0(git, "checkout --orphan gh-pages"))
   #system(paste0(git, "rm -rf ."))
   #system(paste0(git, "checkout --orphan new_branch"))
-  
-  
   
   ###!system(paste0(git, "add ."))
   
@@ -419,7 +434,7 @@ if(TRUE) {
 # Set issue notification to sleep from 10 pm to 4 am
 
 #if(FALSE) {
-if((as.numeric(format(Sys.time(), "%H")) < 22) && (as.numeric(format(Sys.time(), "%H")) > 3)) { 
+if(alert_time) { 
   
   # Remove: low concentrations, and outstate monitors
   aqi <- filter(aqi, AQI_Value > email_trigger) 
@@ -440,14 +455,14 @@ if((as.numeric(format(Sys.time(), "%H")) < 22) && (as.numeric(format(Sys.time(),
     if (as.numeric(difftime(names(aqi)[10], names(aqi_prev)[11], units = "hours")) > .9) {
       
       if ((sum(!aqi$AqsID %in% aqi_prev$AqsID) > 0) || 
-         as.numeric(difftime(names(aqi)[10], names(aqi_prev)[11], units = "hours")) > 1.9) {
+          as.numeric(difftime(names(aqi)[10], names(aqi_prev)[11], units = "hours")) > 1.9) {
         
         
         aqi$Agency <- gsub("Minnesota Pollution Control Agency", "MPCA", aqi$Agency)
         
         max_site <- filter(aqi, AQI_Value == max(aqi$AQI_Value, na.rm = T))[1, ]
         
-       
+        
         # Commit to github 
         git <- "cd ~/aqi-watch & git "
         

@@ -1,7 +1,12 @@
 # Define function to download current concentrations for Canada sites 
 # from China's aqicn.org site
 
-get_aqicn <- function(country="usa", state="north-dakota", city="fargo-nw", param="pm25") {
+get_aqicn <- function(country = "usa", 
+                      state   = "north-dakota", 
+                      city    = "fargo-nw", 
+                      param   = "pm25") {
+  
+  library(stringr)
   
   data <- try(readLines(paste0("http://aqicn.org/city/", 
                                country,"/", 
@@ -16,7 +21,7 @@ get_aqicn <- function(country="usa", state="north-dakota", city="fargo-nw", para
   data_aqi <- str_split(data, paste0("id='cur_", param, "'"))[[1]][2]
   
   data_aqi <- str_split(data_aqi, "align=center>")[[1]][2] %>% 
-    substring(1, 2)
+              substring(1, 2)
   
   data_aqi <- gsub("<", "", data_aqi)
   
@@ -56,7 +61,7 @@ get_aqicn <- function(country="usa", state="north-dakota", city="fargo-nw", para
                      param, 
                      units, 
                      data_conc, 
-                     x=paste(toupper(state), "Department of Health"), 
+                     x = paste(toupper(state), "Department of Health"), 
                      as.numeric(data_aqi), 
                      stringsAsFactors = F)
   
