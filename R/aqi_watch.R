@@ -26,7 +26,7 @@ subscribers <- read_csv("data/subscribers.csv")
 border_sites <- c('380171004', '271370034', '550630012')
 
 # Sioux Falls, Emmetsburg
-extra_sites <- c('191471002', '460990008')
+extra_sites  <- c('191471002', '460990008')
 
 canada_sites <- c('000070118', '000070119', '000070203', '000064001')
 
@@ -35,10 +35,9 @@ year <- format(Sys.Date(), "%Y")
 daylight_savings <- Sys.Date() > as.Date(paste0(year, "-03-12")) & Sys.Date() < as.Date(paste0(year, "-10-6"))
 
 # Load credentials
-#credentials <- read_csv("../credentials.csv")
+credentials <- read_csv("../credentials.csv")
 
 gmt_time <-  (as.numeric(format(Sys.time() - 195, tz="GMT", "%H")) - 1) %% 24
-#gmt_time <- paste0("0", gmt_time) %>% substring(nchar(.) - 1, nchar(.))
 
 #######################################################################
 # Hourly AQI data -- obtain the most recent hour of data
@@ -142,7 +141,6 @@ aqi$Time <- as.POSIXlt(aqi$local, tz = "America/Chicago") %>% format(tz = "Ameri
 
 aqi$Time <- paste0(aqi$Time, ":00")
 
-#aqi$Date <- format(Sys.Date() - ifelse(gmt_time == 5, 1, 0), "%m/%d/%Y")
 aqi$Date <-  as.POSIXlt(aqi$local, tz = "America/Chicago") %>% as.Date() %>% format("%m/%d/%Y")
 
 aqi$local <- NULL
@@ -164,34 +162,30 @@ aqi <- group_by(aqi, AqsID, Parameter) %>% mutate(AQI_Value = round(conc2aqi(Con
 #-- Get missing sites from China Air Quality site - aqicn.org
 source("R/get_aqicn.R")
 
-#-- Grab Fargo
+#-- Fargo
 ## fargo <- get_aqicn(country="usa", state="north-dakota", city="fargo-nw", param="pm25")
-
-#-- Grab Red Lake
+#-- Red Lake
 ## red_lake <- get_aqicn(country="usa", state="minnesota", city="red-lake-nation", param="pm25")
 
 #-- Canada
-#winnipeg_ellen_pm25 <- get_aqicn(country="canada", state="manitoba", city="winnipeg-ellen-st.", param="pm25")
-#winnipeg_ellen_03 <- get_aqicn(country="canada", state="manitoba", city="winnipeg-ellen-st.", param="o3")
+winnipeg_ellen_pm25 <- tryCatch({get_aqicn(country="canada", state="manitoba", city="winnipeg-ellen-st.", param="pm25")}, error = function(e) {aqi[0, ]})
+winnipeg_ellen_o3  <- tryCatch({get_aqicn(country="canada", state="manitoba", city="winnipeg-ellen-st.", param="o3")}, error = function(e) {aqi[0, ]})
 
-#winnipeg_scotia_pm25 <- get_aqicn(country="canada", state="manitoba", city="winnipeg-scotia-st.", param="pm25")
-##winnipeg_scotia_03 <- get_aqicn(country="canada", state="manitoba", city="winnipeg-scotia-st.", param="o3")
+winnipeg_scotia_pm25 <- tryCatch({get_aqicn(country="canada", state="manitoba", city="winnipeg-scotia-st.", param="pm25")}, error = function(e) {aqi[0, ]})
+#winnipeg_scotia_o3   <- tryCatch({get_aqicn(country="canada", state="manitoba", city="winnipeg-scotia-st.", param="o3")}, error = function(e) {aqi[0, ]})
 
-##brandon_pm25 <- get_aqicn(country="canada", state="manitoba", city="brandon", param="pm25")
-##brandon_o3   <- get_aqicn(country="canada", state="manitoba", city="brandon", param="o3")
+brandon_pm25 <- tryCatch({get_aqicn(country="canada", state="manitoba", city="brandon", param="pm25")}, error = function(e) {aqi[0, ]})
+brandon_o3   <- tryCatch({get_aqicn(country="canada", state="manitoba", city="brandon", param="o3")}, error = function(e) {aqi[0, ]})
 
-thunder_pm25 <-  tryCatch({get_aqicn(country="canada", state="ontario", city="thunder-bay", param="pm25")}, error = function(e) {NA})
-thunder_o3   <-  tryCatch({get_aqicn(country="canada", state="ontario", city="thunder-bay", param="o3")}, error = function(e) {NA})
+thunder_pm25 <-  tryCatch({get_aqicn(country="canada", state="ontario", city="thunder-bay", param="pm25")}, error = function(e) {aqi[0, ]})
+thunder_o3   <-  tryCatch({get_aqicn(country="canada", state="ontario", city="thunder-bay", param="o3")}, error = function(e) {aqi[0, ]})
 
 # Combine all
-if (!is.na(thunder_pm25) & !is.na(thunder_o3)) {
-  
-  aqi <- bind_rows(aqi, 
-                   #winnipeg_ellen_pm25, 
-                   #winnipeg_scotia_pm25, 
-                   thunder_pm25, 
-                   thunder_o3)
-}
+aqi <- bind_rows(aqi, 
+                 winnipeg_ellen_pm25, winnipeg_ellen_o3, 
+                 winnipeg_scotia_pm25, #winnipeg_scotia_o3, 
+                 brandon_pm25, brandon_o3,
+                 thunder_pm25, thunder_o3)
 
 # Add current time
 aqi$Time_CST   <- as.character(format(Sys.time() + 10, tz = "America/Chicago"))
@@ -212,7 +206,7 @@ aqi <- arrange(ungroup(aqi), -AQI_Value)
 
 # Load previous aqi table
 aqi_prev <- read_csv("data/aqi_previous.csv", col_types = c("ccccccdcdTT")) %>% 
-  filter(!is.na(AQI_Value))
+            filter(!is.na(AQI_Value))
 
 # Attach last AQI watch notification time
 aqi$last_notification <- NA
@@ -339,90 +333,6 @@ mn_sites_uniq <- mn_sites[,c("AqsID","Site Name")] %>% unique()
 
 aqi_models <- left_join(aqi_models, mn_sites_uniq, by = c("site_catid"="AqsID"))
 
-#--------------------------------------------------------#
-# Update web map and tables                              #
-#--------------------------------------------------------#
-alert_time <- (as.numeric(format(Sys.time(), "%H")) < 22) && (as.numeric(format(Sys.time(), "%H")) > 4)
-
-# If high sites table has changed update github repo
-if(TRUE) {
-  #if(!identical(aqi$AQI_Value, aqi_prev$AQI_Value) || 
-  #   !identical(aqi$AqsID, aqi_prev$AqsID) || 
-  #   as.numeric(difftime(names(aqi)[10], names(aqi_prev)[10], units="hours")) > 1.1) {
-  
-  aqi$Agency <- ifelse(grepl("Wisconsin", aqi$Agency), "Wisconsin DNR", aqi$Agency)
-  
-  aqi$Agency <- ifelse(grepl("South Dakota", aqi$Agency), "South Dakota", aqi$Agency)
-  
-  aqi$Agency <- ifelse(grepl("North Dakota", aqi$Agency), "North Dakota Health", aqi$Agency)
-  
-  aqi_rank <- group_by(aqi, AqsID) %>% arrange(-AQI_Value) %>% mutate(rank = 1:n())
-  
-  aqi_rank <- filter(ungroup(aqi_rank), rank == 1) %>% arrange(-AQI_Value)
-  
-  # Create high sites table
-  #rmarkdown::render("R/high_sites2.Rmd", output_file="../index.html")  
-  setwd("web")
-  
-  rmarkdown::render_site("index.Rmd")
-  rmarkdown::render_site("todays_obs.Rmd")
-  rmarkdown::render_site("daily_history.Rmd")
-  rmarkdown::render_site("week_review.Rmd")
-  
-  if (alert_time) {
-    rmarkdown::render_site("model_perf.Rmd")
-  }
-  
-  if (FALSE) {
-    rmarkdown::render_site("airnow_map.Rmd")
-    rmarkdown::render_site("smogwatch.Rmd")
-  }
-  
-  setwd("../")
-  
-  # Commit to github 
-  #system("rm -r _site")
-  #system(paste0("git clone https://github.com/dKvale/aqi-watch.git _site"))
-  
-  git <- "cd ~/_site; git "
-  
-  #system(paste0(git, "checkout --orphan gh-pages"))
-  #system(paste0(git, "rm -rf ."))
-  #system(paste0(git, "checkout --orphan new_branch"))
-  
-  ###!system(paste0(git, "add ."))
-  
-  commit <- paste0(git, 'commit -a -m ', '"update obs"')
-  ###!system(commit)
-  
-  #shell(paste0(git, "branch -D master"))
-  #shell(paste0(git, "branch -m master"))
-  
-  ###!system(paste0(git, "config --global user.name dkvale"))
-  ###!system(paste0(git, "config --global user.email ", credentials$email))
-  ###!system(paste0(git, "config credential.helper store"))
-  ###push <- paste0(git, "push -f origin master")
-  
-  #system("cp -a ~/aqi-watch/web/_site/.  ~/_site")
-  
-  system("sudo cp -a ~/aqi-watch/web/_site/.  ../../../../usr/share/nginx/html/")
-  
-  #system("sudo cp -a ~/_site/*html ../../../../usr/share/nginx/html/")  
-  #system("sudo cp -a ~/_site/*css ../../../../usr/share/nginx/html/") 
-  #system("sudo cp -a ~/_site/. ../../../../usr/share/nginx/html/")
-  
-  #push <- paste0(git, "push -f origin gh-pages")
-  ###!system(push)
-  
-  #shell(paste0(git, "push origin --delete gh-pages"))
-  #push <- paste0(git, "subtree push --prefix web/_site origin gh-pages")
-  #shell(push)
-  
-  # Save high sites table to test for changes on next cycle
-  write.csv(aqi, "data/aqi_previous.csv", row.names = F)
-}
-
-
 
 #--------------------------------------------------------#
 # Send Alert                                             #
@@ -432,36 +342,33 @@ if(TRUE) {
 ## or if it has been over 2 hours since the last issued alert
 
 # Set issue notification to sleep from 10 pm to 4 am
+watch_time <- (as.numeric(format(Sys.time(), "%H")) < 22) && (as.numeric(format(Sys.time(), "%H")) > 4)
 
-#if(FALSE) {
-if(alert_time) { 
+if(watch_time) { 
   
   # Remove: low concentrations, and outstate monitors
-  aqi <- filter(aqi, AQI_Value > email_trigger) 
+  watch <- filter(aqi, AQI_Value > email_trigger) 
   
-  aqi <- filter(aqi, (AQI_Value > pm10_trigger) | (Parameter %in% c("OZONE", "PM25")))
+  watch <- filter(watch, (AQI_Value > pm10_trigger) | (Parameter %in% c("OZONE", "PM25")))
   
-  aqi <- filter(aqi, grepl('Minnesota', Agency) | AqsID %in% c(border_sites, extra_sites))
+  watch <- filter(watch, grepl('Minnesota', Agency) | AqsID %in% c(border_sites, extra_sites))
   
-  aqi_all <- aqi
   
   ## Drop PM10 from previous alert list to 
   ## ensure PM2.5 and Ozone alerts go out?
-  #aqi <- filter(aqi, Parameter != "PM10")
+  #watch <- filter(watch, Parameter != "PM10")
   #aqi_prev <- filter(aqi_prev, Parameter != "PM10")
-  
-  if (nrow(aqi) > 0) {
+  if (nrow(watch) > 0) {
     
-    if (as.numeric(difftime(names(aqi)[10], names(aqi_prev)[11], units = "hours")) > .9) {
+    if (as.numeric(difftime(names(watch)[10], names(aqi_prev)[11], units = "hours")) > .9) {
       
-      if ((sum(!aqi$AqsID %in% aqi_prev$AqsID) > 0) || 
-          as.numeric(difftime(names(aqi)[10], names(aqi_prev)[11], units = "hours")) > 1.9) {
+      if ((sum(!watch$AqsID %in% aqi_prev$AqsID) > 0) || 
+          as.numeric(difftime(names(watch)[10], names(aqi_prev)[11], units = "hours")) > 1.9) {
         
         
-        aqi$Agency <- gsub("Minnesota Pollution Control Agency", "MPCA", aqi$Agency)
+        watch$Agency <- gsub("Minnesota Pollution Control Agency", "MPCA", watch$Agency)
         
-        max_site <- filter(aqi, AQI_Value == max(aqi$AQI_Value, na.rm = T))[1, ]
-        
+        max_site <- filter(watch, AQI_Value == max(watch$AQI_Value, na.rm = T))[1, ]
         
         # Commit to github 
         git <- "cd ~/aqi-watch & git "
@@ -469,19 +376,17 @@ if(alert_time) {
         system(paste0(git, "config --global user.name dkvale"))
         system(paste0(git, "config --global user.email ", credentials$email))          
         
-        if (sum(unique(aqi$AqsID) %in% mn_sites$AqsID) < 1) {
-          #VIP_list <- "Attention:  &#64;rrobers "
+        if (sum(unique(watch$AqsID) %in% mn_sites$AqsID) < 1) {
+          VIP_list <- ""
         } else {
           VIP_list <- paste("Attention:",  paste0("&#64;", subscribers$git_name, collapse = " "))
         }
         
         message_title <- paste0("1-hr AQI at ", max_site$AQI_Value, " for ", max_site$Parameter)
         
-        # format(Sys.time(), "%I:%M %p"), ', ', aqi$Date[1] 
-        
         message_text <- paste0("**AQI Watch** </br>",
-                               length(unique(aqi$AqsID)), 
-                               ifelse(length(unique(aqi$AqsID)) > 1, " monitors are ", " monitor is "),
+                               length(unique(watch$AqsID)), 
+                               ifelse(length(unique(watch$AqsID)) > 1, " monitors are ", " monitor is "),
                                "reporting a 1-hr AQI above 90&#46; ", 
                                "A value of **", max_site$AQI_Value,
                                "** for ", gsub("25","2&#46;5", max_site$Parameter), 
@@ -507,12 +412,54 @@ if(alert_time) {
         system(send_issue)
         
         #Save alert time
-        names(aqi_all)[11] <- as.character(Sys.time() + 61)
-        write.csv(aqi_all, "data/aqi_previous.csv", row.names = F)
+        names(watch)[11] <- as.character(Sys.time() + 61)
+        
+        write.csv(watch, "data/aqi_previous.csv", row.names = F)
       }   # Sites added to list or 2 hours has lapsed
     }   # 1 hour has lapsed
   }   # High sites check
 }   # Sleep time check
 
+
+#--------------------------------------------------------#
+# Update web map and tables                              #
+#--------------------------------------------------------#
+
+# Clean outstate names
+aqi$Agency <- ifelse(grepl("Wisconsin", aqi$Agency), "Wisconsin DNR", aqi$Agency)
+
+aqi$Agency <- ifelse(grepl("South Dakota", aqi$Agency), "South Dakota", aqi$Agency)
+
+aqi$Agency <- ifelse(grepl("North Dakota", aqi$Agency), "North Dakota Health", aqi$Agency)
+
+aqi_rank <- group_by(aqi, AqsID) %>% arrange(-AQI_Value) %>% mutate(rank = 1:n())
+
+aqi_rank <- filter(ungroup(aqi_rank), rank == 1) %>% arrange(-AQI_Value)
+
+# Create high sites table
+setwd("web")
+
+rmarkdown::render_site("index.Rmd")
+rmarkdown::render_site("todays_obs.Rmd")
+rmarkdown::render_site("daily_history.Rmd")
+rmarkdown::render_site("week_review.Rmd")
+
+if (watch_time) {
+  rmarkdown::render_site("model_perf.Rmd")
+}
+
+if (FALSE) {
+  rmarkdown::render_site("airnow_map.Rmd")
+  rmarkdown::render_site("smogwatch.Rmd")
+}
+
+setwd("../")
+
+system("sudo cp -a ~/aqi-watch/web/_site/.  ../../../../usr/share/nginx/html/")
+
+# Save high sites table to test for changes on next cycle
+write.csv(aqi, "data/aqi_previous.csv", row.names = F)
+
+# Clean house
 rm(aqi)
 rm(aqi_rank)
