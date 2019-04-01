@@ -221,6 +221,7 @@ mn_sites <- filter(site_params, substring(AqsID, 1, 2) == '27' | AqsID %in% bord
 
 # List of forecast sites for plotting model performance only includes sites with a monitor for that pollutant.
 forecast_sites_pm25 <- filter(mn_sites, Parameter == "PM25")
+
 forecast_sites_ozone <- filter(mn_sites, Parameter == "OZONE", AqsID != "271370034")
 
 ########################################################################

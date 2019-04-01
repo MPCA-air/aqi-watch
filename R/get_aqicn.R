@@ -41,15 +41,17 @@ get_aqicn <- function(country = "usa",
   
   data_date <- c(format(Sys.Date() - as.numeric(!identical(data_day, format(Sys.Date(), "%a"))), "%m/%d/%Y"))
   
-  aqsid <- switch(city, "fargo-nw" = "380171004", 
-                  "red-lake-nation" = "Red Lake", 
-                  "winnipeg-ellen-st." = '000070119',
-                  "winnipeg-scotia-st." = '000070118',
-                  "thunder-bay" = "thunder-bay")
+  aqsid <- switch(city, 
+                  "fargo-nw"            = "380171004", 
+                  "red-lake-nation"     = "Red Lake", 
+                  "winnipeg-ellen-st."  = '70119',
+                  "winnipeg-scotia-st." = '70118',
+                  "brandon"             = '70203',
+                  "thunder-bay"         = "thunder-bay")
   
-  units <- ifelse(param=="o3", "PPB", "UG/M3")
+  units <- ifelse(param == "o3", "PPB", "UG/M3")
   
-  param <- ifelse(param=="o3", "OZONE", toupper(param))
+  param <- ifelse(param == "o3", "OZONE", toupper(param))
   
   data_conc <- round(aqi2conc(as.numeric(data_aqi), param), 1)
   
