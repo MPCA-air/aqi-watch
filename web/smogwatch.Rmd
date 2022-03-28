@@ -1,5 +1,5 @@
 ---
-title: "EPA NowCast"
+title: "EPA NowCast Values"
 ---  
 
 <style>
@@ -8,7 +8,7 @@ title: "EPA NowCast"
 </style>
 
 
-[_Smogwatch, Sonoma Technology_](http://www.smogwatch.com/minn/realtimedata.cfm)
+> Link to Sonoma's [_Smogwatch_](http://www.smogwatch.com/minn/realtimedata.cfm)
 
 
 <iframe src="http://www.smogwatch.com/minn/realtimedata.cfm" overflow="visible" frameborder="0" scrolling="no" style="width: 1000px; height: 1100px;"> </iframe> 
