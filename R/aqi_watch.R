@@ -460,7 +460,7 @@ rmarkdown::render_site("web/todays_obs.Rmd")
 rmarkdown::render_site("web/daily_history.Rmd")
 rmarkdown::render_site("web/week_review.Rmd")
 
-if (watch_time) {
+if (local_hr == 10) {
   rmarkdown::render_site("web/model_perf.Rmd")
   rmarkdown::render_site("web/smogwatch.Rmd")
 }
