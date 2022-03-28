@@ -16,9 +16,9 @@ The AQI watch monitors the state of Minnesota and nearby states for elevated AQI
 
 ## Change log
 
-_2022-03-25_
+_2022-03-25_  
 Monitor results now downloaded via Github actions.
 
-_2018-01-09_
+_2018-01-09_  
 Location for Ryder, ND (381010003) updated to (47.94086, -101.5716) from (49.94086, -101.5716). It was incorrectly mapped to Canada.
 
