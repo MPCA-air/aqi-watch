@@ -413,7 +413,7 @@ if (watch_time) {
                                " was reported at **", max_site$'Site Name',
                                "** (", max_site$Agency, 
                                ")&#46; For more details visit the <a href=http://mpca-air&#46;github&#46;io/aqi-watch> AQI Watch</a>&#46; </br>",
-                               "_", format(Sys.time(), "%h %d, %Y at %H:%M"), " CDT_ </br> </br>"),
+                               "_", format(Sys.time(), "%h %d, %Y at %H:%M"), " CDT_ </br> </br>",
                                VIP_list)
         
         issue <- paste0('---\ntitle: ', message_title, '\n',
