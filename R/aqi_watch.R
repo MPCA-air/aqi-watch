@@ -18,7 +18,7 @@ email_trigger <- 90
 pm10_trigger  <- 130
 
 # Email alert subscribers
-subscribers <- try(read_csv("https://raw.githubusercontent.com/dKvale/aqi-watch/master/data/subscribers.csv"))
+subscribers <- try(read_csv("https://raw.githubusercontent.com/mpca-air/aqi-watch/main/data/subscribers.csv"))
 
 # Fargo, Lacrosse, Voyageurs
 border_sites <- c('380171004', '271370034', '550630012')
@@ -32,7 +32,7 @@ year <- format(Sys.Date(), "%Y")
 
 daylight_savings <- Sys.Date() > as.Date(paste0(year, "-03-12")) & Sys.Date() < as.Date(paste0(year, "-10-6"))
 
-gmt_time <-  (as.numeric(format(Sys.time() - 195, tz="GMT", "%H")) - 1) %% 24
+gmt_time <- (as.numeric(format(Sys.time() - 195, tz="GMT", "%H")) - 1) %% 24
 
 #######################################################################
 # Hourly AQI data -- obtain the most recent hour of data
