@@ -56,17 +56,24 @@ combined_data$Avg_Period <- as.factor(combined_data$Avg_Period)
 
 days_of_week <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
-dofwi_m7 <- as.numeric(format(max_date, format = "%u"))
+dofwi_m7 <- as.numeric(format(max_date - 6, format = "%u"))
+dt_m7 <- format(max_date - 6, format = "%m/%d")
 
 dofw_m7  <- days_of_week[dofwi_m7]
 
-dofwi_m1 <- as.numeric(format(max_date - 1, format = "%u"))
+dofwi_m1 <- as.numeric(format(max_date, format = "%u"))
+dt_m1 <- format(max_date, format = "%m/%d")
 
 dofw_m1  <- days_of_week[dofwi_m1]
+dt <- format(max_date + 1, format = "%m/%d")
 
-daily_label <- paste0("Daily Average - ", dofw_m7, " through ", dofw_m1)
+dofwi <- as.numeric(format(max_date + 1, format = "%u"))
 
-hourly_label <- paste0("Houly Average - ", dofw_m1, " through current hour")
+dofw <- days_of_week[dofwi]
+
+daily_label <- paste0("Daily Average - ", dofw_m7, " (",dt_m7,") through ", dofw_m1," (",dt_m1,")")
+
+hourly_label <- paste0("Houly Average - ", dofw, " (", dt, ") through current hour")
 
 levels(combined_data$Avg_Period) <- c(daily_label, hourly_label)
 
