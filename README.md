@@ -1,6 +1,6 @@
 # aqi-watch
 
-The AQI watch monitors the state of Minnesota and nearby states for elevated AQI values due to the pollutants PM2.5, PM10, or ozone. Monitoring sites reporting a _1-hr AQI_ value above 90 are posted online at [aqi-watch.netlify.app](aqi-watch.netlify.app/). Github users who are 'Watching' the issue list or on the [Subscribers file](https://github.com/dKvale/aqi-watch-actions/blob/main/data/subscribers.csv) will receive an e-mail alert if a monitor goes above 90.  
+The AQI watch monitors the state of Minnesota and nearby states for elevated AQI values due to the pollutants PM2.5, PM10, or ozone. Monitoring sites reporting a _1-hr AQI_ value above 90 are posted online at [aqi-watch](aqi-watch.netlify.app/). Github users who are 'Watching' the issue list or on the [Subscribers file](https://github.com/dKvale/aqi-watch-actions/blob/main/data/subscribers.csv) will receive an e-mail alert if a monitor goes above 90.  
 
 
 # Subscribe to e-mail alerts
