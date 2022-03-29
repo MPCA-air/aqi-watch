@@ -463,9 +463,6 @@ rmarkdown::render_site("web/week_review.Rmd")
 if (local_hr == 10) {
   rmarkdown::render_site("web/model_perf.Rmd")
   rmarkdown::render_site("web/smogwatch.Rmd")
-}
-
-if (FALSE) {
   rmarkdown::render_site("web/airnow_map.Rmd")
 }
 
