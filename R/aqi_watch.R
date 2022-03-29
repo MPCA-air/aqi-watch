@@ -455,15 +455,17 @@ aqi_rank <- filter(ungroup(aqi_rank), rank == 1) %>% arrange(-AQI_Value)
 saveRDS(aqi, "data/aqi_previous.Rdata")
 
 # Create high sites table
-rmarkdown::render_site("web/index.Rmd")
-rmarkdown::render_site("web/todays_obs.Rmd")
-rmarkdown::render_site("web/daily_history.Rmd")
-rmarkdown::render_site("web/week_review.Rmd")
+site_folder <- "../docs/"
+
+rmarkdown::render_site("web/index.Rmd", output_dir = site_folder)
+rmarkdown::render_site("web/todays_obs.Rmd", output_dir = site_folder)
+rmarkdown::render_site("web/daily_history.Rmd", output_dir = site_folder)
+rmarkdown::render_site("web/week_review.Rmd", output_dir = site_folder)
 
 if (local_hr == 10) {
-  rmarkdown::render_site("web/model_perf.Rmd")
-  rmarkdown::render_site("web/smogwatch.Rmd")
-  rmarkdown::render_site("web/airnow_map.Rmd")
+  rmarkdown::render_site("web/model_perf.Rmd", output_dir = site_folder)
+  rmarkdown::render_site("web/smogwatch.Rmd", output_dir = site_folder)
+  rmarkdown::render_site("web/airnow_map.Rmd", output_dir = site_folder)
 }
 
 # Clean house
