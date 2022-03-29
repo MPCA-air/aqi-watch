@@ -1,4 +1,5 @@
 name: "AQI Watch"
+output_dir: ../docs
 output:
   html_document:
     highlight: tango
