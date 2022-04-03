@@ -328,7 +328,8 @@ if (local_hr > 7) {
 #  AQI model performance -- Obtain AQI model performance data.  
 #  Updated once per day.
 ########################################################################
-aqi_models <- read.csv("https://raw.githubusercontent.com/dKvale/aircast/master/data/model_performance.csv", stringsAsFactors = FALSE)
+aqi_models <- read.csv("https://raw.githubusercontent.com/MPCA-air/aqi-daily-update/main/data/model_performance.csv", 
+                       stringsAsFactors = FALSE)
 
 aqi_models$forecast_date <- as.Date(aqi_models$forecast_date)
 
