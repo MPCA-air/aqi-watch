@@ -43,7 +43,10 @@ mp1 <- ggplot(data = aqi_models_pm25, aes(x = forecast_date)) +
        geom_hline(yintercept = 50, colour = "#FFEE00") +
        geom_hline(yintercept = 100, colour = "#DB6B1A") 
   
-if(n_distinct(aqi_models_pm25$cmaq_prod_pm_aqi) > 1) {
+# Hide extra models for now...  
+if (FALSE) { 
+
+if (n_distinct(aqi_models_pm25$cmaq_prod_pm_aqi) > 1) {
 
 mp1 <- mp1 +
         geom_line(aes(y = cmaq_prod_pm_aqi, colour = "9"), size = 1, linetype = "twodash") +
@@ -68,7 +71,9 @@ mp1 <- mp1 +
   
        geom_line(aes(y = mod_aqi_pm_rf, colour = "3"), size = 1, linetype = "longdash") +
        geom_point(aes(y = mod_aqi_pm_rf, colour = "3"), size = 3) +
+  }
   
+  mp1 <- mp1 +
        geom_line(aes(y = fcst_pm25_aqi, colour = "2"), size = 1.25) +
        geom_point(aes(y = fcst_pm25_aqi, colour = "2"), size = 3) +
 
@@ -88,7 +93,6 @@ mp1 <- mp1 +
 
 try(mp1, silent = TRUE)
        
-
 ```
 
 
@@ -104,6 +108,10 @@ aqi_models_ozone <- filter(aqi_models, site_catid %in% forecast_sites_ozone$AqsI
 mo1 <- ggplot(data = aqi_models_ozone, aes(x = forecast_date)) +
        geom_hline(yintercept = 50, colour = "#FFEE00") +
        geom_hline(yintercept = 100, colour = "#DB6B1A") 
+
+  
+# Hide extra models for now...  
+if (FALSE) { 
 
 if(n_distinct(aqi_models_ozone$cmaq_prod_o3_aqi) > 1) {
 
@@ -130,7 +138,9 @@ mo1 <- mo1 +
   
        geom_line(aes(y = mod_aqi_o3_rf, colour = "3"), size = 1, linetype = "longdash") +
        geom_point(aes(y = mod_aqi_o3_rf, colour = "3"), size = 3) +
+  }
   
+  mo1 <- mo1 +
        geom_line(aes(y = fcst_ozone_aqi, colour = "2"), size = 1.25) +
        geom_point(aes(y = fcst_ozone_aqi, colour = "2"), size = 3) +
 
@@ -149,7 +159,5 @@ mo1 <- mo1 +
        theme_bw() +
        labs(x = "Date", y = "AQI Value")
 
-try(mo1, silent = TRUE)
-
-       
+try(mo1, silent = TRUE)   
 ```
