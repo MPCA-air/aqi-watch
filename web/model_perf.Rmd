@@ -70,7 +70,7 @@ mp1 <- mp1 +
        geom_point(aes(y = mod_aqi_pm_ens, colour = "4"), size = 3) +
   
        geom_line(aes(y = mod_aqi_pm_rf, colour = "3"), size = 1, linetype = "longdash") +
-       geom_point(aes(y = mod_aqi_pm_rf, colour = "3"), size = 3) +
+       geom_point(aes(y = mod_aqi_pm_rf, colour = "3"), size = 3) 
   }
   
   mp1 <- mp1 +
@@ -137,7 +137,7 @@ mo1 <- mo1 +
        geom_point(aes(y = mod_aqi_o3_ens, colour = "4"), size = 3) +
   
        geom_line(aes(y = mod_aqi_o3_rf, colour = "3"), size = 1, linetype = "longdash") +
-       geom_point(aes(y = mod_aqi_o3_rf, colour = "3"), size = 3) +
+       geom_point(aes(y = mod_aqi_o3_rf, colour = "3"), size = 3) 
   }
   
   mo1 <- mo1 +
