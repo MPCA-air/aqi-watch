@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-04-14 11:48:01","2022-04-14 16:48:52"
-"04/14/2022","10:00","270834210","Marshall","PM25","UG/M3",38,"MPCA",107,"2022-04-14 11:48:01",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-04-14 12:34:28","2022-04-14 17:35:19"
+"04/14/2022","11:00","840460990009","SF-USD","PM10","UG/M3",426,"South Dakota Department of Agriculture and Natural Resources",304,"2022-04-14 12:34:28",NA
+"04/14/2022","11:00","270834210","Marshall","PM25","UG/M3",67,"MPCA",157,"2022-04-14 12:34:28",NA
