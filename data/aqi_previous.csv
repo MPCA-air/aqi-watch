@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-05-09 15:34:14","2022-05-09 20:35:05"
-"05/09/2022","14:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",33,"Iowa DNR",95,"2022-05-09 15:34:14",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-05-09 16:31:27","2022-05-09 21:32:18"
+"05/09/2022","15:00","271390505","Shakopee","PM25","UG/M3",41,"MPCA",115,"2022-05-09 16:31:27",NA
+"05/09/2022","15:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",32,"Iowa DNR",93,"2022-05-09 16:31:27",NA
