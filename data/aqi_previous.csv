@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-06-14 09:34:20","2022-06-14 14:35:11"
-"06/14/2022","8:00","840460990009","SF-USD","PM25","UG/M3",35.6,"South Dakota Department of Agriculture and Natural Resources",101,"2022-06-14 09:34:20",NA
-"06/14/2022","8:00","271390505","Shakopee","PM25","UG/M3",33,"MPCA",95,"2022-06-14 09:34:20",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-06-14 10:43:53","2022-06-14 15:44:45"
+"06/14/2022","9:00","271390505","Shakopee","PM25","UG/M3",34,"MPCA",97,"2022-06-14 10:43:53",NA
+"06/14/2022","9:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",31,"Iowa DNR",91,"2022-06-14 10:43:53",NA
+"06/14/2022","9:00","270530963","Minneapolis-Phillips","PM25","UG/M3",31,"MPCA",91,"2022-06-14 10:43:53",NA
