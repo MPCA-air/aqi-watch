@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-06-20 15:39:45","2022-06-20 20:40:36"
-"06/20/2022","14:00","271390505","Shakopee","PM25","UG/M3",34,"MPCA",97,"2022-06-20 15:39:45",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-06-20 21:33:27","2022-06-21 02:34:18"
+"06/20/2022","20:00","271095008","Rochester","PM25","UG/M3",71,"MPCA",159,"2022-06-20 21:33:27",NA
+"06/20/2022","20:00","840460990009","SF-USD","OZONE","PPB",89,"South Dakota Department of Agriculture and Natural Resources",159,"2022-06-20 21:33:27",NA
