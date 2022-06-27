@@ -8,11 +8,6 @@ title: "EPA NowCast Values"
 </style>
 
 
-> Link to Sonoma's [_Smogwatch_](http://www.smogwatch.com/minn/realtimedata.cfm)
-
-
-<!–– <iframe src="http://www.smogwatch.com/minn/realtimedata.cfm" overflow="visible" frameborder="0" scrolling="no" style="width: 1000px; height: 1100px;"> 
-</iframe> 
--->
+> Link to Sonoma's _Smogwatch_ - `http://www.smogwatch.com/minn/realtimedata.cfm`
 
 <br>
