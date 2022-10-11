@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-10-07 10:05:20","2022-10-07 15:06:12"
-"10/07/2022","7:00","380171004","Fargo NW","PM25","UG/M3",37.6,"North Dakota Department of Environmental Quality",106,"2022-10-07 10:05:20",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-10-11 14:52:45","2022-10-11 19:53:37"
+"10/11/2022","13:00","270750005","Ely","PM25","UG/M3",62,"MPCA",154,"2022-10-11 14:52:45",NA
+"10/11/2022","13:00","270530910","Minneapolis-Pacific ","PM10","UG/M3",249,"MPCA",148,"2022-10-11 14:52:45",NA
