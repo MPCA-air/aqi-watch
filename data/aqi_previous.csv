@@ -1,7 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-10-22 06:49:26","2022-10-22 11:50:18"
-"10/22/2022","5:00","271713201","St. Michael","PM25","UG/M3",40.2,"MPCA",113,"2022-10-22 06:49:26",NA
-"10/22/2022","5:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",33.8,"MPCA",97,"2022-10-22 06:49:26",NA
-"10/22/2022","5:00","271095008","Rochester","PM25","UG/M3",33.3,"MPCA",96,"2022-10-22 06:49:26",NA
-"10/22/2022","5:00","270530963","Minneapolis-Phillips","PM25","UG/M3",32.8,"MPCA",95,"2022-10-22 06:49:26",NA
-"10/22/2022","5:00","270370480","Lakeville - Near Roa","PM25","UG/M3",31.4,"MPCA",92,"2022-10-22 06:49:26",NA
-"10/22/2022","5:00","550630012","LACROSSE DOT","PM25","UG/M3",30.9,"Wisconsin Dept. of Natural Resources",91,"2022-10-22 06:49:26",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-10-22 08:20:52","2022-10-22 13:21:45"
+"10/22/2022","7:00","271453052","St. Cloud","PM25","UG/M3",40.1,"MPCA",112,"2022-10-22 08:20:52",NA
+"10/22/2022","7:00","271713201","St. Michael","PM25","UG/M3",32.5,"MPCA",94,"2022-10-22 08:20:52",NA
