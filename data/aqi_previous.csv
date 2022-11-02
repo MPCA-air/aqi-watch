@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-11-02 14:43:43","2022-11-02 19:44:34"
-"11/02/2022","13:00","270530910","Minneapolis-Pacific ","PM10","UG/M3",422,"MPCA",297,"2022-11-02 14:43:43",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-11-02 15:50:24","2022-11-02 20:51:15"
+"11/02/2022","14:00","270530910","Minneapolis-Pacific ","PM10","UG/M3",441,"MPCA",323,"2022-11-02 15:50:24",NA
+"11/02/2022","14:00","270530909","Minneapolis-Lowry Av","PM10","UG/M3",232,"MPCA",139,"2022-11-02 15:50:24",NA
