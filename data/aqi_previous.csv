@@ -1,4 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-11-23 05:47:51","2022-11-23 11:48:43"
-"11/23/2022","4:00","270530963","Minneapolis-Phillips","PM25","UG/M3",34.9,"MPCA",99,"2022-11-23 05:47:51",NA
-"11/23/2022","4:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",31.4,"MPCA",92,"2022-11-23 05:47:51",NA
-"11/23/2022","4:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",31.7,"MPCA",92,"2022-11-23 05:47:51",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-11-23 07:13:28","2022-11-23 13:14:19"
+"11/23/2022","6:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",32.7,"MPCA",94,"2022-11-23 07:13:28",NA
+"11/23/2022","6:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",32.1,"MPCA",93,"2022-11-23 07:13:28",NA
