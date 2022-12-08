@@ -1,3 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-12-08 15:41:40","2022-12-08 21:42:32"
-"12/08/2022","14:00","840460990009","SF-USD","PM25","UG/M3",34.4,"South Dakota Department of Agriculture and Natural Resources",98,"2022-12-08 15:41:40",NA
-"12/08/2022","13:00","380171004","Fargo NW","PM25","UG/M3",32.6,"North Dakota Department of Environmental Quality",94,"2022-12-08 15:41:40",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-12-08 16:43:19","2022-12-08 22:44:11"
+"12/08/2022","14:00","380171004","Fargo NW","PM25","UG/M3",35.7,"North Dakota Department of Environmental Quality",101,"2022-12-08 16:43:19",NA
