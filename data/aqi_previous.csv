@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-12-08 17:51:39","2022-12-08 23:52:30"
-"12/08/2022","15:00","380171004","Fargo NW","PM25","UG/M3",32.1,"North Dakota Department of Environmental Quality",93,"2022-12-08 17:51:39",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2022-12-08 20:12:44","2022-12-09 02:13:35"
+"12/08/2022","17:00","380171004","Fargo NW","PM25","UG/M3",33.6,"North Dakota Department of Environmental Quality",96,"2022-12-08 20:12:44",NA
+"12/08/2022","19:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",31,"Iowa DNR",91,"2022-12-08 20:12:44",NA
