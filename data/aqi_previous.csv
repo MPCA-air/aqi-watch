@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-01-06 21:03:49","2023-01-07 03:04:41"
-"01/06/2023","19:00","271390505","Shakopee","PM25","UG/M3",33.8,"MPCA",97,"2023-01-06 21:03:49",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-01-06 21:43:32","2023-01-07 03:44:23"
+"01/06/2023","20:00","271390505","Shakopee","PM25","UG/M3",35.7,"MPCA",101,"2023-01-06 21:43:32",NA
+"01/06/2023","19:00","380171004","Fargo NW","PM25","UG/M3",31.6,"North Dakota Department of Environmental Quality",92,"2023-01-06 21:43:32",NA
