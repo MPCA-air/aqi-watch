@@ -1,8 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-01-08 09:50:13","2023-01-08 15:51:05"
-"01/08/2023","8:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",45.7,"MPCA",126,"2023-01-08 09:50:13",NA
-"01/08/2023","8:00","270370470","Apple Valley","PM25","UG/M3",39.7,"MPCA",111,"2023-01-08 09:50:13",NA
-"01/08/2023","8:00","270530963","Minneapolis-Phillips","PM25","UG/M3",39.6,"MPCA",111,"2023-01-08 09:50:13",NA
-"01/08/2023","8:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",37.7,"MPCA",106,"2023-01-08 09:50:13",NA
-"01/08/2023","8:00","271390505","Shakopee","PM25","UG/M3",36.4,"MPCA",103,"2023-01-08 09:50:13",NA
-"01/08/2023","8:00","271095008","Rochester","PM25","UG/M3",35,"MPCA",99,"2023-01-08 09:50:13",NA
-"01/08/2023","7:00","380171004","Fargo NW","PM25","UG/M3",32.5,"North Dakota Department of Environmental Quality",94,"2023-01-08 09:50:13",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-01-08 10:58:42","2023-01-08 16:59:34"
+"01/08/2023","9:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",46.2,"MPCA",127,"2023-01-08 10:58:42",NA
+"01/08/2023","9:00","271390505","Shakopee","PM25","UG/M3",39.2,"MPCA",110,"2023-01-08 10:58:42",NA
+"01/08/2023","9:00","270530963","Minneapolis-Phillips","PM25","UG/M3",38.9,"MPCA",109,"2023-01-08 10:58:42",NA
+"01/08/2023","9:00","270370470","Apple Valley","PM25","UG/M3",37.9,"MPCA",107,"2023-01-08 10:58:42",NA
+"01/08/2023","9:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",37.1,"MPCA",105,"2023-01-08 10:58:42",NA
+"01/08/2023","8:00","380171004","Fargo NW","PM25","UG/M3",34.9,"North Dakota Department of Environmental Quality",99,"2023-01-08 10:58:42",NA
