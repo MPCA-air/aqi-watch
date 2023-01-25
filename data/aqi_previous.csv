@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-01-25 09:46:05","2023-01-25 15:46:57"
-"01/25/2023","8:00","271095008","Rochester","PM25","UG/M3",33.8,"MPCA",97,"2023-01-25 09:46:05",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-01-25 10:56:11","2023-01-25 16:57:03"
+"01/25/2023","9:00","271095008","Rochester","PM25","UG/M3",34.8,"MPCA",99,"2023-01-25 10:56:11",NA
+"01/25/2023","9:00","271713201","St. Michael","PM25","UG/M3",31.2,"MPCA",91,"2023-01-25 10:56:11",NA
