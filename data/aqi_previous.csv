@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-11 14:37:56","2023-04-11 19:38:47"
-"04/11/2023","13:00","840460990009","SF-USD","OZONE","PPB",68,"South Dakota Department of Agriculture and Natural Resources",93,"2023-04-11 14:37:56",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-11 15:43:29","2023-04-11 20:44:21"
+"04/11/2023","14:00","270072304","Red Lake Nation","PM25","UG/M3",75,"MPCA",161,"2023-04-11 15:43:29",NA
+"04/11/2023","14:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2023-04-11 15:43:29",NA
+"04/11/2023","14:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-04-11 15:43:29",NA
