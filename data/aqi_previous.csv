@@ -1,3 +1,9 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-11 21:57:47","2023-04-12 02:58:38"
-"04/11/2023","20:00","270953051","Mille Lacs","OZONE","PPB",73,"MPCA",108,"2023-04-11 21:57:47",NA
-"04/11/2023","19:00","380171004","Fargo NW","PM25","UG/M3",32.7,"North Dakota Department of Environmental Quality",94,"2023-04-11 21:57:47",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-12 16:39:44","2023-04-12 21:40:36"
+"04/12/2023","15:00","271095008","Rochester","OZONE","PPB",70,"MPCA",100,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","271636016","Marine on St. Croix","OZONE","PPB",70,"MPCA",100,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","271390505","Shakopee","OZONE","PPB",69,"MPCA",97,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","270031001","East Bethel","OZONE","PPB",68,"MPCA",93,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-04-12 16:39:44",NA
+"04/12/2023","15:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-04-12 16:39:44",NA
