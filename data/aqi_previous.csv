@@ -1,9 +1,11 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-12 16:39:44","2023-04-12 21:40:36"
-"04/12/2023","15:00","271095008","Rochester","OZONE","PPB",70,"MPCA",100,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","271636016","Marine on St. Croix","OZONE","PPB",70,"MPCA",100,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","271390505","Shakopee","OZONE","PPB",69,"MPCA",97,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","270031001","East Bethel","OZONE","PPB",68,"MPCA",93,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-04-12 16:39:44",NA
-"04/12/2023","15:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-04-12 16:39:44",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-12 17:44:13","2023-04-12 22:45:05"
+"04/12/2023","16:00","271713201","St. Michael","OZONE","PPB",74,"MPCA",112,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","271095008","Rochester","OZONE","PPB",73,"MPCA",108,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","271636016","Marine on St. Croix","OZONE","PPB",73,"MPCA",108,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","270031002","Blaine","OZONE","PPB",72,"MPCA",104,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","271390505","Shakopee","OZONE","PPB",72,"MPCA",104,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","191471002","Emmetsburg, ILCC","OZONE","PPB",71,"Iowa DNR",101,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","270031001","East Bethel","OZONE","PPB",71,"MPCA",101,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","840460990009","SF-USD","OZONE","PPB",70,"South Dakota Department of Agriculture and Natural Resources",100,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","270530962","Minneapolis-Near Roa","OZONE","PPB",68,"MPCA",93,"2023-04-12 17:44:13",NA
+"04/12/2023","16:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2023-04-12 17:44:13",NA
