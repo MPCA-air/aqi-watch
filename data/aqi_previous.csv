@@ -1,5 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-13 16:43:55","2023-04-13 21:44:46"
-"04/13/2023","15:00","270530910","Minneapolis-Pacific ","PM10","UG/M3",461,"MPCA",349,"2023-04-13 16:43:55",NA
-"04/13/2023","15:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-04-13 16:43:55",NA
-"04/13/2023","15:00","270031001","East Bethel","OZONE","PPB",68,"MPCA",93,"2023-04-13 16:43:55",NA
-"04/13/2023","15:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2023-04-13 16:43:55",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-13 17:43:19","2023-04-13 22:44:11"
+"04/13/2023","16:00","270530910","Minneapolis-Pacific ","PM10","UG/M3",328,"MPCA",187,"2023-04-13 17:43:19",NA
+"04/13/2023","16:00","840460990009","SF-USD","OZONE","PPB",72,"South Dakota Department of Agriculture and Natural Resources",104,"2023-04-13 17:43:19",NA
+"04/13/2023","16:00","270834210","Marshall","OZONE","PPB",71,"MPCA",101,"2023-04-13 17:43:19",NA
+"04/13/2023","16:00","271453052","St. Cloud","OZONE","PPB",71,"MPCA",101,"2023-04-13 17:43:19",NA
+"04/13/2023","16:00","270031001","East Bethel","OZONE","PPB",70,"MPCA",100,"2023-04-13 17:43:19",NA
+"04/13/2023","16:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-04-13 17:43:19",NA
