@@ -1,8 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-12 21:00:35","2023-04-13 02:01:26"
-"04/12/2023","19:00","270031002","Blaine","OZONE","PPB",74,"MPCA",112,"2023-04-12 21:00:35",NA
-"04/12/2023","19:00","271390505","Shakopee","OZONE","PPB",74,"MPCA",112,"2023-04-12 21:00:35",NA
-"04/12/2023","19:00","840460990009","SF-USD","OZONE","PPB",73,"South Dakota Department of Agriculture and Natural Resources",108,"2023-04-12 21:00:35",NA
-"04/12/2023","19:00","270031001","East Bethel","OZONE","PPB",72,"MPCA",104,"2023-04-12 21:00:35",NA
-"04/12/2023","19:00","271636016","Marine on St. Croix","OZONE","PPB",72,"MPCA",104,"2023-04-12 21:00:35",NA
-"04/12/2023","19:00","271713201","St. Michael","OZONE","PPB",71,"MPCA",101,"2023-04-12 21:00:35",NA
-"04/12/2023","19:00","270750005","Ely","OZONE","PPB",69,"MPCA",97,"2023-04-12 21:00:35",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-04-13 15:45:06","2023-04-13 20:45:57"
+"04/13/2023","14:00","840460990009","SF-USD","OZONE","PPB",68,"South Dakota Department of Agriculture and Natural Resources",93,"2023-04-13 15:45:06",NA
