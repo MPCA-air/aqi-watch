@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-10 16:33:15","2023-05-10 21:34:07"
-"05/10/2023","15:00","270031001","East Bethel","OZONE","PPB",70,"MPCA",100,"2023-05-10 16:33:15",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-10 17:33:56","2023-05-10 22:34:48"
+"05/10/2023","16:00","270031001","East Bethel","OZONE","PPB",68,"MPCA",93,"2023-05-10 17:33:56",NA
+"05/10/2023","16:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-05-10 17:33:56",NA
