@@ -1,5 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-11 18:26:36","2023-05-11 23:27:27"
-"05/11/2023","17:00","270031001","East Bethel","OZONE","PPB",75,"MPCA",115,"2023-05-11 18:26:36",NA
-"05/11/2023","17:00","271453052","St. Cloud","OZONE","PPB",72,"MPCA",104,"2023-05-11 18:26:36",NA
-"05/11/2023","17:00","270353204","Brainerd","OZONE","PPB",69,"MPCA",97,"2023-05-11 18:26:36",NA
-"05/11/2023","17:00","271713201","St. Michael","OZONE","PPB",69,"MPCA",97,"2023-05-11 18:26:36",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-16 14:24:18","2023-05-16 19:25:09"
+"05/16/2023","13:00","270052013","Detroit Lakes","PM25","UG/M3",31,"MPCA",91,"2023-05-16 14:24:18",NA
