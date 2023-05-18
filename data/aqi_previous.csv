@@ -1,8 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-18 06:27:21","2023-05-18 11:28:12"
-"05/18/2023","5:00","840460130004","Aberdeen","PM25","UG/M3",196,"South Dakota Department of Agriculture and Natural Resources",246,"2023-05-18 06:27:21",NA
-"05/18/2023","5:00","270052013","Detroit Lakes","PM25","UG/M3",181.9,"MPCA",232,"2023-05-18 06:27:21",NA
-"05/18/2023","4:00","380171004","Fargo NW","PM25","UG/M3",175.8,"North Dakota Department of Environmental Quality",226,"2023-05-18 06:27:21",NA
-"05/18/2023","5:00","270834210","Marshall","PM25","UG/M3",151.1,"MPCA",202,"2023-05-18 06:27:21",NA
-"05/18/2023","5:00","270072304","Red Lake Nation","PM25","UG/M3",99,"MPCA",173,"2023-05-18 06:27:21",NA
-"05/18/2023","5:00","270213410","Leech Lake Nation: C","PM25","UG/M3",93,"MPCA",170,"2023-05-18 06:27:21",NA
-"05/18/2023","5:00","840460130004","Aberdeen","PM10","UG/M3",215,"South Dakota Department of Agriculture and Natural Resources",131,"2023-05-18 06:27:21",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-18 07:49:34","2023-05-18 12:50:25"
+"05/18/2023","6:00","270834210","Marshall","PM25","UG/M3",198.9,"MPCA",249,"2023-05-18 07:49:34",NA
+"05/18/2023","6:00","270052013","Detroit Lakes","PM25","UG/M3",187.9,"MPCA",238,"2023-05-18 07:49:34",NA
+"05/18/2023","5:00","380171004","Fargo NW","PM25","UG/M3",176.2,"North Dakota Department of Environmental Quality",226,"2023-05-18 07:49:34",NA
+"05/18/2023","6:00","840460130004","Aberdeen","PM25","UG/M3",159.7,"South Dakota Department of Agriculture and Natural Resources",210,"2023-05-18 07:49:34",NA
+"05/18/2023","6:00","270072304","Red Lake Nation","PM25","UG/M3",99,"MPCA",173,"2023-05-18 07:49:34",NA
+"05/18/2023","6:00","270213410","Leech Lake Nation: C","PM25","UG/M3",91,"MPCA",169,"2023-05-18 07:49:34",NA
