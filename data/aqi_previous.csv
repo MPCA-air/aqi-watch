@@ -1,2 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-21 07:43:50","2023-05-21 12:44:41"
-"05/21/2023","6:00","270530963","Minneapolis-Phillips","PM25","UG/M3",31.2,"MPCA",91,"2023-05-21 07:43:50",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-21 13:32:18","2023-05-21 18:33:10"
+"05/21/2023","12:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-05-21 13:32:18",NA
+"05/21/2023","12:00","271453052","St. Cloud","OZONE","PPB",69,"MPCA",97,"2023-05-21 13:32:18",NA
+"05/21/2023","12:00","271636016","Marine on St. Croix","OZONE","PPB",69,"MPCA",97,"2023-05-21 13:32:18",NA
+"05/21/2023","12:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-05-21 13:32:18",NA
