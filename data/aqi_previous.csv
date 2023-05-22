@@ -1,3 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-21 21:49:51","2023-05-22 02:50:43"
-"05/21/2023","20:00","270031002","Blaine","OZONE","PPB",70,"MPCA",100,"2023-05-21 21:49:51",NA
-"05/21/2023","20:00","840460990009","SF-USD","OZONE","PPB",70,"South Dakota Department of Agriculture and Natural Resources",100,"2023-05-21 21:49:51",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-22 12:29:30","2023-05-22 17:30:22"
+"05/22/2023","11:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",37,"MPCA",105,"2023-05-22 12:29:30",NA
