@@ -1,7 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-22 21:52:43","2023-05-23 02:53:34"
-"05/22/2023","20:00","270953051","Mille Lacs","OZONE","PPB",70,"MPCA",100,"2023-05-22 21:52:43",NA
-"05/22/2023","19:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-05-22 21:52:43",NA
-"05/22/2023","20:00","270052013","Detroit Lakes","OZONE","PPB",69,"MPCA",97,"2023-05-22 21:52:43",NA
-"05/22/2023","20:00","270353204","Brainerd","OZONE","PPB",69,"MPCA",97,"2023-05-22 21:52:43",NA
-"05/22/2023","20:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2023-05-22 21:52:43",NA
-"05/22/2023","20:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-05-22 21:52:43",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-23 08:33:55","2023-05-23 13:34:48"
+"05/23/2023","7:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",33.1,"MPCA",95,"2023-05-23 08:33:55",NA
