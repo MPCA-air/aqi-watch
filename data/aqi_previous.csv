@@ -1,2 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-23 08:33:55","2023-05-23 13:34:48"
-"05/23/2023","7:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",33.1,"MPCA",95,"2023-05-23 08:33:55",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-23 12:32:27","2023-05-23 17:33:19"
+"05/23/2023","11:00","271095008","Rochester","OZONE","PPB",71,"MPCA",101,"2023-05-23 12:32:27",NA
+"05/23/2023","11:00","191471002","Emmetsburg, ILCC","OZONE","PPB",69,"Iowa DNR",97,"2023-05-23 12:32:27",NA
+"05/23/2023","11:00","270495302","Stanton","OZONE","PPB",68,"MPCA",93,"2023-05-23 12:32:27",NA
+"05/23/2023","11:00","270953051","Mille Lacs","OZONE","PPB",68,"MPCA",93,"2023-05-23 12:32:27",NA
+"05/23/2023","11:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-05-23 12:32:27",NA
