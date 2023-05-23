@@ -1,15 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-22 20:50:43","2023-05-23 01:51:35"
-"05/22/2023","19:00","270953051","Mille Lacs","OZONE","PPB",74,"MPCA",112,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","271713201","St. Michael","OZONE","PPB",74,"MPCA",112,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","840460990009","SF-USD","OZONE","PPB",74,"South Dakota Department of Agriculture and Natural Resources",112,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","270353204","Brainerd","OZONE","PPB",73,"MPCA",108,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","270031001","East Bethel","OZONE","PPB",72,"MPCA",104,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","270052013","Detroit Lakes","OZONE","PPB",72,"MPCA",104,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","271390505","Shakopee","OZONE","PPB",72,"MPCA",104,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","191471002","Emmetsburg, ILCC","OZONE","PPB",71,"Iowa DNR",101,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","270031002","Blaine","OZONE","PPB",71,"MPCA",101,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","271453052","St. Cloud","OZONE","PPB",71,"MPCA",101,"2023-05-22 20:50:43",NA
-"05/22/2023","18:00","380171004","Fargo NW","OZONE","PPB",70,"North Dakota Department of Environmental Quality",100,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","271636016","Marine on St. Croix","OZONE","PPB",70,"MPCA",100,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","550630012","LACROSSE DOT","OZONE","PPB",69,"Wisconsin Dept. of Natural Resources",97,"2023-05-22 20:50:43",NA
-"05/22/2023","19:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2023-05-22 20:50:43",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-22 21:52:43","2023-05-23 02:53:34"
+"05/22/2023","20:00","270953051","Mille Lacs","OZONE","PPB",70,"MPCA",100,"2023-05-22 21:52:43",NA
+"05/22/2023","19:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-05-22 21:52:43",NA
+"05/22/2023","20:00","270052013","Detroit Lakes","OZONE","PPB",69,"MPCA",97,"2023-05-22 21:52:43",NA
+"05/22/2023","20:00","270353204","Brainerd","OZONE","PPB",69,"MPCA",97,"2023-05-22 21:52:43",NA
+"05/22/2023","20:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2023-05-22 21:52:43",NA
+"05/22/2023","20:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-05-22 21:52:43",NA
