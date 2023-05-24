@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-24 11:36:45","2023-05-24 16:37:36"
-"05/24/2023","10:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-05-24 11:36:45",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-24 12:33:22","2023-05-24 17:34:14"
+"05/24/2023","11:00","840460990009","SF-USD","OZONE","PPB",76,"South Dakota Department of Agriculture and Natural Resources",118,"2023-05-24 12:33:22",NA
+"05/24/2023","11:00","191471002","Emmetsburg, ILCC","OZONE","PPB",72,"Iowa DNR",104,"2023-05-24 12:33:22",NA
