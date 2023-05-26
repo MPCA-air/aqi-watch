@@ -1,4 +1,8 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-26 16:26:28","2023-05-26 21:27:20"
-"05/26/2023","15:00","840460990009","SF-USD","OZONE","PPB",76,"South Dakota Department of Agriculture and Natural Resources",118,"2023-05-26 16:26:28",NA
-"05/26/2023","15:00","271713201","St. Michael","OZONE","PPB",71,"MPCA",101,"2023-05-26 16:26:28",NA
-"05/26/2023","15:00","270031001","East Bethel","OZONE","PPB",68,"MPCA",93,"2023-05-26 16:26:28",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-26 17:32:13","2023-05-26 22:33:04"
+"05/26/2023","16:00","840460990009","SF-USD","OZONE","PPB",74,"South Dakota Department of Agriculture and Natural Resources",112,"2023-05-26 17:32:13",NA
+"05/26/2023","16:00","271713201","St. Michael","OZONE","PPB",72,"MPCA",104,"2023-05-26 17:32:13",NA
+"05/26/2023","16:00","270031001","East Bethel","OZONE","PPB",69,"MPCA",97,"2023-05-26 17:32:13",NA
+"05/26/2023","16:00","270052013","Detroit Lakes","OZONE","PPB",69,"MPCA",97,"2023-05-26 17:32:13",NA
+"05/26/2023","16:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-05-26 17:32:13",NA
+"05/26/2023","16:00","271370034","Voyageurs NP","OZONE","PPB",68,"National Park Service",93,"2023-05-26 17:32:13",NA
+"05/26/2023","16:00","271453052","St. Cloud","OZONE","PPB",68,"MPCA",93,"2023-05-26 17:32:13",NA
