@@ -1,10 +1,9 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-26 18:29:33","2023-05-26 23:30:25"
-"05/26/2023","17:00","840460990009","SF-USD","OZONE","PPB",72,"South Dakota Department of Agriculture and Natural Resources",104,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","271713201","St. Michael","OZONE","PPB",71,"MPCA",101,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","270031001","East Bethel","OZONE","PPB",70,"MPCA",100,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","270052013","Detroit Lakes","OZONE","PPB",70,"MPCA",100,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","271370034","Voyageurs NP","OZONE","PPB",70,"National Park Service",100,"2023-05-26 18:29:33",NA
-"05/26/2023","16:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","270031002","Blaine","OZONE","PPB",69,"MPCA",97,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","271453052","St. Cloud","OZONE","PPB",69,"MPCA",97,"2023-05-26 18:29:33",NA
-"05/26/2023","17:00","270530962","Minneapolis-Near Roa","OZONE","PPB",68,"MPCA",93,"2023-05-26 18:29:33",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-26 20:48:14","2023-05-27 01:49:05"
+"05/26/2023","19:00","270953051","Mille Lacs","OZONE","PPB",72,"MPCA",104,"2023-05-26 20:48:14",NA
+"05/26/2023","19:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-05-26 20:48:14",NA
+"05/26/2023","18:00","380171004","Fargo NW","OZONE","PPB",70,"North Dakota Department of Environmental Quality",100,"2023-05-26 20:48:14",NA
+"05/26/2023","19:00","270031001","East Bethel","OZONE","PPB",69,"MPCA",97,"2023-05-26 20:48:14",NA
+"05/26/2023","19:00","271453052","St. Cloud","OZONE","PPB",69,"MPCA",97,"2023-05-26 20:48:14",NA
+"05/26/2023","19:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-05-26 20:48:14",NA
+"05/26/2023","19:00","270353204","Brainerd","OZONE","PPB",68,"MPCA",93,"2023-05-26 20:48:14",NA
+"05/26/2023","19:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-05-26 20:48:14",NA
