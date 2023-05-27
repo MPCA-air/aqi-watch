@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-27 09:29:07","2023-05-27 14:29:58"
-"05/27/2023","8:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",39,"Iowa DNR",110,"2023-05-27 09:29:07",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-27 13:35:49","2023-05-27 18:36:40"
+"05/27/2023","12:00","270031001","East Bethel","OZONE","PPB",69,"MPCA",97,"2023-05-27 13:35:49",NA
+"05/27/2023","12:00","270031002","Blaine","OZONE","PPB",69,"MPCA",97,"2023-05-27 13:35:49",NA
+"05/27/2023","12:00","270495302","Stanton","OZONE","PPB",68,"MPCA",93,"2023-05-27 13:35:49",NA
