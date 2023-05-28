@@ -1,3 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-28 11:33:23","2023-05-28 16:34:14"
-"05/28/2023","10:00","270495302","Stanton","OZONE","PPB",68,"MPCA",93,"2023-05-28 11:33:23",NA
-"05/28/2023","10:00","271370034","Voyageurs NP","OZONE","PPB",68,"National Park Service",93,"2023-05-28 11:33:23",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-28 12:30:13","2023-05-28 17:31:04"
+"05/28/2023","11:00","271370034","Voyageurs NP","OZONE","PPB",72,"National Park Service",104,"2023-05-28 12:30:13",NA
+"05/28/2023","11:00","271713201","St. Michael","OZONE","PPB",71,"MPCA",101,"2023-05-28 12:30:13",NA
+"05/28/2023","11:00","270495302","Stanton","OZONE","PPB",70,"MPCA",100,"2023-05-28 12:30:13",NA
+"05/28/2023","11:00","840460990009","SF-USD","OZONE","PPB",70,"South Dakota Department of Agriculture and Natural Resources",100,"2023-05-28 12:30:13",NA
+"05/28/2023","11:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-05-28 12:30:13",NA
+"05/28/2023","11:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-05-28 12:30:13",NA
