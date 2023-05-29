@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-29 11:35:33","2023-05-29 16:36:25"
-"05/29/2023","10:00","271095008","Rochester","OZONE","PPB",69,"MPCA",97,"2023-05-29 11:35:33",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-29 12:32:54","2023-05-29 17:33:45"
+"05/29/2023","11:00","271095008","Rochester","OZONE","PPB",71,"MPCA",101,"2023-05-29 12:32:54",NA
+"05/29/2023","11:00","270495302","Stanton","OZONE","PPB",68,"MPCA",93,"2023-05-29 12:32:54",NA
