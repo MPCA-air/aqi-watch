@@ -1,8 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-29 20:57:36","2023-05-30 01:58:28"
-"05/29/2023","19:00","271095008","Rochester","OZONE","PPB",73,"MPCA",108,"2023-05-29 20:57:36",NA
-"05/29/2023","19:00","270031002","Blaine","OZONE","PPB",72,"MPCA",104,"2023-05-29 20:57:36",NA
-"05/29/2023","19:00","550630012","LACROSSE DOT","OZONE","PPB",72,"Wisconsin Dept. of Natural Resources",104,"2023-05-29 20:57:36",NA
-"05/29/2023","19:00","840460990009","SF-USD","OZONE","PPB",72,"South Dakota Department of Agriculture and Natural Resources",104,"2023-05-29 20:57:36",NA
-"05/29/2023","19:00","271636016","Marine on St. Croix","OZONE","PPB",71,"MPCA",101,"2023-05-29 20:57:36",NA
-"05/29/2023","19:00","270353204","Brainerd","OZONE","PPB",70,"MPCA",100,"2023-05-29 20:57:36",NA
-"05/29/2023","19:00","270031001","East Bethel","OZONE","PPB",68,"MPCA",93,"2023-05-29 20:57:36",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-29 21:51:40","2023-05-30 02:52:31"
+"05/29/2023","20:00","271636016","Marine on St. Croix","OZONE","PPB",68,"MPCA",93,"2023-05-29 21:51:40",NA
+"05/29/2023","20:00","550630012","LACROSSE DOT","OZONE","PPB",68,"Wisconsin Dept. of Natural Resources",93,"2023-05-29 21:51:40",NA
