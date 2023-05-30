@@ -1,4 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-30 15:30:40","2023-05-30 20:31:32"
-"05/30/2023","14:00","550630012","LACROSSE DOT","OZONE","PPB",76,"Wisconsin Dept. of Natural Resources",118,"2023-05-30 15:30:40",NA
-"05/30/2023","14:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",41,"Iowa DNR",115,"2023-05-30 15:30:40",NA
-"05/30/2023","14:00","271453052","St. Cloud","OZONE","PPB",69,"MPCA",97,"2023-05-30 15:30:40",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-30 16:25:48","2023-05-30 21:26:39"
+"05/30/2023","15:00","550630012","LACROSSE DOT","OZONE","PPB",77,"Wisconsin Dept. of Natural Resources",122,"2023-05-30 16:25:48",NA
+"05/30/2023","15:00","271453052","St. Cloud","OZONE","PPB",72,"MPCA",104,"2023-05-30 16:25:48",NA
+"05/30/2023","15:00","270834210","Marshall","OZONE","PPB",69,"MPCA",97,"2023-05-30 16:25:48",NA
+"05/30/2023","15:00","271390505","Shakopee","OZONE","PPB",69,"MPCA",97,"2023-05-30 16:25:48",NA
+"05/30/2023","15:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-05-30 16:25:48",NA
+"05/30/2023","15:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-05-30 16:25:48",NA
