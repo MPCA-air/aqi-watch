@@ -1,11 +1,10 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-31 16:32:47","2023-05-31 21:33:38"
-"05/31/2023","15:00","271453052","St. Cloud","OZONE","PPB",73,"MPCA",108,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","840460990009","SF-USD","OZONE","PPB",73,"South Dakota Department of Agriculture and Natural Resources",108,"2023-05-31 16:32:47",NA
-"05/31/2023","14:00","380171004","Fargo NW","OZONE","PPB",72,"North Dakota Department of Environmental Quality",104,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","270353204","Brainerd","OZONE","PPB",71,"MPCA",101,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","271390505","Shakopee","OZONE","PPB",71,"MPCA",101,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","271713201","St. Michael","OZONE","PPB",71,"MPCA",101,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","550630012","LACROSSE DOT","OZONE","PPB",70,"Wisconsin Dept. of Natural Resources",100,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","271095008","Rochester","OZONE","PPB",69,"MPCA",97,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-05-31 16:32:47",NA
-"05/31/2023","15:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-05-31 16:32:47",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-05-31 17:30:31","2023-05-31 22:31:22"
+"05/31/2023","16:00","840460990009","SF-USD","OZONE","PPB",75,"South Dakota Department of Agriculture and Natural Resources",115,"2023-05-31 17:30:31",NA
+"05/31/2023","15:00","380171004","Fargo NW","OZONE","PPB",74,"North Dakota Department of Environmental Quality",112,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","271453052","St. Cloud","OZONE","PPB",74,"MPCA",112,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","270353204","Brainerd","OZONE","PPB",72,"MPCA",104,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","271713201","St. Michael","OZONE","PPB",72,"MPCA",104,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","270031002","Blaine","OZONE","PPB",70,"MPCA",100,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","550630012","LACROSSE DOT","OZONE","PPB",70,"Wisconsin Dept. of Natural Resources",100,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","271095008","Rochester","OZONE","PPB",69,"MPCA",97,"2023-05-31 17:30:31",NA
+"05/31/2023","16:00","270530962","Minneapolis-Near Roa","OZONE","PPB",68,"MPCA",93,"2023-05-31 17:30:31",NA
