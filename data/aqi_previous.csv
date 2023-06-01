@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-01 15:31:57","2023-06-01 20:32:48"
-"06/01/2023","14:00","840460990009","SF-USD","OZONE","PPB",68,"South Dakota Department of Agriculture and Natural Resources",93,"2023-06-01 15:31:57",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-01 16:26:40","2023-06-01 21:27:31"
+"06/01/2023","14:00","380171004","Fargo NW","OZONE","PPB",70,"North Dakota Department of Environmental Quality",100,"2023-06-01 16:26:40",NA
+"06/01/2023","15:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2023-06-01 16:26:40",NA
+"06/01/2023","15:00","270052013","Detroit Lakes","OZONE","PPB",68,"MPCA",93,"2023-06-01 16:26:40",NA
