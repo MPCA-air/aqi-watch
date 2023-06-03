@@ -1,6 +1,10 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-03 13:33:43","2023-06-03 18:34:35"
-"06/03/2023","12:00","191471002","Emmetsburg, ILCC","OZONE","PPB",75,"Iowa DNR",115,"2023-06-03 13:33:43",NA
-"06/03/2023","12:00","271713201","St. Michael","OZONE","PPB",74,"MPCA",112,"2023-06-03 13:33:43",NA
-"06/03/2023","12:00","840460990009","SF-USD","OZONE","PPB",72,"South Dakota Department of Agriculture and Natural Resources",104,"2023-06-03 13:33:43",NA
-"06/03/2023","12:00","270530962","Minneapolis-Near Roa","OZONE","PPB",70,"MPCA",100,"2023-06-03 13:33:43",NA
-"06/03/2023","12:00","271095008","Rochester","OZONE","PPB",70,"MPCA",100,"2023-06-03 13:33:43",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-03 14:25:08","2023-06-03 19:26:00"
+"06/03/2023","13:00","271713201","St. Michael","OZONE","PPB",78,"MPCA",126,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","191471002","Emmetsburg, ILCC","OZONE","PPB",77,"Iowa DNR",122,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","271095008","Rochester","OZONE","PPB",74,"MPCA",112,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","270031001","East Bethel","OZONE","PPB",73,"MPCA",108,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","270530962","Minneapolis-Near Roa","OZONE","PPB",72,"MPCA",104,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","271636016","Marine on St. Croix","OZONE","PPB",72,"MPCA",104,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","270495302","Stanton","OZONE","PPB",70,"MPCA",100,"2023-06-03 14:25:08",NA
+"06/03/2023","13:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2023-06-03 14:25:08",NA
