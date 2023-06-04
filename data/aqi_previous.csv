@@ -1,7 +1,9 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-04 14:26:52","2023-06-04 19:27:44"
-"06/04/2023","11:00","550630012","LACROSSE DOT","PM25","UG/M3",63.8,"Wisconsin Dept. of Natural Resources",155,"2023-06-04 14:26:52",NA
-"06/04/2023","13:00","840460990009","SF-USD","OZONE","PPB",84,"South Dakota Department of Agriculture and Natural Resources",146,"2023-06-04 14:26:52",NA
-"06/04/2023","13:00","191471002","Emmetsburg, ILCC","OZONE","PPB",80,"Iowa DNR",132,"2023-06-04 14:26:52",NA
-"06/04/2023","12:00","380171004","Fargo NW","OZONE","PPB",77,"North Dakota Department of Environmental Quality",122,"2023-06-04 14:26:52",NA
-"06/04/2023","13:00","270834210","Marshall","OZONE","PPB",77,"MPCA",122,"2023-06-04 14:26:52",NA
-"06/04/2023","13:00","271713201","St. Michael","OZONE","PPB",74,"MPCA",112,"2023-06-04 14:26:52",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-04 15:31:27","2023-06-04 20:32:18"
+"06/04/2023","14:00","840460990009","SF-USD","OZONE","PPB",86,"South Dakota Department of Agriculture and Natural Resources",151,"2023-06-04 15:31:27",NA
+"06/04/2023","13:00","380171004","Fargo NW","OZONE","PPB",78,"North Dakota Department of Environmental Quality",126,"2023-06-04 15:31:27",NA
+"06/04/2023","14:00","191471002","Emmetsburg, ILCC","OZONE","PPB",77,"Iowa DNR",122,"2023-06-04 15:31:27",NA
+"06/04/2023","14:00","270834210","Marshall","OZONE","PPB",77,"MPCA",122,"2023-06-04 15:31:27",NA
+"06/04/2023","14:00","271713201","St. Michael","OZONE","PPB",74,"MPCA",112,"2023-06-04 15:31:27",NA
+"06/04/2023","14:00","271095008","Rochester","OZONE","PPB",71,"MPCA",101,"2023-06-04 15:31:27",NA
+"06/04/2023","14:00","271390505","Shakopee","OZONE","PPB",68,"MPCA",93,"2023-06-04 15:31:27",NA
+"06/04/2023","14:00","271095008","Rochester","PM25","UG/M3",31.4,"MPCA",92,"2023-06-04 15:31:27",NA
