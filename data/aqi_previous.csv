@@ -1,8 +1,10 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-04 21:07:55","2023-06-05 02:08:47"
-"06/04/2023","19:00","271095008","Rochester","PM25","UG/M3",42.1,"MPCA",117,"2023-06-04 21:07:55",NA
-"06/04/2023","19:00","840460990009","SF-USD","OZONE","PPB",75,"South Dakota Department of Agriculture and Natural Resources",115,"2023-06-04 21:07:55",NA
-"06/04/2023","19:00","270834210","Marshall","OZONE","PPB",70,"MPCA",100,"2023-06-04 21:07:55",NA
-"06/04/2023","18:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-06-04 21:07:55",NA
-"06/04/2023","19:00","270495302","Stanton","OZONE","PPB",69,"MPCA",97,"2023-06-04 21:07:55",NA
-"06/04/2023","19:00","271095008","Rochester","OZONE","PPB",68,"MPCA",93,"2023-06-04 21:07:55",NA
-"06/04/2023","19:00","271390505","Shakopee","OZONE","PPB",68,"MPCA",93,"2023-06-04 21:07:55",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-05 05:38:05","2023-06-05 10:38:56"
+"06/05/2023","3:00","550630012","LACROSSE DOT","PM25","UG/M3",91.2,"Wisconsin Dept. of Natural Resources",169,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","271095008","Rochester","PM25","UG/M3",51.8,"MPCA",141,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","270370470","Apple Valley","PM25","UG/M3",41.6,"MPCA",116,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","270370480","Lakeville - Near Roa","PM25","UG/M3",40.7,"MPCA",114,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","270530963","Minneapolis-Phillips","PM25","UG/M3",39.6,"MPCA",111,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",38.5,"MPCA",108,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",36.6,"MPCA",104,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","271390505","Shakopee","PM25","UG/M3",34.9,"MPCA",99,"2023-06-05 05:38:05",NA
+"06/05/2023","4:00","270317810","Grand Portage","PM25","UG/M3",32,"MPCA",93,"2023-06-05 05:38:05",NA
