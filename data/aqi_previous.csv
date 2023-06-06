@@ -1,12 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-05 21:08:59","2023-06-06 02:09:50"
-"06/05/2023","19:00","550630012","LACROSSE DOT","PM25","UG/M3",64.9,"Wisconsin Dept. of Natural Resources",156,"2023-06-05 21:08:59",NA
-"06/05/2023","20:00","270177417","Fond du Lac","PM25","UG/M3",55.2,"MPCA",150,"2023-06-05 21:08:59",NA
-"06/05/2023","20:00","271377550","Duluth-WDSE","PM25","UG/M3",54.9,"MPCA",149,"2023-06-05 21:08:59",NA
-"06/05/2023","20:00","270750005","Ely","PM25","UG/M3",51.7,"MPCA",141,"2023-06-05 21:08:59",NA
-"06/05/2023","20:00","271377554","West Duluth","PM25","UG/M3",49.9,"MPCA",136,"2023-06-05 21:08:59",NA
-"06/05/2023","20:00","271377001","Virginia","PM25","UG/M3",49.5,"MPCA",135,"2023-06-05 21:08:59",NA
-"06/05/2023","19:00","191471002","Emmetsburg, ILCC","OZONE","PPB",77,"Iowa DNR",122,"2023-06-05 21:08:59",NA
-"06/05/2023","19:00","550630012","LACROSSE DOT","OZONE","PPB",77,"Wisconsin Dept. of Natural Resources",122,"2023-06-05 21:08:59",NA
-"06/05/2023","19:00","840460990009","SF-USD","OZONE","PPB",73,"South Dakota Department of Agriculture and Natural Resources",108,"2023-06-05 21:08:59",NA
-"06/05/2023","20:00","270317810","Grand Portage","PM25","UG/M3",37,"MPCA",105,"2023-06-05 21:08:59",NA
-"06/05/2023","18:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-06-05 21:08:59",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-06 05:33:36","2023-06-06 10:34:27"
+"06/06/2023","4:00","550630012","LACROSSE DOT","PM25","UG/M3",56.5,"Wisconsin Dept. of Natural Resources",152,"2023-06-06 05:33:36",NA
+"06/06/2023","4:00","270072304","Red Lake Nation","PM25","UG/M3",48.3,"MPCA",133,"2023-06-06 05:33:36",NA
+"06/06/2023","4:00","270353204","Brainerd","PM25","UG/M3",44.6,"MPCA",123,"2023-06-06 05:33:36",NA
+"06/06/2023","4:00","270213410","Leech Lake Nation: C","PM25","UG/M3",44,"MPCA",122,"2023-06-06 05:33:36",NA
+"06/06/2023","4:00","271453052","St. Cloud","PM25","UG/M3",43,"MPCA",119,"2023-06-06 05:33:36",NA
+"06/06/2023","4:00","271713201","St. Michael","PM25","UG/M3",35.8,"MPCA",102,"2023-06-06 05:33:36",NA
