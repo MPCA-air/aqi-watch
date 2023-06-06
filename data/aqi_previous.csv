@@ -1,14 +1,12 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-06 14:24:19","2023-06-06 19:25:11"
-"06/06/2023","13:00","840460990009","SF-USD","OZONE","PPB",81,"South Dakota Department of Agriculture and Natural Resources",136,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","270834210","Marshall","OZONE","PPB",74,"MPCA",112,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","270530963","Minneapolis-Phillips","PM25","UG/M3",38.7,"MPCA",109,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","271390505","Shakopee","PM25","UG/M3",38.3,"MPCA",108,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","271453052","St. Cloud","PM25","UG/M3",37,"MPCA",105,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","271713201","St. Michael","PM25","UG/M3",37,"MPCA",105,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","191471002","Emmetsburg, ILCC","OZONE","PPB",72,"Iowa DNR",104,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","270370470","Apple Valley","PM25","UG/M3",36.1,"MPCA",102,"2023-06-06 14:24:19",NA
-"06/06/2023","12:00","380171004","Fargo NW","OZONE","PPB",71,"North Dakota Department of Environmental Quality",101,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",33.9,"MPCA",97,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",34.2,"MPCA",97,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","550630012","LACROSSE DOT","PM25","UG/M3",33.2,"Wisconsin Dept. of Natural Resources",95,"2023-06-06 14:24:19",NA
-"06/06/2023","13:00","270370480","Lakeville - Near Roa","PM25","UG/M3",31.9,"MPCA",93,"2023-06-06 14:24:19",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-06 15:31:01","2023-06-06 20:31:52"
+"06/06/2023","14:00","840460990009","SF-USD","OZONE","PPB",82,"South Dakota Department of Agriculture and Natural Resources",140,"2023-06-06 15:31:01",NA
+"06/06/2023","13:00","380171004","Fargo NW","OZONE","PPB",77,"North Dakota Department of Environmental Quality",122,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","270834210","Marshall","OZONE","PPB",73,"MPCA",108,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","271390505","Shakopee","PM25","UG/M3",38.1,"MPCA",107,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","550630012","LACROSSE DOT","PM25","UG/M3",37.8,"Wisconsin Dept. of Natural Resources",107,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","271713201","St. Michael","PM25","UG/M3",36.9,"MPCA",104,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","270370470","Apple Valley","PM25","UG/M3",35.5,"MPCA",101,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","191471002","Emmetsburg, ILCC","OZONE","PPB",70,"Iowa DNR",100,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","270530963","Minneapolis-Phillips","PM25","UG/M3",34.9,"MPCA",99,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",33.4,"MPCA",96,"2023-06-06 15:31:01",NA
+"06/06/2023","14:00","271453052","St. Cloud","PM25","UG/M3",32.9,"MPCA",95,"2023-06-06 15:31:01",NA
