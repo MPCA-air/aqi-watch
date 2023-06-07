@@ -1,7 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-06 18:29:27","2023-06-06 23:30:18"
-"06/06/2023","17:00","840460990009","SF-USD","OZONE","PPB",85,"South Dakota Department of Agriculture and Natural Resources",150,"2023-06-06 18:29:27",NA
-"06/06/2023","16:00","380171004","Fargo NW","OZONE","PPB",84,"North Dakota Department of Environmental Quality",146,"2023-06-06 18:29:27",NA
-"06/06/2023","17:00","550630012","LACROSSE DOT","PM25","UG/M3",38.4,"Wisconsin Dept. of Natural Resources",108,"2023-06-06 18:29:27",NA
-"06/06/2023","17:00","270834210","Marshall","OZONE","PPB",72,"MPCA",104,"2023-06-06 18:29:27",NA
-"06/06/2023","17:00","270370470","Apple Valley","PM25","UG/M3",33.1,"MPCA",95,"2023-06-06 18:29:27",NA
-"06/06/2023","17:00","271390505","Shakopee","OZONE","PPB",68,"MPCA",93,"2023-06-06 18:29:27",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-06 21:10:03","2023-06-07 02:10:54"
+"06/06/2023","19:00","840460990009","SF-USD","OZONE","PPB",81,"South Dakota Department of Agriculture and Natural Resources",136,"2023-06-06 21:10:03",NA
+"06/06/2023","19:00","550630012","LACROSSE DOT","PM25","UG/M3",36.2,"Wisconsin Dept. of Natural Resources",103,"2023-06-06 21:10:03",NA
+"06/06/2023","20:00","270370470","Apple Valley","PM25","UG/M3",33.3,"MPCA",96,"2023-06-06 21:10:03",NA
+"06/06/2023","20:00","271095008","Rochester","PM25","UG/M3",32.8,"MPCA",95,"2023-06-06 21:10:03",NA
+"06/06/2023","18:00","380171004","Fargo NW","OZONE","PPB",68,"North Dakota Department of Environmental Quality",93,"2023-06-06 21:10:03",NA
+"06/06/2023","20:00","270530963","Minneapolis-Phillips","PM25","UG/M3",31.9,"MPCA",93,"2023-06-06 21:10:03",NA
