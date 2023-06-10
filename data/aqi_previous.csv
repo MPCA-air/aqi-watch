@@ -1,6 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-09 21:58:30","2023-06-10 02:59:22"
-"06/09/2023","20:00","270031002","Blaine","OZONE","PPB",76,"MPCA",118,"2023-06-09 21:58:30",NA
-"06/09/2023","20:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-06-09 21:58:30",NA
-"06/09/2023","20:00","271713201","St. Michael","OZONE","PPB",70,"MPCA",100,"2023-06-09 21:58:30",NA
-"06/09/2023","20:00","271453052","St. Cloud","OZONE","PPB",69,"MPCA",97,"2023-06-09 21:58:30",NA
-"06/09/2023","20:00","271095008","Rochester","OZONE","PPB",68,"MPCA",93,"2023-06-09 21:58:30",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-10 12:31:18","2023-06-10 17:32:10"
+"06/10/2023","11:00","271390505","Shakopee","OZONE","PPB",70,"MPCA",100,"2023-06-10 12:31:18",NA
+"06/10/2023","11:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2023-06-10 12:31:18",NA
