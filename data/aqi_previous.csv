@@ -1,3 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-12 18:28:42","2023-06-12 23:29:33"
-"06/12/2023","17:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-06-12 18:28:42",NA
-"06/12/2023","17:00","271377001","Virginia","PM25","UG/M3",30.9,"MPCA",91,"2023-06-12 18:28:42",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-12 21:02:01","2023-06-13 02:02:53"
+"06/12/2023","19:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-06-12 21:02:01",NA
+"06/12/2023","19:00","271377001","Virginia","PM25","UG/M3",35.1,"MPCA",99,"2023-06-12 21:02:01",NA
