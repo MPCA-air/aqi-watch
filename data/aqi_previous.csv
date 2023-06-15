@@ -1,4 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-15 13:36:11","2023-06-15 18:37:02"
-"06/15/2023","12:00","270834210","Marshall","PM25","UG/M3",52.6,"MPCA",143,"2023-06-15 13:36:11",NA
-"06/15/2023","12:00","191471002","Emmetsburg, ILCC","OZONE","PPB",73,"Iowa DNR",108,"2023-06-15 13:36:11",NA
-"06/15/2023","12:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2023-06-15 13:36:11",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-15 14:26:33","2023-06-15 19:27:25"
+"06/15/2023","13:00","270834210","Marshall","PM25","UG/M3",62.9,"MPCA",155,"2023-06-15 14:26:33",NA
+"06/15/2023","13:00","191471002","Emmetsburg, ILCC","OZONE","PPB",76,"Iowa DNR",118,"2023-06-15 14:26:33",NA
+"06/15/2023","13:00","270834210","Marshall","OZONE","PPB",72,"MPCA",104,"2023-06-15 14:26:33",NA
