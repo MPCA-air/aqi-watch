@@ -1,8 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-15 07:50:34","2023-06-15 12:51:25"
-"06/15/2023","6:00","840460130004","Aberdeen","PM25","UG/M3",72.1,"South Dakota Department of Agriculture and Natural Resources",160,"2023-06-15 07:50:34",NA
-"06/15/2023","6:00","271095008","Rochester","PM25","UG/M3",41.9,"MPCA",117,"2023-06-15 07:50:34",NA
-"06/15/2023","6:00","271390505","Shakopee","PM25","UG/M3",40.6,"MPCA",114,"2023-06-15 07:50:34",NA
-"06/15/2023","6:00","271713201","St. Michael","PM25","UG/M3",35.5,"MPCA",101,"2023-06-15 07:50:34",NA
-"06/15/2023","6:00","550630012","LACROSSE DOT","PM25","UG/M3",34.8,"Wisconsin Dept. of Natural Resources",99,"2023-06-15 07:50:34",NA
-"06/15/2023","6:00","270370470","Apple Valley","PM25","UG/M3",31.8,"MPCA",92,"2023-06-15 07:50:34",NA
-"06/15/2023","6:00","270370480","Lakeville - Near Roa","PM25","UG/M3",31.5,"MPCA",92,"2023-06-15 07:50:34",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-15 08:38:18","2023-06-15 13:39:12"
+"06/15/2023","7:00","840460130004","Aberdeen","PM25","UG/M3",73.4,"South Dakota Department of Agriculture and Natural Resources",160,"2023-06-15 08:38:18",NA
+"06/15/2023","6:00","550630012","LACROSSE DOT","PM25","UG/M3",34.8,"Wisconsin Dept. of Natural Resources",99,"2023-06-15 08:38:18",NA
+"06/15/2023","7:00","270834210","Marshall","PM25","UG/M3",32.2,"MPCA",93,"2023-06-15 08:38:18",NA
