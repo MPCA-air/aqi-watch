@@ -1,6 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-15 17:31:48","2023-06-15 22:32:40"
-"06/15/2023","16:00","270834210","Marshall","PM25","UG/M3",69.8,"MPCA",158,"2023-06-15 17:31:48",NA
-"06/15/2023","16:00","840460990009","SF-USD","OZONE","PPB",83,"South Dakota Department of Agriculture and Natural Resources",143,"2023-06-15 17:31:48",NA
-"06/15/2023","16:00","270530910","Minneapolis-Pacific ","PM10","UG/M3",234,"MPCA",140,"2023-06-15 17:31:48",NA
-"06/15/2023","16:00","191471002","Emmetsburg, ILCC","OZONE","PPB",81,"Iowa DNR",136,"2023-06-15 17:31:48",NA
-"06/15/2023","16:00","270834210","Marshall","OZONE","PPB",76,"MPCA",118,"2023-06-15 17:31:48",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-15 18:29:49","2023-06-15 23:30:41"
+"06/15/2023","17:00","270834210","Marshall","PM25","UG/M3",59.9,"MPCA",153,"2023-06-15 18:29:49",NA
+"06/15/2023","17:00","840460990009","SF-USD","OZONE","PPB",85,"South Dakota Department of Agriculture and Natural Resources",150,"2023-06-15 18:29:49",NA
+"06/15/2023","17:00","191471002","Emmetsburg, ILCC","OZONE","PPB",83,"Iowa DNR",143,"2023-06-15 18:29:49",NA
+"06/15/2023","17:00","270834210","Marshall","OZONE","PPB",71,"MPCA",101,"2023-06-15 18:29:49",NA
