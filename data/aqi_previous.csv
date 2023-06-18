@@ -1,4 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-18 16:30:23","2023-06-18 21:31:15"
-"06/18/2023","15:00","840460990009","SF-USD","OZONE","PPB",70,"South Dakota Department of Agriculture and Natural Resources",100,"2023-06-18 16:30:23",NA
-"06/18/2023","14:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-06-18 16:30:23",NA
-"06/18/2023","15:00","271370034","Voyageurs NP","OZONE","PPB",69,"National Park Service",97,"2023-06-18 16:30:23",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-18 17:31:34","2023-06-18 22:32:25"
+"06/18/2023","16:00","840460990009","SF-USD","OZONE","PPB",73,"South Dakota Department of Agriculture and Natural Resources",108,"2023-06-18 17:31:34",NA
+"06/18/2023","15:00","380171004","Fargo NW","OZONE","PPB",71,"North Dakota Department of Environmental Quality",101,"2023-06-18 17:31:34",NA
