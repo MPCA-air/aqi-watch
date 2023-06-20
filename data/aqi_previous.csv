@@ -1,6 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-19 21:56:48","2023-06-20 02:57:39"
-"06/19/2023","20:00","840460990009","SF-USD","OZONE","PPB",74,"South Dakota Department of Agriculture and Natural Resources",112,"2023-06-19 21:56:48",NA
-"06/19/2023","20:00","271095008","Rochester","OZONE","PPB",72,"MPCA",104,"2023-06-19 21:56:48",NA
-"06/19/2023","20:00","270052013","Detroit Lakes","OZONE","PPB",71,"MPCA",101,"2023-06-19 21:56:48",NA
-"06/19/2023","19:00","380171004","Fargo NW","OZONE","PPB",69,"North Dakota Department of Environmental Quality",97,"2023-06-19 21:56:48",NA
-"06/19/2023","19:00","270031002","Blaine","OZONE","PPB",68,"MPCA",93,"2023-06-19 21:56:48",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-20 08:38:47","2023-06-20 13:39:39"
+"06/20/2023","7:00","270031002","Blaine","PM25","UG/M3",34,"MPCA",97,"2023-06-20 08:38:47",NA
