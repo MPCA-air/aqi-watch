@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-21 08:38:39","2023-06-21 13:39:32"
-"06/21/2023","7:00","840460990009","SF-USD","OZONE","PPB",68,"South Dakota Department of Agriculture and Natural Resources",93,"2023-06-21 08:38:39",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-21 10:35:01","2023-06-21 15:35:52"
+"06/21/2023","9:00","840460990009","SF-USD","OZONE","PPB",73,"South Dakota Department of Agriculture and Natural Resources",108,"2023-06-21 10:35:01",NA
+"06/21/2023","9:00","270834210","Marshall","OZONE","PPB",69,"MPCA",97,"2023-06-21 10:35:01",NA
