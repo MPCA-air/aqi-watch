@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-23 10:43:00","2023-06-23 15:43:51"
-"06/23/2023","9:00","270750005","Ely","PM25","UG/M3",34,"MPCA",97,"2023-06-23 10:43:00",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-23 11:46:30","2023-06-23 16:47:21"
+"06/23/2023","10:00","270031002","Blaine","OZONE","PPB",74,"MPCA",112,"2023-06-23 11:46:30",NA
+"06/23/2023","10:00","271095008","Rochester","OZONE","PPB",69,"MPCA",97,"2023-06-23 11:46:30",NA
