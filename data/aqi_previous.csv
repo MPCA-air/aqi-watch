@@ -1,14 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-23 18:38:34","2023-06-23 23:39:26"
-"06/23/2023","17:00","270750005","Ely","PM25","UG/M3",64.8,"MPCA",156,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","270317810","Grand Portage","PM25","UG/M3",52,"MPCA",142,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","271377550","Duluth-WDSE","PM25","UG/M3",49.8,"MPCA",136,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","271713201","St. Michael","OZONE","PPB",74,"MPCA",112,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","271390505","Shakopee","OZONE","PPB",73,"MPCA",108,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","191471002","Emmetsburg, ILCC","OZONE","PPB",72,"Iowa DNR",104,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","271095008","Rochester","OZONE","PPB",72,"MPCA",104,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","270495302","Stanton","OZONE","PPB",71,"MPCA",101,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","550630012","LACROSSE DOT","OZONE","PPB",71,"Wisconsin Dept. of Natural Resources",101,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","840460990009","SF-USD","OZONE","PPB",71,"South Dakota Department of Agriculture and Natural Resources",101,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","271377554","West Duluth","PM25","UG/M3",34.9,"MPCA",99,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","270530962","Minneapolis-Near Roa","OZONE","PPB",69,"MPCA",97,"2023-06-23 18:38:34",NA
-"06/23/2023","17:00","271636016","Marine on St. Croix","OZONE","PPB",69,"MPCA",97,"2023-06-23 18:38:34",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-23 21:15:18","2023-06-24 02:16:10"
+"06/23/2023","20:00","270317810","Grand Portage","PM25","UG/M3",47,"MPCA",129,"2023-06-23 21:15:18",NA
+"06/23/2023","20:00","840460990009","SF-USD","OZONE","PPB",70,"South Dakota Department of Agriculture and Natural Resources",100,"2023-06-23 21:15:18",NA
+"06/23/2023","20:00","271377554","West Duluth","PM25","UG/M3",34,"MPCA",97,"2023-06-23 21:15:18",NA
+"06/23/2023","20:00","271377550","Duluth-WDSE","PM25","UG/M3",33.1,"MPCA",95,"2023-06-23 21:15:18",NA
