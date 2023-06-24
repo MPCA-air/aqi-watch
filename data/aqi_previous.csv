@@ -1,6 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-24 17:39:51","2023-06-24 22:40:43"
-"06/24/2023","16:00","271377550","Duluth-WDSE","PM25","UG/M3",43.9,"MPCA",122,"2023-06-24 17:39:51",NA
-"06/24/2023","16:00","271377554","West Duluth","PM25","UG/M3",38.5,"MPCA",108,"2023-06-24 17:39:51",NA
-"06/24/2023","16:00","550630012","LACROSSE DOT","OZONE","PPB",73,"Wisconsin Dept. of Natural Resources",108,"2023-06-24 17:39:51",NA
-"06/24/2023","16:00","270177417","Fond du Lac","PM25","UG/M3",32.5,"MPCA",94,"2023-06-24 17:39:51",NA
-"06/24/2023","16:00","270750005","Ely","PM25","UG/M3",32.1,"MPCA",93,"2023-06-24 17:39:51",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-24 18:36:52","2023-06-24 23:37:44"
+"06/24/2023","17:00","271377550","Duluth-WDSE","PM25","UG/M3",41,"MPCA",115,"2023-06-24 18:36:52",NA
+"06/24/2023","17:00","550630012","LACROSSE DOT","OZONE","PPB",71,"Wisconsin Dept. of Natural Resources",101,"2023-06-24 18:36:52",NA
+"06/24/2023","17:00","271377554","West Duluth","PM25","UG/M3",33.6,"MPCA",96,"2023-06-24 18:36:52",NA
