@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-26 06:34:32","2023-06-26 11:35:24"
-"06/26/2023","5:00","270072304","Red Lake Nation","PM25","UG/M3",38.3,"MPCA",108,"2023-06-26 06:34:32",NA
-"06/26/2023","5:00","270317810","Grand Portage","PM25","UG/M3",35,"MPCA",99,"2023-06-26 06:34:32",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-06-26 08:05:46","2023-06-26 13:06:39"
+"06/26/2023","6:00","270317810","Grand Portage","PM25","UG/M3",38,"MPCA",107,"2023-06-26 08:05:46",NA
+"06/26/2023","6:00","270213410","Leech Lake Nation: C","PM25","UG/M3",32.2,"MPCA",93,"2023-06-26 08:05:46",NA
+"06/26/2023","6:00","270072304","Red Lake Nation","PM25","UG/M3",31.6,"MPCA",92,"2023-06-26 08:05:46",NA
