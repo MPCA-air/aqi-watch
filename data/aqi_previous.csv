@@ -1,2 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-14 12:45:46","2023-07-14 17:46:38"
-"07/14/2023","11:00","380171004","Fargo NW","PM25","UG/M3",35.7,"North Dakota Department of Environmental Quality",101,"2023-07-14 12:45:46",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-14 13:53:30","2023-07-14 18:54:21"
+"07/14/2023","12:00","380171004","Fargo NW","PM25","UG/M3",52,"North Dakota Department of Environmental Quality",142,"2023-07-14 13:53:30",NA
+"07/14/2023","12:00","270072304","Red Lake Nation","PM25","UG/M3",35.8,"MPCA",102,"2023-07-14 13:53:30",NA
+"07/14/2023","12:00","271377550","Duluth-WDSE","PM25","UG/M3",35.7,"MPCA",101,"2023-07-14 13:53:30",NA
+"07/14/2023","12:00","270177417","Fond du Lac","PM25","UG/M3",32.5,"MPCA",94,"2023-07-14 13:53:30",NA
+"07/14/2023","12:00","270052013","Detroit Lakes","PM25","UG/M3",31.8,"MPCA",92,"2023-07-14 13:53:30",NA
