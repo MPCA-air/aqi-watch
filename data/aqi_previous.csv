@@ -1,10 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-15 18:38:56","2023-07-15 23:39:47"
-"07/15/2023","17:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",102,"Iowa DNR",175,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","840460990009","SF-USD","PM25","UG/M3",92.8,"South Dakota Department of Agriculture and Natural Resources",170,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","271095008","Rochester","PM25","UG/M3",80.2,"MPCA",164,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","270834210","Marshall","PM25","UG/M3",56.7,"MPCA",152,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","550630012","LACROSSE DOT","PM25","UG/M3",55,"Wisconsin Dept. of Natural Resources",149,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","270370470","Apple Valley","PM25","UG/M3",45.5,"MPCA",126,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","270370480","Lakeville - Near Roa","PM25","UG/M3",39.9,"MPCA",112,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",35.7,"MPCA",101,"2023-07-15 18:38:56",NA
-"07/15/2023","17:00","271390505","Shakopee","PM25","UG/M3",32.5,"MPCA",94,"2023-07-15 18:38:56",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-15 21:44:49","2023-07-16 02:45:40"
+"07/15/2023","20:00","840460990009","SF-USD","PM25","UG/M3",94.2,"South Dakota Department of Agriculture and Natural Resources",171,"2023-07-15 21:44:49",NA
+"07/15/2023","20:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",86,"Iowa DNR",167,"2023-07-15 21:44:49",NA
+"07/15/2023","20:00","271095008","Rochester","PM25","UG/M3",64.3,"MPCA",156,"2023-07-15 21:44:49",NA
+"07/15/2023","20:00","550630012","LACROSSE DOT","PM25","UG/M3",47.9,"Wisconsin Dept. of Natural Resources",132,"2023-07-15 21:44:49",NA
+"07/15/2023","20:00","270834210","Marshall","PM25","UG/M3",41.2,"MPCA",115,"2023-07-15 21:44:49",NA
