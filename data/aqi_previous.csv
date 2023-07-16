@@ -1,5 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-16 17:47:57","2023-07-16 22:48:48"
-"07/16/2023","16:00","271095008","Rochester","PM25","UG/M3",76.8,"MPCA",162,"2023-07-16 17:47:57",NA
-"07/16/2023","16:00","840460990009","SF-USD","PM25","UG/M3",67.3,"South Dakota Department of Agriculture and Natural Resources",157,"2023-07-16 17:47:57",NA
-"07/16/2023","16:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",55,"Iowa DNR",149,"2023-07-16 17:47:57",NA
-"07/16/2023","16:00","550630012","LACROSSE DOT","PM25","UG/M3",46.1,"Wisconsin Dept. of Natural Resources",127,"2023-07-16 17:47:57",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-16 18:39:17","2023-07-16 23:40:09"
+"07/16/2023","17:00","840460990009","SF-USD","PM25","UG/M3",71.5,"South Dakota Department of Agriculture and Natural Resources",159,"2023-07-16 18:39:17",NA
+"07/16/2023","17:00","271095008","Rochester","PM25","UG/M3",61.3,"MPCA",154,"2023-07-16 18:39:17",NA
+"07/16/2023","17:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",59,"Iowa DNR",153,"2023-07-16 18:39:17",NA
+"07/16/2023","17:00","550630012","LACROSSE DOT","PM25","UG/M3",58.1,"Wisconsin Dept. of Natural Resources",152,"2023-07-16 18:39:17",NA
