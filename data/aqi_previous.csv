@@ -1,5 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-16 10:45:59","2023-07-16 15:46:51"
-"07/16/2023","9:00","270834210","Marshall","PM25","UG/M3",84.2,"MPCA",166,"2023-07-16 10:45:59",NA
-"07/16/2023","9:00","840460130004","Aberdeen","PM25","UG/M3",63.6,"South Dakota Department of Agriculture and Natural Resources",155,"2023-07-16 10:45:59",NA
-"07/16/2023","9:00","840460990009","SF-USD","PM25","UG/M3",61,"South Dakota Department of Agriculture and Natural Resources",154,"2023-07-16 10:45:59",NA
-"07/16/2023","9:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",57,"Iowa DNR",152,"2023-07-16 10:45:59",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-16 11:46:32","2023-07-16 16:47:24"
+"07/16/2023","10:00","270834210","Marshall","PM25","UG/M3",82.6,"MPCA",165,"2023-07-16 11:46:32",NA
+"07/16/2023","10:00","840460990009","SF-USD","PM25","UG/M3",65,"South Dakota Department of Agriculture and Natural Resources",156,"2023-07-16 11:46:32",NA
+"07/16/2023","10:00","840460130004","Aberdeen","PM25","UG/M3",51,"South Dakota Department of Agriculture and Natural Resources",139,"2023-07-16 11:46:32",NA
+"07/16/2023","10:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",49,"Iowa DNR",134,"2023-07-16 11:46:32",NA
+"07/16/2023","10:00","271390505","Shakopee","PM25","UG/M3",37.4,"MPCA",106,"2023-07-16 11:46:32",NA
+"07/16/2023","10:00","271713201","St. Michael","PM25","UG/M3",31.5,"MPCA",92,"2023-07-16 11:46:32",NA
