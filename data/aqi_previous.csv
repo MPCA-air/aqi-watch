@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-17 21:33:17","2023-07-18 02:34:08"
-"07/17/2023","20:00","270072304","Red Lake Nation","PM25","UG/M3",37,"MPCA",105,"2023-07-17 21:33:17",NA
-"07/17/2023","20:00","380171004","Fargo NW","PM25","UG/M3",34.1,"North Dakota Department of Environmental Quality",97,"2023-07-17 21:33:17",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-18 05:50:48","2023-07-18 10:51:39"
+"07/18/2023","4:00","270072304","Red Lake Nation","PM25","UG/M3",43.5,"MPCA",121,"2023-07-18 05:50:48",NA
+"07/18/2023","4:00","380171004","Fargo NW","PM25","UG/M3",36,"North Dakota Department of Environmental Quality",102,"2023-07-18 05:50:48",NA
+"07/18/2023","4:00","270213410","Leech Lake Nation: C","PM25","UG/M3",35.5,"MPCA",101,"2023-07-18 05:50:48",NA
