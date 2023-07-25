@@ -1,4 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-25 14:34:16","2023-07-25 19:35:07"
-"07/25/2023","13:00","270031001","East Bethel","OZONE","PPB",83,"MPCA",143,"2023-07-25 14:34:16",NA
-"07/25/2023","13:00","270072304","Red Lake Nation","PM25","UG/M3",31.3,"MPCA",91,"2023-07-25 14:34:16",NA
-"07/25/2023","13:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",30.9,"MPCA",91,"2023-07-25 14:34:16",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-07-25 15:43:16","2023-07-25 20:44:08"
+"07/25/2023","14:00","270031001","East Bethel","OZONE","PPB",85,"MPCA",150,"2023-07-25 15:43:16",NA
