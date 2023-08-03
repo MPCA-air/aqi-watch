@@ -1,4 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-03 16:34:41","2023-08-03 21:35:32"
-"08/03/2023","15:00","271713201","St. Michael","OZONE","PPB",69,"MPCA",97,"2023-08-03 16:34:41",NA
-"08/03/2023","15:00","270317810","Grand Portage","PM25","UG/M3",33,"MPCA",95,"2023-08-03 16:34:41",NA
-"08/03/2023","15:00","270750005","Ely","PM25","UG/M3",31.3,"MPCA",91,"2023-08-03 16:34:41",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-03 17:46:01","2023-08-03 22:46:53"
+"08/03/2023","16:00","270750005","Ely","PM25","UG/M3",37.2,"MPCA",105,"2023-08-03 17:46:01",NA
+"08/03/2023","16:00","270072304","Red Lake Nation","PM25","UG/M3",35.2,"MPCA",100,"2023-08-03 17:46:01",NA
+"08/03/2023","16:00","840460990009","SF-USD","PM25","UG/M3",32.1,"South Dakota Department of Agriculture and Natural Resources",93,"2023-08-03 17:46:01",NA
