@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-03 14:33:44","2023-08-03 19:34:36"
-"08/03/2023","13:00","270317810","Grand Portage","PM25","UG/M3",45,"MPCA",124,"2023-08-03 14:33:44",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-03 15:38:07","2023-08-03 20:38:58"
+"08/03/2023","14:00","270317810","Grand Portage","PM25","UG/M3",41,"MPCA",115,"2023-08-03 15:38:07",NA
+"08/03/2023","14:00","271713201","St. Michael","OZONE","PPB",72,"MPCA",104,"2023-08-03 15:38:07",NA
