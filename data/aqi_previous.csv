@@ -1,5 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-04 17:39:39","2023-08-04 22:40:30"
-"08/04/2023","16:00","380171004","Fargo NW","PM25","UG/M3",47,"North Dakota Department of Environmental Quality",129,"2023-08-04 17:39:39",NA
-"08/04/2023","16:00","271390505","Shakopee","OZONE","PPB",78,"MPCA",126,"2023-08-04 17:39:39",NA
-"08/04/2023","16:00","270052013","Detroit Lakes","PM25","UG/M3",34.6,"MPCA",98,"2023-08-04 17:39:39",NA
-"08/04/2023","16:00","270072304","Red Lake Nation","PM25","UG/M3",31.5,"MPCA",92,"2023-08-04 17:39:39",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-04 18:36:57","2023-08-04 23:37:48"
+"08/04/2023","17:00","380171004","Fargo NW","PM25","UG/M3",40.6,"North Dakota Department of Environmental Quality",114,"2023-08-04 18:36:57",NA
+"08/04/2023","17:00","270052013","Detroit Lakes","PM25","UG/M3",32.4,"MPCA",94,"2023-08-04 18:36:57",NA
+"08/04/2023","17:00","270072304","Red Lake Nation","PM25","UG/M3",31,"MPCA",91,"2023-08-04 18:36:57",NA
