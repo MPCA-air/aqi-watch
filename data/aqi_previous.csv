@@ -1,5 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-19 21:42:12","2023-08-20 02:43:03"
-"08/19/2023","20:00","270052013","Detroit Lakes","PM25","UG/M3",49.3,"MPCA",135,"2023-08-19 21:42:12",NA
-"08/19/2023","20:00","270072304","Red Lake Nation","PM25","UG/M3",36.4,"MPCA",103,"2023-08-19 21:42:12",NA
-"08/19/2023","20:00","840460130004","Aberdeen","PM25","UG/M3",35.8,"South Dakota Department of Agriculture and Natural Resources",102,"2023-08-19 21:42:12",NA
-"08/19/2023","20:00","270213410","Leech Lake Nation: C","PM25","UG/M3",35.3,"MPCA",100,"2023-08-19 21:42:12",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-20 05:46:37","2023-08-20 10:47:28"
+"08/20/2023","4:00","270370470","Apple Valley","PM25","UG/M3",40,"MPCA",112,"2023-08-20 05:46:37",NA
+"08/20/2023","4:00","271390505","Shakopee","PM25","UG/M3",39.1,"MPCA",110,"2023-08-20 05:46:37",NA
+"08/20/2023","4:00","270370480","Lakeville - Near Roa","PM25","UG/M3",37.5,"MPCA",106,"2023-08-20 05:46:37",NA
+"08/20/2023","4:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",36.6,"MPCA",104,"2023-08-20 05:46:37",NA
+"08/20/2023","4:00","270530962","Minneapolis-Near Roa","PM25","UG/M3",35.5,"MPCA",101,"2023-08-20 05:46:37",NA
