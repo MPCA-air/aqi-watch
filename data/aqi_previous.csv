@@ -1,7 +1,11 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-29 12:39:45","2023-08-29 17:40:36"
-"08/29/2023","11:00","380171004","Fargo NW","PM25","UG/M3",64.4,"North Dakota Department of Environmental Quality",156,"2023-08-29 12:39:45",NA
-"08/29/2023","11:00","840460130004","Aberdeen","PM25","UG/M3",47.7,"South Dakota Department of Agriculture and Natural Resources",131,"2023-08-29 12:39:45",NA
-"08/29/2023","11:00","270052013","Detroit Lakes","PM25","UG/M3",42.9,"MPCA",119,"2023-08-29 12:39:45",NA
-"08/29/2023","11:00","270072304","Red Lake Nation","PM25","UG/M3",37.4,"MPCA",106,"2023-08-29 12:39:45",NA
-"08/29/2023","11:00","271453052","St. Cloud","PM25","UG/M3",32.8,"MPCA",95,"2023-08-29 12:39:45",NA
-"08/29/2023","11:00","270213410","Leech Lake Nation: C","PM25","UG/M3",32,"MPCA",93,"2023-08-29 12:39:45",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-29 13:43:37","2023-08-29 18:44:28"
+"08/29/2023","12:00","380171004","Fargo NW","PM25","UG/M3",79.5,"North Dakota Department of Environmental Quality",163,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","270052013","Detroit Lakes","PM25","UG/M3",63.7,"MPCA",155,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","840460130004","Aberdeen","PM25","UG/M3",53.9,"South Dakota Department of Agriculture and Natural Resources",146,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","270072304","Red Lake Nation","PM25","UG/M3",37.8,"MPCA",107,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","270370470","Apple Valley","PM25","UG/M3",31.5,"MPCA",92,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","271390505","Shakopee","PM25","UG/M3",31.8,"MPCA",92,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","270213410","Leech Lake Nation: C","PM25","UG/M3",31.2,"MPCA",91,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","270530963","Minneapolis-Phillips","PM25","UG/M3",31.2,"MPCA",91,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","271453052","St. Cloud","PM25","UG/M3",31,"MPCA",91,"2023-08-29 13:43:37",NA
+"08/29/2023","12:00","271713201","St. Michael","PM25","UG/M3",30.9,"MPCA",91,"2023-08-29 13:43:37",NA
