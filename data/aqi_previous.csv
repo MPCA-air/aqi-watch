@@ -1,4 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-29 11:52:01","2023-08-29 16:52:52"
-"08/29/2023","10:00","380171004","Fargo NW","PM25","UG/M3",54,"North Dakota Department of Environmental Quality",147,"2023-08-29 11:52:01",NA
-"08/29/2023","10:00","270072304","Red Lake Nation","PM25","UG/M3",40.7,"MPCA",114,"2023-08-29 11:52:01",NA
-"08/29/2023","9:00","840460130004","Aberdeen","PM25","UG/M3",32.9,"South Dakota Department of Agriculture and Natural Resources",95,"2023-08-29 11:52:01",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-29 12:39:45","2023-08-29 17:40:36"
+"08/29/2023","11:00","380171004","Fargo NW","PM25","UG/M3",64.4,"North Dakota Department of Environmental Quality",156,"2023-08-29 12:39:45",NA
+"08/29/2023","11:00","840460130004","Aberdeen","PM25","UG/M3",47.7,"South Dakota Department of Agriculture and Natural Resources",131,"2023-08-29 12:39:45",NA
+"08/29/2023","11:00","270052013","Detroit Lakes","PM25","UG/M3",42.9,"MPCA",119,"2023-08-29 12:39:45",NA
+"08/29/2023","11:00","270072304","Red Lake Nation","PM25","UG/M3",37.4,"MPCA",106,"2023-08-29 12:39:45",NA
+"08/29/2023","11:00","271453052","St. Cloud","PM25","UG/M3",32.8,"MPCA",95,"2023-08-29 12:39:45",NA
+"08/29/2023","11:00","270213410","Leech Lake Nation: C","PM25","UG/M3",32,"MPCA",93,"2023-08-29 12:39:45",NA
