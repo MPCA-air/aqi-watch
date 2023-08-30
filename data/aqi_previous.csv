@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-30 10:38:59","2023-08-30 15:39:51"
-"08/30/2023","9:00","270834210","Marshall","PM25","UG/M3",75.5,"MPCA",161,"2023-08-30 10:38:59",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-30 11:43:54","2023-08-30 16:44:45"
+"08/30/2023","10:00","270834210","Marshall","PM25","UG/M3",52.8,"MPCA",144,"2023-08-30 11:43:54",NA
+"08/30/2023","10:00","840460130004","Aberdeen","PM25","UG/M3",35.7,"South Dakota Department of Agriculture and Natural Resources",101,"2023-08-30 11:43:54",NA
+"08/30/2023","10:00","840460990009","SF-USD","PM25","UG/M3",32.2,"South Dakota Department of Agriculture and Natural Resources",93,"2023-08-30 11:43:54",NA
