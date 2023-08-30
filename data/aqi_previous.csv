@@ -1,3 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-30 17:43:30","2023-08-30 22:44:22"
-"08/30/2023","16:00","270031002","Blaine","OZONE","PPB",177,"MPCA",276,"2023-08-30 17:43:30",NA
-"08/30/2023","16:00","270834210","Marshall","PM25","UG/M3",34.1,"MPCA",97,"2023-08-30 17:43:30",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-08-30 18:41:51","2023-08-30 23:42:42"
+"08/30/2023","17:00","270031002","Blaine","OZONE","PPB",179,"MPCA",278,"2023-08-30 18:41:51",NA
+"08/30/2023","17:00","270834210","Marshall","PM25","UG/M3",43,"MPCA",119,"2023-08-30 18:41:51",NA
