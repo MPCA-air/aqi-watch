@@ -1,3 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-03 15:45:16","2023-09-03 20:46:07"
-"09/03/2023","14:00","380171004","Fargo NW","PM25","UG/M3",35.2,"North Dakota Department of Environmental Quality",100,"2023-09-03 15:45:16",NA
-"09/03/2023","14:00","271636016","Marine on St. Croix","OZONE","PPB",68,"MPCA",93,"2023-09-03 15:45:16",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-03 16:38:26","2023-09-03 21:39:18"
+"09/03/2023","15:00","380171004","Fargo NW","PM25","UG/M3",37.1,"North Dakota Department of Environmental Quality",105,"2023-09-03 16:38:26",NA
+"09/03/2023","15:00","270072304","Red Lake Nation","PM25","UG/M3",36.6,"MPCA",104,"2023-09-03 16:38:26",NA
+"09/03/2023","15:00","270031002","Blaine","OZONE","PPB",71,"MPCA",101,"2023-09-03 16:38:26",NA
+"09/03/2023","15:00","271636016","Marine on St. Croix","OZONE","PPB",71,"MPCA",101,"2023-09-03 16:38:26",NA
+"09/03/2023","15:00","270213410","Leech Lake Nation: C","PM25","UG/M3",31,"MPCA",91,"2023-09-03 16:38:26",NA
