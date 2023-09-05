@@ -1,3 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-04 18:41:07","2023-09-04 23:42:00"
-"09/04/2023","17:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2023-09-04 18:41:07",NA
-"09/04/2023","17:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2023-09-04 18:41:07",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-05 11:53:36","2023-09-05 16:54:28"
+"09/05/2023","10:00","380171004","Fargo NW","PM25","UG/M3",32.8,"North Dakota Department of Environmental Quality",95,"2023-09-05 11:53:36",NA
