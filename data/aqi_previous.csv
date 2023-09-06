@@ -1,10 +1,10 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-06 09:42:49","2023-09-06 14:43:42"
-"09/06/2023","8:00","270834210","Marshall","PM25","UG/M3",78.5,"MPCA",163,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","270072304","Red Lake Nation","PM25","UG/M3",58.7,"MPCA",153,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","840460990009","SF-USD","PM25","UG/M3",58.8,"South Dakota Department of Agriculture and Natural Resources",153,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","270052013","Detroit Lakes","PM25","UG/M3",55.2,"MPCA",150,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","840460130004","Aberdeen","PM25","UG/M3",46.1,"South Dakota Department of Agriculture and Natural Resources",127,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",44,"Iowa DNR",122,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","270213410","Leech Lake Nation: C","PM25","UG/M3",44.1,"MPCA",122,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","270353204","Brainerd","PM25","UG/M3",33.6,"MPCA",96,"2023-09-06 09:42:49",NA
-"09/06/2023","8:00","271453052","St. Cloud","PM25","UG/M3",31.4,"MPCA",92,"2023-09-06 09:42:49",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-06 10:49:42","2023-09-06 15:50:34"
+"09/06/2023","9:00","270834210","Marshall","PM25","UG/M3",71.7,"MPCA",159,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","840460990009","SF-USD","PM25","UG/M3",57.7,"South Dakota Department of Agriculture and Natural Resources",152,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","270052013","Detroit Lakes","PM25","UG/M3",51.2,"MPCA",140,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",41,"Iowa DNR",115,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","270072304","Red Lake Nation","PM25","UG/M3",40.7,"MPCA",114,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","270213410","Leech Lake Nation: C","PM25","UG/M3",37.4,"MPCA",106,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","271453052","St. Cloud","PM25","UG/M3",35.6,"MPCA",101,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","270353204","Brainerd","PM25","UG/M3",33,"MPCA",95,"2023-09-06 10:49:42",NA
+"09/06/2023","9:00","840460130004","Aberdeen","PM25","UG/M3",31.2,"South Dakota Department of Agriculture and Natural Resources",91,"2023-09-06 10:49:42",NA
