@@ -1,7 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-06 14:37:49","2023-09-06 19:38:41"
-"09/06/2023","13:00","270834210","Marshall","PM25","UG/M3",64.7,"MPCA",156,"2023-09-06 14:37:49",NA
-"09/06/2023","13:00","270072304","Red Lake Nation","PM25","UG/M3",52.1,"MPCA",142,"2023-09-06 14:37:49",NA
-"09/06/2023","13:00","840460990009","SF-USD","PM25","UG/M3",51.8,"South Dakota Department of Agriculture and Natural Resources",141,"2023-09-06 14:37:49",NA
-"09/06/2023","13:00","270052013","Detroit Lakes","PM25","UG/M3",45.5,"MPCA",126,"2023-09-06 14:37:49",NA
-"09/06/2023","13:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",44,"Iowa DNR",122,"2023-09-06 14:37:49",NA
-"09/06/2023","13:00","271453052","St. Cloud","PM25","UG/M3",38.1,"MPCA",107,"2023-09-06 14:37:49",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-06 15:44:01","2023-09-06 20:44:52"
+"09/06/2023","14:00","270834210","Marshall","PM25","UG/M3",73,"MPCA",160,"2023-09-06 15:44:01",NA
+"09/06/2023","14:00","270072304","Red Lake Nation","PM25","UG/M3",51,"MPCA",139,"2023-09-06 15:44:01",NA
+"09/06/2023","14:00","840460990009","SF-USD","PM25","UG/M3",49.9,"South Dakota Department of Agriculture and Natural Resources",136,"2023-09-06 15:44:01",NA
+"09/06/2023","14:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",48,"Iowa DNR",132,"2023-09-06 15:44:01",NA
+"09/06/2023","14:00","270052013","Detroit Lakes","PM25","UG/M3",43.6,"MPCA",121,"2023-09-06 15:44:01",NA
+"09/06/2023","14:00","271453052","St. Cloud","PM25","UG/M3",34,"MPCA",97,"2023-09-06 15:44:01",NA
