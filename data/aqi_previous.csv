@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-08 13:44:23","2023-09-08 18:45:15"
-"09/08/2023","12:00","270834210","Marshall","PM25","UG/M3",34.5,"MPCA",98,"2023-09-08 13:44:23",NA
-"09/08/2023","12:00","380171004","Fargo NW","PM25","UG/M3",32.7,"North Dakota Department of Environmental Quality",94,"2023-09-08 13:44:23",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-08 14:34:19","2023-09-08 19:35:13"
+"09/08/2023","13:00","270834210","Marshall","PM25","UG/M3",44.8,"MPCA",124,"2023-09-08 14:34:19",NA
+"09/08/2023","13:00","380171004","Fargo NW","PM25","UG/M3",36.5,"North Dakota Department of Environmental Quality",103,"2023-09-08 14:34:19",NA
+"09/08/2023","13:00","840460130004","Aberdeen","PM25","UG/M3",31.7,"South Dakota Department of Agriculture and Natural Resources",92,"2023-09-08 14:34:19",NA
