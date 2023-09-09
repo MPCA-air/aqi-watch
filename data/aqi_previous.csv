@@ -1,6 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-08 18:37:36","2023-09-08 23:38:27"
-"09/08/2023","17:00","270834210","Marshall","PM25","UG/M3",40.3,"MPCA",113,"2023-09-08 18:37:36",NA
-"09/08/2023","17:00","380171004","Fargo NW","PM25","UG/M3",37.7,"North Dakota Department of Environmental Quality",106,"2023-09-08 18:37:36",NA
-"09/08/2023","17:00","270834210","Marshall","OZONE","PPB",72,"MPCA",104,"2023-09-08 18:37:36",NA
-"09/08/2023","17:00","840460990009","SF-USD","PM25","UG/M3",31.7,"South Dakota Department of Agriculture and Natural Resources",92,"2023-09-08 18:37:36",NA
-"09/08/2023","17:00","270052013","Detroit Lakes","PM25","UG/M3",31.1,"MPCA",91,"2023-09-08 18:37:36",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-08 20:34:55","2023-09-09 01:35:47"
+"09/08/2023","19:00","270834210","Marshall","PM25","UG/M3",46,"MPCA",127,"2023-09-08 20:34:55",NA
+"09/08/2023","19:00","270052013","Detroit Lakes","PM25","UG/M3",30.9,"MPCA",91,"2023-09-08 20:34:55",NA
