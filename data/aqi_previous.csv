@@ -1,4 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-16 09:39:54","2023-09-16 14:40:45"
-"09/16/2023","8:00","840460130004","Aberdeen","PM25","UG/M3",80.1,"South Dakota Department of Agriculture and Natural Resources",164,"2023-09-16 09:39:54",NA
-"09/16/2023","8:00","270834210","Marshall","PM25","UG/M3",75.3,"MPCA",161,"2023-09-16 09:39:54",NA
-"09/16/2023","8:00","270177417","Fond du Lac","PM25","UG/M3",31.5,"MPCA",92,"2023-09-16 09:39:54",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-09-16 10:37:40","2023-09-16 15:38:32"
+"09/16/2023","9:00","270834210","Marshall","PM25","UG/M3",82.2,"MPCA",165,"2023-09-16 10:37:40",NA
+"09/16/2023","9:00","840460130004","Aberdeen","PM25","UG/M3",73.4,"South Dakota Department of Agriculture and Natural Resources",160,"2023-09-16 10:37:40",NA
+"09/16/2023","9:00","271453052","St. Cloud","PM25","UG/M3",32.5,"MPCA",94,"2023-09-16 10:37:40",NA
+"09/16/2023","9:00","271713201","St. Michael","PM25","UG/M3",31.1,"MPCA",91,"2023-09-16 10:37:40",NA
