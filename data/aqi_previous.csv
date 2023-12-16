@@ -1,3 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-12-15 21:37:46","2023-12-16 03:38:38"
-"12/15/2023","20:00","271390505","Shakopee","PM25","UG/M3",33.1,"MPCA",95,"2023-12-15 21:37:46",NA
-"12/15/2023","20:00","270530963","Minneapolis-Phillips","PM25","UG/M3",30.9,"MPCA",91,"2023-12-15 21:37:46",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-12-16 08:38:54","2023-12-16 14:39:46"
+"12/16/2023","7:00","271390505","Shakopee","PM25","UG/M3",31,"MPCA",91,"2023-12-16 08:38:54",NA
