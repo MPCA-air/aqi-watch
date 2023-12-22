@@ -1,2 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-12-16 19:51:49","2023-12-17 01:52:40"
-"12/16/2023","18:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",32.1,"MPCA",93,"2023-12-16 19:51:49",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2023-12-22 05:34:25","2023-12-22 11:35:17"
+"12/22/2023","4:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",34.7,"MPCA",99,"2023-12-22 05:34:25",NA
+"12/22/2023","4:00","270370470","Apple Valley","PM25","UG/M3",34.3,"MPCA",98,"2023-12-22 05:34:25",NA
+"12/22/2023","4:00","270530963","Minneapolis-Phillips","PM25","UG/M3",33.6,"MPCA",96,"2023-12-22 05:34:25",NA
+"12/22/2023","4:00","270213410","Leech Lake Nation: C","PM25","UG/M3",32.5,"MPCA",94,"2023-12-22 05:34:25",NA
+"12/22/2023","4:00","271713201","St. Michael","PM25","UG/M3",31.1,"MPCA",91,"2023-12-22 05:34:25",NA
