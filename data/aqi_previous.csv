@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-01-24 05:34:25","2024-01-24 11:35:16"
-"01/24/2024","4:00","270370470","Apple Valley","PM25","UG/M3",38.5,"MPCA",108,"2024-01-24 05:34:25",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-01-24 06:55:48","2024-01-24 12:56:39"
+"01/24/2024","5:00","270370470","Apple Valley","PM25","UG/M3",44.1,"MPCA",122,"2024-01-24 06:55:48",NA
+"01/24/2024","5:00","270530963","Minneapolis - Anders","PM25","UG/M3",31.9,"MPCA",93,"2024-01-24 06:55:48",NA
+"01/24/2024","5:00","270370480","Lakeville - Near Roa","PM25","UG/M3",31.2,"MPCA",91,"2024-01-24 06:55:48",NA
