@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-01-31 21:37:34","2024-02-01 03:38:25"
-"01/31/2024","20:00","270530962","Minneapolis - Near R","PM25","UG/M3",50.2,"MPCA",137,"2024-01-31 21:37:34",NA
-"01/31/2024","20:00","270530963","Minneapolis - Anders","PM25","UG/M3",42.8,"MPCA",119,"2024-01-31 21:37:34",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-02-01 05:33:43","2024-02-01 11:34:34"
+"02/01/2024","4:00","270530962","Minneapolis - Near R","PM25","UG/M3",56.9,"MPCA",152,"2024-02-01 05:33:43",NA
+"02/01/2024","4:00","270530963","Minneapolis - Anders","PM25","UG/M3",36.7,"MPCA",104,"2024-02-01 05:33:43",NA
+"02/01/2024","4:00","270531904","Minneapolis - East P","PM25","UG/M3",31.2,"MPCA",91,"2024-02-01 05:33:43",NA
