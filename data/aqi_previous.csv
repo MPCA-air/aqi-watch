@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-02-06 07:38:43","2024-02-06 13:39:34"
-"02/06/2024","6:00","270530963","Minneapolis - Anders","PM25","UG/M3",67,"MPCA",157,"2024-02-06 07:38:43",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-02-06 08:39:36","2024-02-06 14:40:29"
+"02/06/2024","7:00","270177417","Fond du Lac","PM25","UG/M3",51.2,"MPCA",140,"2024-02-06 08:39:36",NA
+"02/06/2024","7:00","270530963","Minneapolis - Anders","PM25","UG/M3",33.8,"MPCA",97,"2024-02-06 08:39:36",NA
