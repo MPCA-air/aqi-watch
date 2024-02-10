@@ -59,6 +59,7 @@ jobs:
         run: |
           install.packages("renv")
           renv::restore()
+          update.packages(ask = FALSE, checkBuilt = TRUE)
 
       - name: Get current AQI monitor results
         run: |
