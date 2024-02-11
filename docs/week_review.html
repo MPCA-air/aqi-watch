@@ -13,7 +13,7 @@
 
 <title>Monitors reporting a 1-hr AQI above 90</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -130,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -163,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -172,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -304,19 +301,65 @@ Abidjan
 U.S. Department of State Ivory Coast - Abidjan
 </td>
 <td style="text-align:left;">
-02/08/2024
+02/10/2024
 </td>
 <td style="text-align:left;">
-9:00
+19:00
 </td>
 <td style="text-align:left;">
 PM25
 </td>
 <td style="text-align:center;">
-96
+43.0
 </td>
 <td style="text-align:center;">
-172
+119
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lebanon
+</td>
+<td style="text-align:left;">
+Pennsylvania Dept. of Environmental Protection
+</td>
+<td style="text-align:left;">
+02/10/2024
+</td>
+<td style="text-align:left;">
+20:00
+</td>
+<td style="text-align:left;">
+PM25
+</td>
+<td style="text-align:center;">
+39.2
+</td>
+<td style="text-align:center;">
+110
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+General Coffee
+</td>
+<td style="text-align:left;">
+Georgia Department of Natural Resources
+</td>
+<td style="text-align:left;">
+02/10/2024
+</td>
+<td style="text-align:left;">
+20:00
+</td>
+<td style="text-align:left;">
+PM25
+</td>
+<td style="text-align:center;">
+38.5
+</td>
+<td style="text-align:center;">
+108
 </td>
 </tr>
 </tbody>
@@ -352,6 +395,26 @@ Purple
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+2024-02-09
+</td>
+<td style="text-align:center;">
+21
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 2024-02-07
@@ -452,46 +515,6 @@ Purple
 0
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-2024-02-02
-</td>
-<td style="text-align:center;">
-21
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2024-02-01
-</td>
-<td style="text-align:center;">
-20
-</td>
-<td style="text-align:center;">
-1
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -521,6 +544,26 @@ Purple
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+2024-02-09
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 2024-02-07
@@ -621,46 +664,6 @@ Purple
 0
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-2024-02-02
-</td>
-<td style="text-align:center;">
-4
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2024-02-01
-</td>
-<td style="text-align:center;">
-4
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-<td style="text-align:center;">
-0
-</td>
-</tr>
 </tbody>
 </table>
 <p><br></p>
@@ -685,6 +688,20 @@ AQI_Value
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+2024-02-09
+</td>
+<td style="text-align:left;">
+Rochester
+</td>
+<td style="text-align:left;">
+3.3
+</td>
+<td style="text-align:left;">
+14
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 2024-02-07
@@ -755,34 +772,6 @@ Marshall
 52
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-2024-02-02
-</td>
-<td style="text-align:left;">
-Marshall
-</td>
-<td style="text-align:left;">
-6.0
-</td>
-<td style="text-align:left;">
-25
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2024-02-01
-</td>
-<td style="text-align:left;">
-Minneapolis - Near R
-</td>
-<td style="text-align:left;">
-16.1
-</td>
-<td style="text-align:left;">
-59
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -806,6 +795,20 @@ AQI_Value
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+2024-02-09
+</td>
+<td style="text-align:left;">
+Voyageurs NP
+</td>
+<td style="text-align:left;">
+29
+</td>
+<td style="text-align:left;">
+27
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 2024-02-07
@@ -874,34 +877,6 @@ Voyageurs NP
 </td>
 <td style="text-align:left;">
 22
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2024-02-02
-</td>
-<td style="text-align:left;">
-Voyageurs NP
-</td>
-<td style="text-align:left;">
-34
-</td>
-<td style="text-align:left;">
-31
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2024-02-01
-</td>
-<td style="text-align:left;">
-Blaine
-</td>
-<td style="text-align:left;">
-34
-</td>
-<td style="text-align:left;">
-31
 </td>
 </tr>
 </tbody>

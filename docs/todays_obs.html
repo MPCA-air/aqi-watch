@@ -13,7 +13,7 @@
 
 <title>Today’s hourly monitoring data</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -130,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -163,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -172,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -269,7 +266,7 @@ $(document).ready(function () {
 </script>
 <hr>
 <div style="margin-left: 1px; margin-bottom: 12px; margin-top:-2px;">
-<p><em>Last updated Feb 08, 2024 11:39 CST</em></p>
+<p><em>Last updated Feb 10, 2024 21:37 CST</em></p>
 </div>
 <!-- ## {.tabset .tabset-pills} -->
 <div id="section" class="section level2 tabset">
@@ -289,37 +286,7 @@ Site Name
 Parameter
 </th>
 <th style="text-align:center;">
-0
-</th>
-<th style="text-align:center;">
-1
-</th>
-<th style="text-align:center;">
-2
-</th>
-<th style="text-align:center;">
-3
-</th>
-<th style="text-align:center;">
-4
-</th>
-<th style="text-align:center;">
-5
-</th>
-<th style="text-align:center;">
-6
-</th>
-<th style="text-align:center;">
-7
-</th>
-<th style="text-align:center;">
-8
-</th>
-<th style="text-align:center;">
-9
-</th>
-<th style="text-align:center;">
-10
+20
 </th>
 <th style="text-align:center;">
 </th>
@@ -343,51 +310,20 @@ Aberdeen
 PM25
 </td>
 <td style="text-align:center;">
-2.9
-</td>
-<td style="text-align:center;">
-3.4
-</td>
-<td style="text-align:center;">
-4.8
-</td>
-<td style="text-align:center;">
-2.9
-</td>
-<td style="text-align:center;">
-1.4
-</td>
-<td style="text-align:center;">
-3.9
-</td>
-<td style="text-align:center;">
-2.1
-</td>
-<td style="text-align:center;">
-0.7
-</td>
-<td style="text-align:center;">
-1.7
-</td>
-<td style="text-align:center;">
-1.7
-</td>
-<td style="text-align:center;">
-1.2
+3.2
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-2.4
+3.2
 </td>
 <td style="text-align:center;">
-3.7
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">6
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -398,50 +334,20 @@ Apple Valley
 PM25
 </td>
 <td style="text-align:center;">
-9.5
-</td>
-<td style="text-align:center;">
-10
-</td>
-<td style="text-align:center;">
-10.1
-</td>
-<td style="text-align:center;">
-11
-</td>
-<td style="text-align:center;">
-11.7
-</td>
-<td style="text-align:center;">
-11.3
-</td>
-<td style="text-align:center;">
-11.2
-</td>
-<td style="text-align:center;">
-11
-</td>
-<td style="text-align:center;">
-8.9
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-6
+3.4
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-9.8
+3.4
 </td>
 <td style="text-align:center;">
-10.6
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">30</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -452,50 +358,20 @@ Blaine
 PM25
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-11.1
-</td>
-<td style="text-align:center;">
-10.6
-</td>
-<td style="text-align:center;">
-8.9
-</td>
-<td style="text-align:center;">
-7.5
+3.4
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-9.5
+3.4
 </td>
 <td style="text-align:center;">
 .
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">37</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -506,50 +382,20 @@ Brainerd
 PM25
 </td>
 <td style="text-align:center;">
-8
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-6.3
-</td>
-<td style="text-align:center;">
-5.9
-</td>
-<td style="text-align:center;">
-5.7
-</td>
-<td style="text-align:center;">
-6.1
-</td>
-<td style="text-align:center;">
-6.4
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-6.3
-</td>
-<td style="text-align:center;">
-6.5
+2.9
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-6.6
+2.9
 </td>
 <td style="text-align:center;">
-8.1
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">27</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -560,50 +406,20 @@ Detroit Lakes
 PM25
 </td>
 <td style="text-align:center;">
-6.5
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-5.7
-</td>
-<td style="text-align:center;">
-5.9
-</td>
-<td style="text-align:center;">
-6.4
-</td>
-<td style="text-align:center;">
-6.7
-</td>
-<td style="text-align:center;">
-6.5
-</td>
-<td style="text-align:center;">
-5.9
-</td>
-<td style="text-align:center;">
-5.6
-</td>
-<td style="text-align:center;">
-5.5
-</td>
-<td style="text-align:center;">
-5.5
+7.4
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-6
+7.4
 </td>
 <td style="text-align:center;">
-7.4
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">24</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -614,50 +430,20 @@ Duluth-WDSE
 PM25
 </td>
 <td style="text-align:center;">
-7.6
-</td>
-<td style="text-align:center;">
-7.6
-</td>
-<td style="text-align:center;">
-8.3
-</td>
-<td style="text-align:center;">
-8.8
-</td>
-<td style="text-align:center;">
-9.2
-</td>
-<td style="text-align:center;">
-9.7
-</td>
-<td style="text-align:center;">
-10
-</td>
-<td style="text-align:center;">
-10.4
-</td>
-<td style="text-align:center;">
-11
-</td>
-<td style="text-align:center;">
-12.4
-</td>
-<td style="text-align:center;">
-13.5
+2.2
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-9.9
+2.2
 </td>
 <td style="text-align:center;">
-9.8
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #ffff00">51</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -668,50 +454,20 @@ Ely
 PM25
 </td>
 <td style="text-align:center;">
-6.8
-</td>
-<td style="text-align:center;">
-6.8
-</td>
-<td style="text-align:center;">
-7
-</td>
-<td style="text-align:center;">
-7.2
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-7.8
-</td>
-<td style="text-align:center;">
-7.9
-</td>
-<td style="text-align:center;">
-8.1
-</td>
-<td style="text-align:center;">
-7.8
-</td>
-<td style="text-align:center;">
-8.9
-</td>
-<td style="text-align:center;">
-9.4
+0.6
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-7.7
+0.6
 </td>
 <td style="text-align:center;">
-7.9
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">35</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -722,50 +478,20 @@ Emmetsburg, ILCC
 PM25
 </td>
 <td style="text-align:center;">
-8
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-4
-</td>
-<td style="text-align:center;">
 3
-</td>
-<td style="text-align:center;">
-8
-</td>
-<td style="text-align:center;">
-5
-</td>
-<td style="text-align:center;">
-3
-</td>
-<td style="text-align:center;">
-7
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-4
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-5.5
+3
 </td>
 <td style="text-align:center;">
-5.7
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">20</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -776,50 +502,20 @@ Fargo NW
 PM25
 </td>
 <td style="text-align:center;">
-8
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-6.6
-</td>
-<td style="text-align:center;">
-5.9
-</td>
-<td style="text-align:center;">
-5.7
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6.8
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-7.6
-</td>
-<td style="text-align:center;">
-9
-</td>
-<td style="text-align:center;">
-9.1
+4.9
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-7.2
+4.9
 </td>
 <td style="text-align:center;">
-8.2
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">34</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -830,50 +526,20 @@ Fond du Lac
 PM25
 </td>
 <td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-7.8
-</td>
-<td style="text-align:center;">
-8.2
-</td>
-<td style="text-align:center;">
-8.9
-</td>
-<td style="text-align:center;">
-9.1
-</td>
-<td style="text-align:center;">
-10.2
-</td>
-<td style="text-align:center;">
-10.8
-</td>
-<td style="text-align:center;">
-11.9
+1.1
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-8.7
+1.1
 </td>
 <td style="text-align:center;">
-8.8
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">44</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -884,50 +550,20 @@ Grand Portage
 PM25
 </td>
 <td style="text-align:center;">
-12.4
-</td>
-<td style="text-align:center;">
-11.8
-</td>
-<td style="text-align:center;">
-10.2
-</td>
-<td style="text-align:center;">
-10.3
-</td>
-<td style="text-align:center;">
-10.1
-</td>
-<td style="text-align:center;">
-9.1
-</td>
-<td style="text-align:center;">
-9.7
-</td>
-<td style="text-align:center;">
-8.3
-</td>
-<td style="text-align:center;">
-11.7
-</td>
-<td style="text-align:center;">
-13.9
-</td>
-<td style="text-align:center;">
-15.8
+0.5
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-11.2
+0.5
 </td>
 <td style="text-align:center;">
-9.9
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #ffff00">55</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -941,36 +577,6 @@ PM25
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -981,8 +587,7 @@ NaN
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -993,50 +598,20 @@ Lakeville - Near Roa
 PM25
 </td>
 <td style="text-align:center;">
-7.9
-</td>
-<td style="text-align:center;">
-7.9
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-8.4
-</td>
-<td style="text-align:center;">
-9.2
-</td>
-<td style="text-align:center;">
-9.8
-</td>
-<td style="text-align:center;">
-10.1
-</td>
-<td style="text-align:center;">
-9.4
-</td>
-<td style="text-align:center;">
-7.8
-</td>
-<td style="text-align:center;">
-5.9
-</td>
-<td style="text-align:center;">
-5.2
+3
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-8.1
+3
 </td>
 <td style="text-align:center;">
-9
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">26</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1047,50 +622,20 @@ Leech Lake Nation: C
 PM25
 </td>
 <td style="text-align:center;">
-8.8
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-6.3
-</td>
-<td style="text-align:center;">
-5.2
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6.1
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6.7
-</td>
-<td style="text-align:center;">
-6.8
+3.3
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-6.8
+3.3
 </td>
 <td style="text-align:center;">
-8.1
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">27</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1101,50 +646,20 @@ Marshall
 PM25
 </td>
 <td style="text-align:center;">
-5.4
-</td>
-<td style="text-align:center;">
-5.6
-</td>
-<td style="text-align:center;">
-5.4
-</td>
-<td style="text-align:center;">
-4.9
-</td>
-<td style="text-align:center;">
-4.8
-</td>
-<td style="text-align:center;">
-4.7
-</td>
-<td style="text-align:center;">
-4.5
-</td>
-<td style="text-align:center;">
-4.5
-</td>
-<td style="text-align:center;">
-4.3
-</td>
-<td style="text-align:center;">
-4.3
-</td>
-<td style="text-align:center;">
-3.2
+7.6
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-4.7
+7.6
 </td>
 <td style="text-align:center;">
-5.7
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">16</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1155,50 +670,20 @@ Minneapolis - Anders
 PM25
 </td>
 <td style="text-align:center;">
-9.1
-</td>
-<td style="text-align:center;">
-10.4
-</td>
-<td style="text-align:center;">
-10.3
-</td>
-<td style="text-align:center;">
-11.7
-</td>
-<td style="text-align:center;">
-11.9
-</td>
-<td style="text-align:center;">
-11.7
-</td>
-<td style="text-align:center;">
-12.1
-</td>
-<td style="text-align:center;">
-11.2
-</td>
-<td style="text-align:center;">
-9.8
-</td>
-<td style="text-align:center;">
-8.2
-</td>
-<td style="text-align:center;">
-7
+3.9
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-10.3
+3.9
 </td>
 <td style="text-align:center;">
-11.1
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">35</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1209,50 +694,20 @@ Minneapolis - Near R
 PM25
 </td>
 <td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-8
-</td>
-<td style="text-align:center;">
-8.5
-</td>
-<td style="text-align:center;">
-9.1
-</td>
-<td style="text-align:center;">
-9.6
-</td>
-<td style="text-align:center;">
-9.7
-</td>
-<td style="text-align:center;">
-10.1
-</td>
-<td style="text-align:center;">
-9.4
-</td>
-<td style="text-align:center;">
-8.6
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-6.1
+3.7
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-8.5
+3.7
 </td>
 <td style="text-align:center;">
-9.2
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">31</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1263,50 +718,20 @@ Red Lake Nation Hosp
 PM25
 </td>
 <td style="text-align:center;">
-9.2
-</td>
-<td style="text-align:center;">
-9.1
-</td>
-<td style="text-align:center;">
-8.7
-</td>
-<td style="text-align:center;">
-7.9
-</td>
-<td style="text-align:center;">
-8.4
-</td>
-<td style="text-align:center;">
-8.8
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-8.1
-</td>
-<td style="text-align:center;">
-7.2
-</td>
-<td style="text-align:center;">
-6
+7.1
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-8
+7.1
 </td>
 <td style="text-align:center;">
-9.8
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">30</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1317,50 +742,20 @@ Rochester
 PM25
 </td>
 <td style="text-align:center;">
-11.3
-</td>
-<td style="text-align:center;">
-11.5
-</td>
-<td style="text-align:center;">
-11.5
-</td>
-<td style="text-align:center;">
-11.5
-</td>
-<td style="text-align:center;">
-10.7
-</td>
-<td style="text-align:center;">
-9.9
-</td>
-<td style="text-align:center;">
-8.6
-</td>
-<td style="text-align:center;">
-7.8
-</td>
-<td style="text-align:center;">
-6.5
-</td>
-<td style="text-align:center;">
-5.2
-</td>
-<td style="text-align:center;">
-5.2
+3.2
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-9.1
+3.2
 </td>
 <td style="text-align:center;">
-10.1
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">24</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1371,51 +766,20 @@ SF-USD
 PM25
 </td>
 <td style="text-align:center;">
-1
-</td>
-<td style="text-align:center;">
-1.6
-</td>
-<td style="text-align:center;">
-3.5
-</td>
-<td style="text-align:center;">
-3.5
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-4.9
-</td>
-<td style="text-align:center;">
-1.4
-</td>
-<td style="text-align:center;">
-0.4
-</td>
-<td style="text-align:center;">
-2
-</td>
-<td style="text-align:center;">
-1.1
-</td>
-<td style="text-align:center;">
-0
+-0.2
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-2.4
+-0.2
 </td>
 <td style="text-align:center;">
-2.9
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">3
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1426,50 +790,20 @@ Shakopee
 PM25
 </td>
 <td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-7.2
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-6.7
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-7.2
-</td>
-<td style="text-align:center;">
-7.5
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6
+3.1
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-7
+3.1
 </td>
 <td style="text-align:center;">
-8.7
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">28</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1483,36 +817,6 @@ PM25
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -1523,8 +827,7 @@ NaN
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1535,50 +838,20 @@ St. Cloud
 PM25
 </td>
 <td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6.3
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-5.8
-</td>
-<td style="text-align:center;">
-5.6
-</td>
-<td style="text-align:center;">
-5.7
-</td>
-<td style="text-align:center;">
-6.1
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6.1
-</td>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-6.6
+3.8
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-6
+3.8
 </td>
 <td style="text-align:center;">
-7.2
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">25</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1589,50 +862,20 @@ St. Michael
 PM25
 </td>
 <td style="text-align:center;">
-6.5
-</td>
-<td style="text-align:center;">
-6.3
-</td>
-<td style="text-align:center;">
-6.6
-</td>
-<td style="text-align:center;">
-6.8
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-7.9
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-8.4
-</td>
-<td style="text-align:center;">
-8.2
-</td>
-<td style="text-align:center;">
-7.1
+3.1
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-7.3
+3.1
 </td>
 <td style="text-align:center;">
-8.3
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">32</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1643,50 +886,20 @@ St. Paul-Harding H.S
 PM25
 </td>
 <td style="text-align:center;">
-7.6
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-7.8
-</td>
-<td style="text-align:center;">
-9
-</td>
-<td style="text-align:center;">
-9.6
-</td>
-<td style="text-align:center;">
-10.7
-</td>
-<td style="text-align:center;">
-12.1
-</td>
-<td style="text-align:center;">
-11.6
-</td>
-<td style="text-align:center;">
-9.7
-</td>
-<td style="text-align:center;">
-7.5
-</td>
-<td style="text-align:center;">
-6.5
+3
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-9.1
+3
 </td>
 <td style="text-align:center;">
-10.1
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">33</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1697,50 +910,20 @@ Virginia
 PM25
 </td>
 <td style="text-align:center;">
-6.9
-</td>
-<td style="text-align:center;">
-7.3
-</td>
-<td style="text-align:center;">
-7.1
-</td>
-<td style="text-align:center;">
-7.4
-</td>
-<td style="text-align:center;">
-7.5
-</td>
-<td style="text-align:center;">
-7.9
-</td>
-<td style="text-align:center;">
-8.4
-</td>
-<td style="text-align:center;">
-8.8
-</td>
-<td style="text-align:center;">
-9
-</td>
-<td style="text-align:center;">
-10.4
-</td>
-<td style="text-align:center;">
-11.7
+3.3
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-8.4
+3.3
 </td>
 <td style="text-align:center;">
-8.5
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">43</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1751,50 +934,20 @@ West Duluth
 PM25
 </td>
 <td style="text-align:center;">
-7.5
-</td>
-<td style="text-align:center;">
-7.7
-</td>
-<td style="text-align:center;">
-8.1
-</td>
-<td style="text-align:center;">
-9
-</td>
-<td style="text-align:center;">
-9.2
-</td>
-<td style="text-align:center;">
-9.4
-</td>
-<td style="text-align:center;">
-9.9
-</td>
-<td style="text-align:center;">
-10.6
-</td>
-<td style="text-align:center;">
-11.1
-</td>
-<td style="text-align:center;">
-12.7
-</td>
-<td style="text-align:center;">
-14.3
+2.6
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-10
+2.6
 </td>
 <td style="text-align:center;">
-9.5
+.
 </td>
 <td style="text-align:left;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #ffff00">53</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 </tbody>
@@ -1822,37 +975,7 @@ Site Name
 Parameter
 </th>
 <th style="text-align:center;">
-0
-</th>
-<th style="text-align:center;">
-1
-</th>
-<th style="text-align:center;">
-2
-</th>
-<th style="text-align:center;">
-3
-</th>
-<th style="text-align:center;">
-4
-</th>
-<th style="text-align:center;">
-5
-</th>
-<th style="text-align:center;">
-6
-</th>
-<th style="text-align:center;">
-7
-</th>
-<th style="text-align:center;">
-8
-</th>
-<th style="text-align:center;">
-9
-</th>
-<th style="text-align:center;">
-10
+20
 </th>
 <th style="text-align:center;">
 </th>
@@ -1873,37 +996,7 @@ Blaine
 OZONE
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-18
-</td>
-<td style="text-align:center;">
-20
-</td>
-<td style="text-align:center;">
-22
-</td>
-<td style="text-align:center;">
-24
+21
 </td>
 <td style="text-align:center;">
 ::
@@ -1913,7 +1006,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">19</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1927,36 +1020,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -1964,8 +1027,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -1979,36 +1041,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2016,8 +1048,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2028,47 +1059,17 @@ Duluth-WDSE
 OZONE
 </td>
 <td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-29
-</td>
-<td style="text-align:center;">
-28
-</td>
-<td style="text-align:center;">
-27
-</td>
-<td style="text-align:center;">
-26
-</td>
-<td style="text-align:center;">
 25
-</td>
-<td style="text-align:center;">
-24
-</td>
-<td style="text-align:center;">
-24
-</td>
-<td style="text-align:center;">
-22
-</td>
-<td style="text-align:center;">
-21
-</td>
-<td style="text-align:center;">
-20
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-29
+.
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">20</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2082,36 +1083,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2119,8 +1090,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2134,36 +1104,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2171,8 +1111,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2186,36 +1125,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2223,8 +1132,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2238,36 +1146,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2275,8 +1153,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2290,36 +1167,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2327,8 +1174,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2342,36 +1188,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2379,8 +1195,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2394,36 +1209,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2431,8 +1216,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2446,36 +1230,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2483,8 +1237,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2498,36 +1251,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2535,8 +1258,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2550,36 +1272,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2587,8 +1279,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2602,36 +1293,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2639,8 +1300,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2651,47 +1311,17 @@ SF-USD
 OZONE
 </td>
 <td style="text-align:center;">
-19
-</td>
-<td style="text-align:center;">
-18
-</td>
-<td style="text-align:center;">
-18
-</td>
-<td style="text-align:center;">
-15
-</td>
-<td style="text-align:center;">
-15
-</td>
-<td style="text-align:center;">
-16
-</td>
-<td style="text-align:center;">
-16
-</td>
-<td style="text-align:center;">
-15
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
+17
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-18
+.
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">15</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2702,47 +1332,17 @@ Shakopee
 OZONE
 </td>
 <td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-29
-</td>
-<td style="text-align:center;">
-29
-</td>
-<td style="text-align:center;">
-29
-</td>
-<td style="text-align:center;">
-28
-</td>
-<td style="text-align:center;">
-27
-</td>
-<td style="text-align:center;">
-26
-</td>
-<td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-31
+24
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-30
+.
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">26</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2756,36 +1356,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2793,8 +1363,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2808,36 +1377,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2845,8 +1384,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2860,36 +1398,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2897,8 +1405,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2912,36 +1419,6 @@ OZONE
 .
 </td>
 <td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
-.
-</td>
-<td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
@@ -2949,8 +1426,7 @@ OZONE
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.
-</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 <tr>
@@ -2961,47 +1437,17 @@ Voyageurs NP
 OZONE
 </td>
 <td style="text-align:center;">
-28
-</td>
-<td style="text-align:center;">
-29
-</td>
-<td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-30
-</td>
-<td style="text-align:center;">
-28
-</td>
-<td style="text-align:center;">
-28
-</td>
-<td style="text-align:center;">
-28
-</td>
-<td style="text-align:center;">
-27
-</td>
-<td style="text-align:center;">
-26
-</td>
-<td style="text-align:center;">
-27
+24
 </td>
 <td style="text-align:center;">
 ::
 </td>
 <td style="text-align:center;">
-29
+.
 </td>
 <td style="text-align:center;">
 <span
-style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400; background-color: #9BF59B">25</span>
+style="padding-left: 12px; padding-right: 12px; padding-top: 4px; padding-bottom: 4px; font-weight: 400">.</span>
 </td>
 </tr>
 </tbody>
@@ -4044,6 +2490,34 @@ Devils Lake
 </td>
 <td style="text-align:left;">
 OZONE
+</td>
+<td style="text-align:left;">
+551110007
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+WI
+</td>
+<td style="text-align:left;">
+Devils Lake
+</td>
+<td style="text-align:left;">
+PM25
+</td>
+<td style="text-align:left;">
+551110007
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+WI
+</td>
+<td style="text-align:left;">
+Devils Lake
+</td>
+<td style="text-align:left;">
+PM10
 </td>
 <td style="text-align:left;">
 551110007
