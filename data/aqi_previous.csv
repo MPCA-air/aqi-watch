@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-04-24 14:21:40","2024-04-24 19:22:31"
-"04/24/2024","13:00","270750005","Ely","PM25","UG/M3",32.4,"MPCA",94,"2024-04-24 14:21:40",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-04-24 15:25:40","2024-04-24 20:26:31"
+"04/24/2024","14:00","270750005","Ely","OZONE","PPB",98,"MPCA",182,"2024-04-24 15:25:40",NA
+"04/24/2024","13:00","270750005","Ely","PM25","UG/M3",32.4,"MPCA",94,"2024-04-24 15:25:40",NA
