@@ -1,8 +1,9 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-05-12 11:30:38","2024-05-12 16:31:29"
-"05/12/2024","10:00","270213410","Leech Lake Nation: C","PM25","UG/M3",164.7,"MPCA",215,"2024-05-12 11:30:38",NA
-"05/12/2024","10:00","270052013","Detroit Lakes","PM25","UG/M3",115.6,"MPCA",182,"2024-05-12 11:30:38",NA
-"05/12/2024","10:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",104.2,"MPCA",176,"2024-05-12 11:30:38",NA
-"05/12/2024","10:00","380171004","Fargo NW","PM25","UG/M3",96.7,"North Dakota Department of Environmental Quality",172,"2024-05-12 11:30:38",NA
-"05/12/2024","10:00","271377001","Virginia","PM25","UG/M3",67.4,"MPCA",157,"2024-05-12 11:30:38",NA
-"05/12/2024","10:00","270750005","Ely","PM25","UG/M3",34.7,"MPCA",99,"2024-05-12 11:30:38",NA
-"05/12/2024","10:00","840460130004","Aberdeen","PM25","UG/M3",32.7,"South Dakota Department of Agriculture and Natural Resources",94,"2024-05-12 11:30:38",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-05-12 12:26:35","2024-05-12 17:27:27"
+"05/12/2024","11:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",154.6,"MPCA",205,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","270750005","Ely","PM25","UG/M3",153.6,"MPCA",204,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","270052013","Detroit Lakes","PM25","UG/M3",116.3,"MPCA",182,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","271377001","Virginia","PM25","UG/M3",116,"MPCA",182,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","270213410","Leech Lake Nation: C","PM25","UG/M3",109.2,"MPCA",179,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","380171004","Fargo NW","PM25","UG/M3",98.6,"North Dakota Department of Environmental Quality",173,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","840460130004","Aberdeen","PM25","UG/M3",47.9,"South Dakota Department of Agriculture and Natural Resources",132,"2024-05-12 12:26:35",NA
+"05/12/2024","11:00","270353204","Brainerd","PM25","UG/M3",35.1,"MPCA",99,"2024-05-12 12:26:35",NA
