@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-07-29 15:34:21","2024-07-29 20:35:12"
-"07/29/2024","14:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",33.9,"MPCA",97,"2024-07-29 15:34:21",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-07-29 16:34:04","2024-07-29 21:34:55"
+"07/29/2024","15:00","271713201","St. Michael","OZONE","PPB",70,"MPCA",100,"2024-07-29 16:34:04",NA
+"07/29/2024","15:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",32.4,"MPCA",94,"2024-07-29 16:34:04",NA
+"07/29/2024","15:00","271453052","St. Cloud","OZONE","PPB",68,"MPCA",93,"2024-07-29 16:34:04",NA
