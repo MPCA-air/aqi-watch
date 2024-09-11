@@ -1,5 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-09-11 16:34:33","2024-09-11 21:35:24"
-"09/11/2024","14:00","840460130004","Aberdeen","PM25","UG/M3",75.3,"South Dakota Department of Agriculture and Natural Resources",161,"2024-09-11 16:34:33",NA
-"09/11/2024","15:00","270052013","Detroit Lakes","PM25","UG/M3",44.9,"MPCA",124,"2024-09-11 16:34:33",NA
-"09/11/2024","15:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",42.8,"MPCA",119,"2024-09-11 16:34:33",NA
-"09/11/2024","15:00","380171004","Fargo NW","PM25","UG/M3",43,"North Dakota Department of Environmental Quality",119,"2024-09-11 16:34:33",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-09-11 17:37:39","2024-09-11 22:38:30"
+"09/11/2024","15:00","840460130004","Aberdeen","PM25","UG/M3",62.6,"South Dakota Department of Agriculture and Natural Resources",155,"2024-09-11 17:37:39",NA
+"09/11/2024","16:00","270052013","Detroit Lakes","PM25","UG/M3",44.5,"MPCA",123,"2024-09-11 17:37:39",NA
+"09/11/2024","16:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",38.5,"MPCA",108,"2024-09-11 17:37:39",NA
+"09/11/2024","16:00","270031001","East Bethel","OZONE","PPB",70,"MPCA",100,"2024-09-11 17:37:39",NA
+"09/11/2024","16:00","380171004","Fargo NW","PM25","UG/M3",35,"North Dakota Department of Environmental Quality",99,"2024-09-11 17:37:39",NA
