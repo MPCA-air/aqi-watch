@@ -1,5 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-09-13 17:39:10","2024-09-13 22:40:02"
-"09/13/2024","16:00","271453052","St. Cloud","OZONE","PPB",72,"MPCA",104,"2024-09-13 17:39:10",NA
-"09/13/2024","16:00","270834210","Marshall","OZONE","PPB",71,"MPCA",101,"2024-09-13 17:39:10",NA
-"09/13/2024","16:00","270353204","Brainerd","OZONE","PPB",70,"MPCA",100,"2024-09-13 17:39:10",NA
-"09/13/2024","16:00","271713201","St. Michael","OZONE","PPB",70,"MPCA",100,"2024-09-13 17:39:10",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-09-13 18:35:16","2024-09-13 23:36:07"
+"09/13/2024","17:00","270353204","Brainerd","OZONE","PPB",72,"MPCA",104,"2024-09-13 18:35:16",NA
+"09/13/2024","17:00","271453052","St. Cloud","OZONE","PPB",71,"MPCA",101,"2024-09-13 18:35:16",NA
+"09/13/2024","17:00","270834210","Marshall","OZONE","PPB",70,"MPCA",100,"2024-09-13 18:35:16",NA
+"09/13/2024","17:00","271370034","Voyageurs NP","OZONE","PPB",69,"National Park Service",97,"2024-09-13 18:35:16",NA
+"09/13/2024","17:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2024-09-13 18:35:16",NA
+"09/13/2024","17:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2024-09-13 18:35:16",NA
