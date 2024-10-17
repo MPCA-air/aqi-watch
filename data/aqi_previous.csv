@@ -1,3 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-10-17 14:35:43","2024-10-17 19:36:35"
-"10/17/2024","13:00","840460130004","Aberdeen","PM10","UG/M3",272,"South Dakota Department of Agriculture and Natural Resources",159,"2024-10-17 14:35:43",NA
-"10/17/2024","12:00","840460990009","SF-USD","PM10","UG/M3",240,"South Dakota Department of Agriculture and Natural Resources",143,"2024-10-17 14:35:43",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2024-10-17 15:41:07","2024-10-17 20:41:58"
+"10/17/2024","14:00","840460130004","Aberdeen","PM10","UG/M3",346,"South Dakota Department of Agriculture and Natural Resources",196,"2024-10-17 15:41:07",NA
+"10/17/2024","14:00","270834210","Marshall","PM10","UG/M3",266,"MPCA",156,"2024-10-17 15:41:07",NA
+"10/17/2024","12:00","840460990009","SF-USD","PM10","UG/M3",240,"South Dakota Department of Agriculture and Natural Resources",143,"2024-10-17 15:41:07",NA
+"10/17/2024","14:00","270530910","Minneapolis - Pacifi","PM10","UG/M3",216,"MPCA",131,"2024-10-17 15:41:07",NA
