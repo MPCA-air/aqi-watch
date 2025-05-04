@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-04 15:41:35","2025-05-04 20:42:26"
-"05/04/2025","14:00","270495302","Stanton","OZONE","PPB",68,"MPCA",93,"2025-05-04 15:41:35",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-04 16:38:21","2025-05-04 21:39:12"
+"05/04/2025","15:00","270495302","Stanton","OZONE","PPB",71,"MPCA",101,"2025-05-04 16:38:21",NA
+"05/04/2025","15:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2025-05-04 16:38:21",NA
+"05/04/2025","15:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2025-05-04 16:38:21",NA
