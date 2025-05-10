@@ -1,8 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-09 18:39:52","2025-05-09 23:40:44"
-"05/09/2025","17:00","191471002","Emmetsburg, ILCC","OZONE","PPB",78,"Iowa DNR",126,"2025-05-09 18:39:52",NA
-"05/09/2025","17:00","271377550","Duluth-WDSE","PM25","UG/M3",35.1,"MPCA",99,"2025-05-09 18:39:52",NA
-"05/09/2025","17:00","271713201","St. Michael","OZONE","PPB",69,"MPCA",97,"2025-05-09 18:39:52",NA
-"05/09/2025","17:00","840460130004","Aberdeen","PM25","UG/M3",34.2,"South Dakota Department of Agriculture and Natural Resources",97,"2025-05-09 18:39:52",NA
-"05/09/2025","17:00","271377554","West Duluth","PM25","UG/M3",32.8,"MPCA",95,"2025-05-09 18:39:52",NA
-"05/09/2025","17:00","271095008","Rochester","OZONE","PPB",68,"MPCA",93,"2025-05-09 18:39:52",NA
-"05/09/2025","17:00","270317810","Grand Portage","PM25","UG/M3",31.6,"MPCA",92,"2025-05-09 18:39:52",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-09 21:16:21","2025-05-10 02:17:12"
+"05/09/2025","20:00","840460130004","Aberdeen","PM25","UG/M3",57.2,"South Dakota Department of Agriculture and Natural Resources",152,"2025-05-09 21:16:21",NA
