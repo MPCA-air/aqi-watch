@@ -1,7 +1,10 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-11 14:34:22","2025-05-11 19:35:13"
-"05/11/2025","13:00","840460130004","Aberdeen","PM10","UG/M3",385,"South Dakota Department of Agriculture and Natural Resources",244,"2025-05-11 14:34:22",NA
-"05/11/2025","13:00","270834210","Marshall","OZONE","PPB",70,"MPCA",100,"2025-05-11 14:34:22",NA
-"05/11/2025","13:00","271453052","St. Cloud","OZONE","PPB",70,"MPCA",100,"2025-05-11 14:34:22",NA
-"05/11/2025","13:00","840270072305","Red Lake Nation DNR","OZONE","PPB",70,"MPCA",100,"2025-05-11 14:34:22",NA
-"05/11/2025","13:00","270052013","Detroit Lakes","OZONE","PPB",68,"MPCA",93,"2025-05-11 14:34:22",NA
-"05/11/2025","13:00","380171004","Fargo NW","OZONE","PPB",68,"North Dakota Department of Environmental Quality",93,"2025-05-11 14:34:22",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-11 15:41:15","2025-05-11 20:42:06"
+"05/11/2025","14:00","840460130004","Aberdeen","PM10","UG/M3",356,"South Dakota Department of Agriculture and Natural Resources",202,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","271453052","St. Cloud","OZONE","PPB",76,"MPCA",118,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","270353204","Brainerd","OZONE","PPB",71,"MPCA",101,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","271713201","St. Michael","OZONE","PPB",71,"MPCA",101,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","840270072305","Red Lake Nation DNR","OZONE","PPB",71,"MPCA",101,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","270834210","Marshall","OZONE","PPB",70,"MPCA",100,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","380171004","Fargo NW","OZONE","PPB",70,"North Dakota Department of Environmental Quality",100,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","270052013","Detroit Lakes","OZONE","PPB",69,"MPCA",97,"2025-05-11 15:41:15",NA
+"05/11/2025","14:00","271370034","Voyageurs NP","OZONE","PPB",68,"National Park Service",93,"2025-05-11 15:41:15",NA
