@@ -1,5 +1,8 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-12 13:52:42","2025-05-12 18:53:34"
-"05/12/2025","12:00","270750005","Ely","OZONE","PPB",74,"MPCA",112,"2025-05-12 13:52:42",NA
-"05/12/2025","12:00","270750005","Ely","PM25","UG/M3",33.9,"MPCA",97,"2025-05-12 13:52:42",NA
-"05/12/2025","12:00","271370034","Voyageurs NP","OZONE","PPB",69,"National Park Service",97,"2025-05-12 13:52:42",NA
-"05/12/2025","12:00","840270072305","Red Lake Nation DNR","OZONE","PPB",68,"MPCA",93,"2025-05-12 13:52:42",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-12 14:38:02","2025-05-12 19:38:53"
+"05/12/2025","13:00","270750005","Ely","PM25","UG/M3",73.5,"MPCA",160,"2025-05-12 14:38:02",NA
+"05/12/2025","13:00","270750005","Ely","OZONE","PPB",82,"MPCA",140,"2025-05-12 14:38:02",NA
+"05/12/2025","13:00","271095008","Rochester","OZONE","PPB",69,"MPCA",97,"2025-05-12 14:38:02",NA
+"05/12/2025","13:00","271370034","Voyageurs NP","OZONE","PPB",69,"National Park Service",97,"2025-05-12 14:38:02",NA
+"05/12/2025","13:00","271713201","St. Michael","OZONE","PPB",68,"MPCA",93,"2025-05-12 14:38:02",NA
+"05/12/2025","13:00","550630012","LACROSSE DOT","OZONE","PPB",68,"Wisconsin Dept. of Natural Resources",93,"2025-05-12 14:38:02",NA
+"05/12/2025","13:00","840270072305","Red Lake Nation DNR","OZONE","PPB",68,"MPCA",93,"2025-05-12 14:38:02",NA
