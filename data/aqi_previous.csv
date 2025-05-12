@@ -1,2 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-12 12:42:54","2025-05-12 17:43:45"
-"05/12/2025","11:00","271370034","Voyageurs NP","OZONE","PPB",69,"National Park Service",97,"2025-05-12 12:42:54",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-12 13:52:42","2025-05-12 18:53:34"
+"05/12/2025","12:00","270750005","Ely","OZONE","PPB",74,"MPCA",112,"2025-05-12 13:52:42",NA
+"05/12/2025","12:00","270750005","Ely","PM25","UG/M3",33.9,"MPCA",97,"2025-05-12 13:52:42",NA
+"05/12/2025","12:00","271370034","Voyageurs NP","OZONE","PPB",69,"National Park Service",97,"2025-05-12 13:52:42",NA
+"05/12/2025","12:00","840270072305","Red Lake Nation DNR","OZONE","PPB",68,"MPCA",93,"2025-05-12 13:52:42",NA
