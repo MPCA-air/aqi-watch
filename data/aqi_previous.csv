@@ -1,10 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-13 18:40:08","2025-05-13 23:40:59"
-"05/13/2025","17:00","270750005","Ely","OZONE","PPB",76,"MPCA",118,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","840270072305","Red Lake Nation DNR","OZONE","PPB",76,"MPCA",118,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","380171004","Fargo NW","OZONE","PPB",74,"North Dakota Department of Environmental Quality",112,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","270052013","Detroit Lakes","OZONE","PPB",73,"MPCA",108,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","271453052","St. Cloud","OZONE","PPB",73,"MPCA",108,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","270353204","Brainerd","OZONE","PPB",70,"MPCA",100,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","270031001","East Bethel","OZONE","PPB",69,"MPCA",97,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","270953051","Mille Lacs","OZONE","PPB",69,"MPCA",97,"2025-05-13 18:40:08",NA
-"05/13/2025","17:00","271713201","St. Michael","OZONE","PPB",69,"MPCA",97,"2025-05-13 18:40:08",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-13 21:21:24","2025-05-14 02:22:16"
+"05/13/2025","20:00","840270072305","Red Lake Nation DNR","OZONE","PPB",71,"MPCA",101,"2025-05-13 21:21:24",NA
+"05/13/2025","20:00","270750005","Ely","OZONE","PPB",69,"MPCA",97,"2025-05-13 21:21:24",NA
+"05/13/2025","20:00","270953051","Mille Lacs","OZONE","PPB",69,"MPCA",97,"2025-05-13 21:21:24",NA
+"05/13/2025","20:00","271370034","Voyageurs NP","OZONE","PPB",68,"National Park Service",93,"2025-05-13 21:21:24",NA
