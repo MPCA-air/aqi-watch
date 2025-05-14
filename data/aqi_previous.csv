@@ -1,5 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-13 21:21:24","2025-05-14 02:22:16"
-"05/13/2025","20:00","840270072305","Red Lake Nation DNR","OZONE","PPB",71,"MPCA",101,"2025-05-13 21:21:24",NA
-"05/13/2025","20:00","270750005","Ely","OZONE","PPB",69,"MPCA",97,"2025-05-13 21:21:24",NA
-"05/13/2025","20:00","270953051","Mille Lacs","OZONE","PPB",69,"MPCA",97,"2025-05-13 21:21:24",NA
-"05/13/2025","20:00","271370034","Voyageurs NP","OZONE","PPB",68,"National Park Service",93,"2025-05-13 21:21:24",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-14 05:48:11","2025-05-14 10:49:02"
+"05/14/2025","4:00","191471002","Emmetsburg, ILCC","PM25","UG/M3",36,"Iowa DNR",102,"2025-05-14 05:48:11",NA
