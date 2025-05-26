@@ -1,3 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-26 14:36:03","2025-05-26 19:36:54"
-"05/26/2025","13:00","380171004","Fargo NW","OZONE","PPB",73,"North Dakota Department of Environmental Quality",108,"2025-05-26 14:36:03",NA
-"05/26/2025","13:00","270353204","Brainerd","OZONE","PPB",69,"MPCA",97,"2025-05-26 14:36:03",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-26 15:44:41","2025-05-26 20:45:32"
+"05/26/2025","14:00","380171004","Fargo NW","OZONE","PPB",72,"North Dakota Department of Environmental Quality",104,"2025-05-26 15:44:41",NA
+"05/26/2025","14:00","270353204","Brainerd","OZONE","PPB",69,"MPCA",97,"2025-05-26 15:44:41",NA
+"05/26/2025","14:00","840270072305","Red Lake Nation DNR","OZONE","PPB",69,"MPCA",97,"2025-05-26 15:44:41",NA
+"05/26/2025","14:00","270052013","Detroit Lakes","OZONE","PPB",68,"MPCA",93,"2025-05-26 15:44:41",NA
