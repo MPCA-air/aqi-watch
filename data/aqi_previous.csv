@@ -1,4 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-31 14:34:20","2025-05-31 19:35:11"
-"05/31/2025","13:00","270495302","Stanton","OZONE","PPB",69,"MPCA",97,"2025-05-31 14:34:20",NA
-"05/31/2025","13:00","840270135510","Mankato - RosaParksE","OZONE","PPB",69,"MPCA",97,"2025-05-31 14:34:20",NA
-"05/31/2025","13:00","380171004","Fargo NW","PM25","UG/M3",33,"North Dakota Department of Environmental Quality",95,"2025-05-31 14:34:20",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-31 15:41:53","2025-05-31 20:42:45"
+"05/31/2025","14:00","840460990009","SF-USD","PM25","UG/M3",45.9,"South Dakota Department of Agriculture and Natural Resources",127,"2025-05-31 15:41:53",NA
+"05/31/2025","14:00","270495302","Stanton","OZONE","PPB",74,"MPCA",112,"2025-05-31 15:41:53",NA
+"05/31/2025","14:00","380171004","Fargo NW","OZONE","PPB",71,"North Dakota Department of Environmental Quality",101,"2025-05-31 15:41:53",NA
+"05/31/2025","14:00","271095008","Rochester","OZONE","PPB",70,"MPCA",100,"2025-05-31 15:41:53",NA
+"05/31/2025","14:00","840270135510","Mankato - RosaParksE","OZONE","PPB",69,"MPCA",97,"2025-05-31 15:41:53",NA
