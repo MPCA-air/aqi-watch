@@ -1,5 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-31 17:42:59","2025-05-31 22:43:50"
-"05/31/2025","16:00","380171004","Fargo NW","OZONE","PPB",75,"North Dakota Department of Environmental Quality",115,"2025-05-31 17:42:59",NA
-"05/31/2025","16:00","840270135510","Mankato - RosaParksE","OZONE","PPB",75,"MPCA",115,"2025-05-31 17:42:59",NA
-"05/31/2025","16:00","270052013","Detroit Lakes","OZONE","PPB",73,"MPCA",108,"2025-05-31 17:42:59",NA
-"05/31/2025","16:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2025-05-31 17:42:59",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-05-31 18:39:43","2025-05-31 23:40:34"
+"05/31/2025","17:00","840270135510","Mankato - RosaParksE","OZONE","PPB",79,"MPCA",129,"2025-05-31 18:39:43",NA
+"05/31/2025","17:00","380171004","Fargo NW","OZONE","PPB",76,"North Dakota Department of Environmental Quality",118,"2025-05-31 18:39:43",NA
+"05/31/2025","17:00","270052013","Detroit Lakes","OZONE","PPB",74,"MPCA",112,"2025-05-31 18:39:43",NA
+"05/31/2025","17:00","270834210","Marshall","OZONE","PPB",73,"MPCA",108,"2025-05-31 18:39:43",NA
+"05/31/2025","17:00","380171004","Fargo NW","PM25","UG/M3",36,"North Dakota Department of Environmental Quality",102,"2025-05-31 18:39:43",NA
+"05/31/2025","17:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2025-05-31 18:39:43",NA
