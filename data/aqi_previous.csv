@@ -1,8 +1,12 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-01 14:36:01","2025-06-01 19:36:52"
-"06/01/2025","13:00","270834210","Marshall","PM25","UG/M3",83.6,"MPCA",166,"2025-06-01 14:36:01",NA
-"06/01/2025","13:00","380171004","Fargo NW","OZONE","PPB",92,"North Dakota Department of Environmental Quality",166,"2025-06-01 14:36:01",NA
-"06/01/2025","13:00","380171004","Fargo NW","PM25","UG/M3",82,"North Dakota Department of Environmental Quality",165,"2025-06-01 14:36:01",NA
-"06/01/2025","13:00","840460990009","SF-USD","PM25","UG/M3",79.3,"South Dakota Department of Agriculture and Natural Resources",163,"2025-06-01 14:36:01",NA
-"06/01/2025","13:00","270052013","Detroit Lakes","PM25","UG/M3",65,"MPCA",156,"2025-06-01 14:36:01",NA
-"06/01/2025","13:00","270052013","Detroit Lakes","OZONE","PPB",79,"MPCA",129,"2025-06-01 14:36:01",NA
-"06/01/2025","13:00","270834210","Marshall","OZONE","PPB",79,"MPCA",129,"2025-06-01 14:36:01",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-01 15:43:19","2025-06-01 20:44:10"
+"06/01/2025","14:00","380171004","Fargo NW","OZONE","PPB",94,"North Dakota Department of Environmental Quality",172,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","380171004","Fargo NW","PM25","UG/M3",86,"North Dakota Department of Environmental Quality",167,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","270834210","Marshall","PM25","UG/M3",82.3,"MPCA",165,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","840460990009","SF-USD","PM25","UG/M3",65.1,"South Dakota Department of Agriculture and Natural Resources",156,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","270834210","Marshall","OZONE","PPB",81,"MPCA",136,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","270052013","Detroit Lakes","OZONE","PPB",80,"MPCA",132,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","270052013","Detroit Lakes","PM25","UG/M3",41.8,"MPCA",117,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",38,"MPCA",107,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","270213410","Leech Lake Nation: C","PM25","UG/M3",36.5,"MPCA",103,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","191471002","Emmetsburg, ILCC","OZONE","PPB",71,"Iowa DNR",101,"2025-06-01 15:43:19",NA
+"06/01/2025","14:00","840460990009","SF-USD","OZONE","PPB",69,"South Dakota Department of Agriculture and Natural Resources",97,"2025-06-01 15:43:19",NA
