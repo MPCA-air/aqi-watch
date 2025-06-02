@@ -1,17 +1,10 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-01 18:40:26","2025-06-01 23:41:17"
-"06/01/2025","17:00","380171004","Fargo NW","PM25","UG/M3",158,"North Dakota Department of Environmental Quality",208,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270834210","Marshall","PM25","UG/M3",107.9,"MPCA",178,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","380171004","Fargo NW","OZONE","PPB",95,"North Dakota Department of Environmental Quality",174,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270834210","Marshall","OZONE","PPB",89,"MPCA",159,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270052013","Detroit Lakes","OZONE","PPB",85,"MPCA",150,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270213410","Leech Lake Nation: C","PM25","UG/M3",49,"MPCA",134,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","840270072305","Red Lake Nation DNR","OZONE","PPB",80,"MPCA",132,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270052013","Detroit Lakes","PM25","UG/M3",44.5,"MPCA",123,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",44.3,"MPCA",123,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","191471002","Emmetsburg, ILCC","OZONE","PPB",76,"Iowa DNR",118,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","270750005","Ely","PM25","UG/M3",37.8,"MPCA",107,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","840460990009","SF-USD","PM25","UG/M3",37.9,"South Dakota Department of Agriculture and Natural Resources",107,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","840270135510","Mankato - RosaParksE","OZONE","PPB",70,"MPCA",100,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","271377001","Virginia","PM25","UG/M3",34.8,"MPCA",99,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","271453052","St. Cloud","OZONE","PPB",69,"MPCA",97,"2025-06-01 18:40:26",NA
-"06/01/2025","17:00","840460990009","SF-USD","OZONE","PPB",68,"South Dakota Department of Agriculture and Natural Resources",93,"2025-06-01 18:40:26",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-01 21:34:18","2025-06-02 02:35:09"
+"06/01/2025","20:00","380171004","Fargo NW","PM25","UG/M3",131,"North Dakota Department of Environmental Quality",190,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","270834210","Marshall","PM25","UG/M3",76.4,"MPCA",162,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",42,"MPCA",117,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","270052013","Detroit Lakes","OZONE","PPB",74,"MPCA",112,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","271377001","Virginia","PM25","UG/M3",37,"MPCA",105,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","840270072305","Red Lake Nation DNR","OZONE","PPB",70,"MPCA",100,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","270052013","Detroit Lakes","PM25","UG/M3",32.2,"MPCA",93,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","270834210","Marshall","OZONE","PPB",68,"MPCA",93,"2025-06-01 21:34:18",NA
+"06/01/2025","20:00","380171004","Fargo NW","OZONE","PPB",68,"North Dakota Department of Environmental Quality",93,"2025-06-01 21:34:18",NA
