@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-04 13:54:48","2025-06-04 18:55:40"
-"06/04/2025","12:00","271377550","Duluth-WDSE","PM25","UG/M3",34.1,"MPCA",97,"2025-06-04 13:54:48",NA
-"06/04/2025","12:00","271377554","West Duluth","PM25","UG/M3",33.5,"MPCA",96,"2025-06-04 13:54:48",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-05 14:34:26","2025-06-05 19:35:17"
+"06/05/2025","13:00","191471002","Emmetsburg, ILCC","OZONE","PPB",72,"Iowa DNR",104,"2025-06-05 14:34:26",NA
+"06/05/2025","13:00","271095008","Rochester","OZONE","PPB",69,"MPCA",97,"2025-06-05 14:34:26",NA
+"06/05/2025","13:00","270495302","Stanton","OZONE","PPB",68,"MPCA",93,"2025-06-05 14:34:26",NA
