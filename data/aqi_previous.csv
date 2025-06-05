@@ -1,5 +1,7 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-05 17:44:55","2025-06-05 22:45:47"
-"06/05/2025","16:00","271095008","Rochester","OZONE","PPB",73,"MPCA",108,"2025-06-05 17:44:55",NA
-"06/05/2025","16:00","270495302","Stanton","OZONE","PPB",71,"MPCA",101,"2025-06-05 17:44:55",NA
-"06/05/2025","16:00","271713201","St. Michael","OZONE","PPB",69,"MPCA",97,"2025-06-05 17:44:55",NA
-"06/05/2025","16:00","840270135510","Mankato - RosaParksE","OZONE","PPB",69,"MPCA",97,"2025-06-05 17:44:55",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-05 18:43:48","2025-06-05 23:44:39"
+"06/05/2025","17:00","271095008","Rochester","OZONE","PPB",73,"MPCA",108,"2025-06-05 18:43:48",NA
+"06/05/2025","17:00","270495302","Stanton","OZONE","PPB",70,"MPCA",100,"2025-06-05 18:43:48",NA
+"06/05/2025","17:00","271713201","St. Michael","OZONE","PPB",69,"MPCA",97,"2025-06-05 18:43:48",NA
+"06/05/2025","17:00","271636016","Marine on St. Croix","OZONE","PPB",68,"MPCA",93,"2025-06-05 18:43:48",NA
+"06/05/2025","17:00","550630012","LACROSSE DOT","OZONE","PPB",68,"Wisconsin Dept. of Natural Resources",93,"2025-06-05 18:43:48",NA
+"06/05/2025","17:00","840270135510","Mankato - RosaParksE","OZONE","PPB",68,"MPCA",93,"2025-06-05 18:43:48",NA
