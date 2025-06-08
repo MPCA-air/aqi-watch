@@ -1,7 +1,6 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-08 05:45:21","2025-06-08 10:46:12"
-"06/08/2025","4:00","270052013","Detroit Lakes","PM25","UG/M3",90.8,"MPCA",169,"2025-06-08 05:45:21",NA
-"06/08/2025","4:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",68.9,"MPCA",158,"2025-06-08 05:45:21",NA
-"06/08/2025","4:00","840460130004","Aberdeen","PM25","UG/M3",58.9,"South Dakota Department of Agriculture and Natural Resources",153,"2025-06-08 05:45:21",NA
-"06/08/2025","4:00","270213410","Leech Lake Nation: C","PM25","UG/M3",57.4,"MPCA",152,"2025-06-08 05:45:21",NA
-"06/08/2025","4:00","380171004","Fargo NW","PM25","UG/M3",55,"North Dakota Department of Environmental Quality",149,"2025-06-08 05:45:21",NA
-"06/08/2025","4:00","270353204","Brainerd","PM25","UG/M3",33.9,"MPCA",97,"2025-06-08 05:45:21",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-08 06:36:40","2025-06-08 11:37:32"
+"06/08/2025","5:00","270052013","Detroit Lakes","PM25","UG/M3",82,"MPCA",165,"2025-06-08 06:36:40",NA
+"06/08/2025","5:00","270072304","Red Lake Nation Hosp","PM25","UG/M3",82.8,"MPCA",165,"2025-06-08 06:36:40",NA
+"06/08/2025","5:00","270213410","Leech Lake Nation: C","PM25","UG/M3",67.6,"MPCA",157,"2025-06-08 06:36:40",NA
+"06/08/2025","5:00","840460130004","Aberdeen","PM25","UG/M3",61.3,"South Dakota Department of Agriculture and Natural Resources",154,"2025-06-08 06:36:40",NA
+"06/08/2025","5:00","380171004","Fargo NW","PM25","UG/M3",38,"North Dakota Department of Environmental Quality",107,"2025-06-08 06:36:40",NA
