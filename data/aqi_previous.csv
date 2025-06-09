@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-09 16:41:46","2025-06-09 21:42:37"
-"06/09/2025","15:00","840460130004","Aberdeen","PM25","UG/M3",33.4,"South Dakota Department of Agriculture and Natural Resources",96,"2025-06-09 16:41:46",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-09 18:41:33","2025-06-09 23:42:24"
+"06/09/2025","17:00","271377550","Duluth-WDSE","PM25","UG/M3",35,"MPCA",99,"2025-06-09 18:41:33",NA
+"06/09/2025","17:00","840460130004","Aberdeen","PM25","UG/M3",34.9,"South Dakota Department of Agriculture and Natural Resources",99,"2025-06-09 18:41:33",NA
+"06/09/2025","17:00","271377001","Virginia","PM25","UG/M3",30.9,"MPCA",91,"2025-06-09 18:41:33",NA
