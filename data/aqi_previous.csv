@@ -1,6 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-10 11:03:52","2025-06-10 16:04:44"
-"06/10/2025","9:00","271377550","Duluth-WDSE","PM25","UG/M3",34.5,"MPCA",98,"2025-06-10 11:03:52",NA
-"06/10/2025","9:00","380171004","Fargo NW","PM25","UG/M3",33,"North Dakota Department of Environmental Quality",95,"2025-06-10 11:03:52",NA
-"06/10/2025","9:00","270052013","Detroit Lakes","PM25","UG/M3",31.8,"MPCA",92,"2025-06-10 11:03:52",NA
-"06/10/2025","9:00","271095008","Rochester","PM25","UG/M3",31.7,"MPCA",92,"2025-06-10 11:03:52",NA
-"06/10/2025","9:00","840270135510","Mankato - RosaParksE","PM25","UG/M3",31.7,"MPCA",92,"2025-06-10 11:03:52",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-10 11:55:39","2025-06-10 16:56:30"
+"06/10/2025","10:00","270052013","Detroit Lakes","PM25","UG/M3",36.4,"MPCA",103,"2025-06-10 11:55:39",NA
+"06/10/2025","10:00","840270135510","Mankato - RosaParksE","PM25","UG/M3",35.3,"MPCA",100,"2025-06-10 11:55:39",NA
+"06/10/2025","10:00","380171004","Fargo NW","PM25","UG/M3",32,"North Dakota Department of Environmental Quality",93,"2025-06-10 11:55:39",NA
+"06/10/2025","10:00","271095008","Rochester","PM25","UG/M3",31.4,"MPCA",92,"2025-06-10 11:55:39",NA
