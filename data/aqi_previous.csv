@@ -1,6 +1,8 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-11 06:40:03","2025-06-11 11:40:55"
-"06/11/2025","5:00","380171004","Fargo NW","PM25","UG/M3",49,"North Dakota Department of Environmental Quality",134,"2025-06-11 06:40:03",NA
-"06/11/2025","5:00","271713201","St. Michael","PM25","UG/M3",34.9,"MPCA",99,"2025-06-11 06:40:03",NA
-"06/11/2025","5:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",33.8,"MPCA",97,"2025-06-11 06:40:03",NA
-"06/11/2025","5:00","270531904","Minneapolis - East P","PM25","UG/M3",32.4,"MPCA",94,"2025-06-11 06:40:03",NA
-"06/11/2025","5:00","270530962","Minneapolis - Near R","PM25","UG/M3",31.6,"MPCA",92,"2025-06-11 06:40:03",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-11 08:14:16","2025-06-11 13:15:09"
+"06/11/2025","6:00","380171004","Fargo NW","PM25","UG/M3",44,"North Dakota Department of Environmental Quality",122,"2025-06-11 08:14:16",NA
+"06/11/2025","7:00","270834210","Marshall","PM25","UG/M3",36,"MPCA",102,"2025-06-11 08:14:16",NA
+"06/11/2025","7:00","271390505","Shakopee","PM25","UG/M3",34.7,"MPCA",99,"2025-06-11 08:14:16",NA
+"06/11/2025","7:00","270370480","Lakeville - Near Roa","PM25","UG/M3",32.7,"MPCA",94,"2025-06-11 08:14:16",NA
+"06/11/2025","7:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",31.8,"MPCA",92,"2025-06-11 08:14:16",NA
+"06/11/2025","7:00","270531904","Minneapolis - East P","PM25","UG/M3",31.1,"MPCA",91,"2025-06-11 08:14:16",NA
+"06/11/2025","7:00","271095008","Rochester","PM25","UG/M3",31.3,"MPCA",91,"2025-06-11 08:14:16",NA
