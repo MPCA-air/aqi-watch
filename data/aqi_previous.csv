@@ -1,8 +1,9 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-11 08:14:16","2025-06-11 13:15:09"
-"06/11/2025","6:00","380171004","Fargo NW","PM25","UG/M3",44,"North Dakota Department of Environmental Quality",122,"2025-06-11 08:14:16",NA
-"06/11/2025","7:00","270834210","Marshall","PM25","UG/M3",36,"MPCA",102,"2025-06-11 08:14:16",NA
-"06/11/2025","7:00","271390505","Shakopee","PM25","UG/M3",34.7,"MPCA",99,"2025-06-11 08:14:16",NA
-"06/11/2025","7:00","270370480","Lakeville - Near Roa","PM25","UG/M3",32.7,"MPCA",94,"2025-06-11 08:14:16",NA
-"06/11/2025","7:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",31.8,"MPCA",92,"2025-06-11 08:14:16",NA
-"06/11/2025","7:00","270531904","Minneapolis - East P","PM25","UG/M3",31.1,"MPCA",91,"2025-06-11 08:14:16",NA
-"06/11/2025","7:00","271095008","Rochester","PM25","UG/M3",31.3,"MPCA",91,"2025-06-11 08:14:16",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-11 09:00:20","2025-06-11 14:01:11"
+"06/11/2025","7:00","380171004","Fargo NW","PM25","UG/M3",45,"North Dakota Department of Environmental Quality",124,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","840460130004","Aberdeen","PM25","UG/M3",39.1,"South Dakota Department of Agriculture and Natural Resources",110,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","270834210","Marshall","PM25","UG/M3",36,"MPCA",102,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","271390505","Shakopee","PM25","UG/M3",34.7,"MPCA",99,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","270370480","Lakeville - Near Roa","PM25","UG/M3",32.7,"MPCA",94,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",31.8,"MPCA",92,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","270531904","Minneapolis - East P","PM25","UG/M3",31.1,"MPCA",91,"2025-06-11 09:00:20",NA
+"06/11/2025","7:00","271095008","Rochester","PM25","UG/M3",31.3,"MPCA",91,"2025-06-11 09:00:20",NA
