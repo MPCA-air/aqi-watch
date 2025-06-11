@@ -1,6 +1,12 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-11 11:52:48","2025-06-11 16:53:39"
-"06/11/2025","10:00","270834210","Marshall","PM25","UG/M3",55.8,"MPCA",151,"2025-06-11 11:52:48",NA
-"06/11/2025","10:00","840270135510","Mankato - RosaParksE","PM25","UG/M3",43.9,"MPCA",122,"2025-06-11 11:52:48",NA
-"06/11/2025","10:00","840460130004","Aberdeen","PM25","UG/M3",43.7,"South Dakota Department of Agriculture and Natural Resources",121,"2025-06-11 11:52:48",NA
-"06/11/2025","10:00","271377550","Duluth-WDSE","PM25","UG/M3",33.4,"MPCA",96,"2025-06-11 11:52:48",NA
-"06/11/2025","10:00","270317810","Grand Portage","PM25","UG/M3",31.7,"MPCA",92,"2025-06-11 11:52:48",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-06-11 12:45:43","2025-06-11 17:46:35"
+"06/11/2025","11:00","270834210","Marshall","PM25","UG/M3",53.1,"MPCA",144,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","271377550","Duluth-WDSE","PM25","UG/M3",44.9,"MPCA",124,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","840460130004","Aberdeen","PM25","UG/M3",43,"South Dakota Department of Agriculture and Natural Resources",119,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","840270135510","Mankato - RosaParksE","PM25","UG/M3",41,"MPCA",115,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","380171004","Fargo NW","PM25","UG/M3",36,"North Dakota Department of Environmental Quality",102,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","271390505","Shakopee","PM25","UG/M3",34.9,"MPCA",99,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","270052013","Detroit Lakes","PM25","UG/M3",34.6,"MPCA",98,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","271377554","West Duluth","PM25","UG/M3",34.4,"MPCA",98,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","270370470","Apple Valley","PM25","UG/M3",33.2,"MPCA",95,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","191471002","Emmetsburg, ILCC","OZONE","PPB",68,"Iowa DNR",93,"2025-06-11 12:45:43",NA
+"06/11/2025","11:00","270370480","Lakeville - Near Roa","PM25","UG/M3",31.6,"MPCA",92,"2025-06-11 12:45:43",NA
