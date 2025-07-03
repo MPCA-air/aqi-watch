@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-07-03 13:54:39","2025-07-03 18:55:30"
-"07/03/2025","12:00","271377001","Virginia","PM25","UG/M3",41.4,"MPCA",116,"2025-07-03 13:54:39",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-07-03 14:38:19","2025-07-03 19:39:10"
+"07/03/2025","13:00","840460990009","SF-USD","PM10","UG/M3",362,"South Dakota Department of Agriculture and Natural Resources",211,"2025-07-03 14:38:19",NA
+"07/03/2025","13:00","271377001","Virginia","PM25","UG/M3",35.9,"MPCA",102,"2025-07-03 14:38:19",NA
