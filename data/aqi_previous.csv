@@ -1,5 +1,2 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-07-15 21:40:07","2025-07-16 02:40:58"
-"07/15/2025","20:00","840460130004","Aberdeen","PM25","UG/M3",49.4,"South Dakota Department of Agriculture and Natural Resources",135,"2025-07-15 21:40:07",NA
-"07/15/2025","20:00","380171004","Fargo NW","PM25","UG/M3",39,"North Dakota Department of Environmental Quality",110,"2025-07-15 21:40:07",NA
-"07/15/2025","20:00","270052013","Detroit Lakes","PM25","UG/M3",33.9,"MPCA",97,"2025-07-15 21:40:07",NA
-"07/15/2025","20:00","271377001","Virginia","PM25","UG/M3",31.8,"MPCA",92,"2025-07-15 21:40:07",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-07-17 14:00:12","2025-07-17 19:01:03"
+"07/17/2025","12:00","840460990009","SF-USD","PM25","UG/M3",116.8,"South Dakota Department of Agriculture and Natural Resources",183,"2025-07-17 14:00:12",NA
