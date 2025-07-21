@@ -1,3 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-07-21 12:48:10","2025-07-21 17:49:01"
-"07/21/2025","11:00","271095008","Rochester","PM25","UG/M3",37.8,"MPCA",107,"2025-07-21 12:48:10",NA
-"07/21/2025","11:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",31.6,"MPCA",92,"2025-07-21 12:48:10",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-07-21 13:59:45","2025-07-21 19:00:37"
+"07/21/2025","12:00","271095008","Rochester","PM25","UG/M3",39,"MPCA",110,"2025-07-21 13:59:45",NA
+"07/21/2025","12:00","840270135510","Mankato - RosaParksE","PM25","UG/M3",35.9,"MPCA",102,"2025-07-21 13:59:45",NA
+"07/21/2025","12:00","271230871","St. Paul-Harding H.S","PM25","UG/M3",33.4,"MPCA",96,"2025-07-21 13:59:45",NA
