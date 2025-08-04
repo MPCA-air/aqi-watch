@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-04 06:45:47","2025-08-04 11:46:39"
-"08/04/2025","5:00","271377001","Virginia","PM25","UG/M3",31.2,"MPCA",91,"2025-08-04 06:45:47",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-04 08:20:51","2025-08-04 13:21:44"
+"08/04/2025","7:00","270531904","Minneapolis - East P","PM25","UG/M3",33.7,"MPCA",96,"2025-08-04 08:20:51",NA
+"08/04/2025","7:00","271095008","Rochester","PM25","UG/M3",31.9,"MPCA",93,"2025-08-04 08:20:51",NA
+"08/04/2025","7:00","271377001","Virginia","PM25","UG/M3",31.1,"MPCA",91,"2025-08-04 08:20:51",NA
