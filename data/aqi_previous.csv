@@ -1,6 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-13 13:56:29","2025-08-13 18:57:20"
-"08/13/2025","12:00","380171004","Fargo NW","PM25","UG/M3",39,"North Dakota Department of Environmental Quality",110,"2025-08-13 13:56:29",NA
-"08/13/2025","12:00","270531904","Minneapolis - East P","PM25","UG/M3",34.4,"MPCA",98,"2025-08-13 13:56:29",NA
-"08/13/2025","12:00","271453052","St. Cloud","PM25","UG/M3",33.5,"MPCA",96,"2025-08-13 13:56:29",NA
-"08/13/2025","12:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",33.2,"MPCA",95,"2025-08-13 13:56:29",NA
-"08/13/2025","12:00","270052013","Detroit Lakes","PM25","UG/M3",31.9,"MPCA",93,"2025-08-13 13:56:29",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-13 14:41:19","2025-08-13 19:42:11"
+"08/13/2025","13:00","380171004","Fargo NW","PM25","UG/M3",38,"North Dakota Department of Environmental Quality",107,"2025-08-13 14:41:19",NA
+"08/13/2025","13:00","270531904","Minneapolis - East P","PM25","UG/M3",34.1,"MPCA",97,"2025-08-13 14:41:19",NA
+"08/13/2025","13:00","271453052","St. Cloud","PM25","UG/M3",32.6,"MPCA",94,"2025-08-13 14:41:19",NA
+"08/13/2025","13:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",31.6,"MPCA",92,"2025-08-13 14:41:19",NA
