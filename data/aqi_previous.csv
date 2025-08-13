@@ -1,4 +1,5 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-12 21:34:47","2025-08-13 02:35:38"
-"08/12/2025","20:00","270317810","Grand Portage","PM25","UG/M3",45.8,"MPCA",126,"2025-08-12 21:34:47",NA
-"08/12/2025","20:00","380171004","Fargo NW","PM25","UG/M3",44,"North Dakota Department of Environmental Quality",122,"2025-08-12 21:34:47",NA
-"08/12/2025","20:00","270052013","Detroit Lakes","PM25","UG/M3",35.7,"MPCA",101,"2025-08-12 21:34:47",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-13 05:50:27","2025-08-13 10:51:18"
+"08/13/2025","4:00","270317810","Grand Portage","PM25","UG/M3",45.8,"MPCA",126,"2025-08-13 05:50:27",NA
+"08/13/2025","4:00","271377554","West Duluth","PM25","UG/M3",44.8,"MPCA",124,"2025-08-13 05:50:27",NA
+"08/13/2025","4:00","270750005","Ely","PM25","UG/M3",32.8,"MPCA",95,"2025-08-13 05:50:27",NA
+"08/13/2025","4:00","271377001","Virginia","PM25","UG/M3",32.5,"MPCA",94,"2025-08-13 05:50:27",NA
