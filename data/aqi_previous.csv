@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-13 10:47:09","2025-08-13 15:48:00"
-"08/13/2025","9:00","271377554","West Duluth","PM25","UG/M3",35.1,"MPCA",99,"2025-08-13 10:47:09",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-08-13 11:48:53","2025-08-13 16:49:45"
+"08/13/2025","10:00","270531904","Minneapolis - East P","PM25","UG/M3",32.3,"MPCA",93,"2025-08-13 11:48:53",NA
+"08/13/2025","10:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",31.2,"MPCA",91,"2025-08-13 11:48:53",NA
+"08/13/2025","10:00","271377554","West Duluth","PM25","UG/M3",31.2,"MPCA",91,"2025-08-13 11:48:53",NA
