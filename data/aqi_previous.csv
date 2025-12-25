@@ -1,2 +1,3 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-12-18 15:43:07","2025-12-18 21:43:58"
-"12/18/2025","13:00","840460990009","SF-USD","PM10","UG/M3",456,"South Dakota Department of Agriculture and Natural Resources",343,"2025-12-18 15:43:07",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2025-12-24 20:39:10","2025-12-25 02:40:02"
+"12/24/2025","19:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",35.9,"MPCA",102,"2025-12-24 20:39:10",NA
+"12/24/2025","19:00","270530963","Minneapolis - Anders","PM25","UG/M3",31.9,"MPCA",93,"2025-12-24 20:39:10",NA
