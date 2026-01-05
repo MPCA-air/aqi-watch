@@ -1,2 +1,4 @@
-"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2026-01-01 20:44:07","2026-01-02 02:44:58"
-"01/01/2026","19:00","840271153061","Lake Lena","PM25","UG/M3",38.4,"MPCA",108,"2026-01-01 20:44:07",NA
+"Date","Time","AqsID","Site Name","Parameter","Units","Concentration","Agency","AQI_Value","2026-01-05 10:56:11","2026-01-05 16:57:03"
+"01/05/2026","9:00","270530963","Minneapolis - Anders","PM25","UG/M3",32.2,"MPCA",93,"2026-01-05 10:56:11",NA
+"01/05/2026","9:00","270353204","Brainerd","PM25","UG/M3",31.2,"MPCA",91,"2026-01-05 10:56:11",NA
+"01/05/2026","9:00","270530910","Minneapolis - Pacifi","PM25","UG/M3",31.2,"MPCA",91,"2026-01-05 10:56:11",NA
