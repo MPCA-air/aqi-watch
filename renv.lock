@@ -11,7 +11,7 @@
   "Packages": {
 "xfun": {
   "Package": "xfun",
-  "Version": "0.44",
+  "Version": "0.48",
   "Source": "Repository",
   "Repository": "CRAN"
 },
@@ -205,4 +205,5 @@
     }
   }
 }
+
 
