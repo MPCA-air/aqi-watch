@@ -9,6 +9,12 @@
     ]
   },
   "Packages": {
+"xfun": {
+  "Package": "xfun",
+  "Version": "0.44",
+  "Source": "Repository",
+  "Repository": "CRAN"
+},
   "MASS": {
       "Package": "MASS",
       "Version": "7.3-54",
@@ -199,3 +205,4 @@
     }
   }
 }
+
