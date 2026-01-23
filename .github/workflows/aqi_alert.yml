@@ -53,14 +53,6 @@ jobs:
       - name: "[Custom block] [Linux] Install spatial libraries"
         if: runner.os == 'Linux'
         run: sudo apt-get install libgdal-dev libproj-dev libgeos-dev libudunits2-dev    
-        
-      - uses: actions/cache@v3
-        id: cache-renv
-        with:
-          path: ${{ env.RENV_PATHS_ROOT }}
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-
 
       - name: Restore R packages from cache
         shell: Rscript {0}
